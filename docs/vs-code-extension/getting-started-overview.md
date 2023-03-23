@@ -1,6 +1,6 @@
 ---
-sidebar_position: 2
-title: Quickstart
+sidebar_position: 1
+title: Getting Started
 ---
 
 import ThemedImage from "@theme/ThemedImage";
@@ -9,6 +9,12 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 # Getting Started
+
+Before going through this tutorial, make sure that you have installed [Intutia's VS Code extension](https://marketplace.visualstudio.com/items?itemName=Intuita.intuita-vscode-extension).
+
+If you don't have the extension installed, you just have to open the extensions menu in VS Code, search for Intuita, then click install.
+
+---
 
 There are two steps for easily running Intuita's codemods on your project.
 1. Run Intuita
