@@ -81,8 +81,12 @@ const config = {
                 to: 'docs/intro',
               },
               {
-                label: 'Getting Started',
-                to: 'docs/category/getting-started',
+                label: 'VS Code Extension',
+                to: 'docs/category/vs-code-extension',
+              },
+              {
+                label: 'Codemod Studio',
+                to: 'docs/category/codemod-studio',
               },
               {
                 label: 'Contributing',
