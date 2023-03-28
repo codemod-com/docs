@@ -16,9 +16,9 @@ Codemod champions build high-quality and useful codemods that could potentially 
 
 That's why at Intuita, we are building the world’s largest registry of high-quality codemods to address the problem of codemod discoverability and distribution.
 
-Once a codemod is added to Intuita codemod registry, it will automatically get picked up by Intuita IDE extensions (starting with [VS Code Extension](https://marketplace.visualstudio.com/items?itemName=Intuita.intuita-vscode-extension)) and intelligently pushed to all the devs who have the extension installed.
+Once a codemod is added to Intuita's codemod registry, it will automatically get picked up by Intuita IDE extensions (starting with [VS Code Extension](https://marketplace.visualstudio.com/items?itemName=Intuita.intuita-vscode-extension)) and intelligently pushed to all the devs who have the extension installed.
 
-In this article, we explain what would it take to add your codemod to Intuita’s codemod registry. 
+In this article, we explain how to add your codemod to Intuita’s codemod registry. 
 (Estimated Time: 6 Minutes)
 
 <!--truncate-->
@@ -47,7 +47,7 @@ To do this, all you need to do is:
 1. Fork Intuita’s [codemod registry](https://github.com/intuita-inc/codemod-registry).
 2. Clone your forked repository by using: `git clone https://github.com/intuita-inc/codemod-registry`.
 3. Open the codemod registry directory in your code editor of choice.
-4. Then, you’ll need to create a new branch where you will do your changes (adding your codemod to the registry).
+4. Then, you’ll need to create a new branch where you will commit your changes (adding your codemod to the registry).
     
     To do this, you can create and switch to a new branch using `git checkout -b <branch-name>`.
     
@@ -67,7 +67,7 @@ You’ll find that the registry has 2 main directories:
 
 **Codemods:**
 
-The codemods directory will include all the codemod files used available in the registry, categorized by codemod engine > framework/library > version > codemod name.
+The codemods directory will include all the codemod files available in the registry, categorized by codemod engine > framework/library > version > codemod name.
 
 For example, a codemod named `replace-use-router` to upgrade `Next.js` to `v13` will be in the following directory:
 
@@ -89,13 +89,13 @@ For this tutorial, we will follow the steps of adding a JSCodeshift codemod. To 
 
 1. Navigate to the `/codemods/jscodeshift` directory.
 2. Run `npm install`.
-3. Add the codemod directory. Let’s say, for example, we’re adding a codemod called `isiterable-to-iscollection` that upgrades `Immutable JS`  to `v4`. In this case, you should look for (if the set directory exists) or create a directory that’s structured `/codemods/jscodeshift/immutable/4/isterable-to-iscollection/`. As you can see, we follow the convention of `/jscodeshift/library/version/codemod-name` whether we’re creating a new codemod or adding a codemod to an existing set.
+3. Add the codemod directory. Let’s say, for example, we’re adding a codemod called `isiterable-to-iscollection` that upgrades `Immutable JS`  to `v4`. In this case, you should look for (if the set directory exists) or create a directory that’s structured `/codemods/jscodeshift/immutable/4/isterable-to-iscollection/`. As you can see, we follow the convention of `/engine/library/version/codemod-name` whether we’re creating a new codemod or adding a codemod to an existing set.
     
     ![adding your codemod directory to the codemod registry](/img/blog/adding-codemods-to-registry/9.png)
     
 
-1. In your new directory, you’ll add an `index.ts` file and a `config.json` file (also preferably a test file, [read more on testing your codemods here](/blog/writing-test-cases-for-codemods). The `index.ts` file will include the codemod you’ve written while the `config.json` file will include metadata about your codemod.
-2. Add our codemod to `index.ts`. In this example, we’ll be using an existing codemod we’ve written for Immutable JS. At this step, you can add any codemod you’ve written.
+1. In your new directory, you’ll add an `index.ts` file and a `config.json` file (also preferably a test file, [read more on testing your codemods here](/blog/writing-test-cases-for-codemods). The `index.ts` file will include the codemod you’ve written while the `config.json` file will include the metadata about your codemod.
+2. Add your codemod to `index.ts`. In this example, we’ll be using an existing codemod we’ve written for Immutable JS. At this step, you can add any codemod you’ve written.
     
     ![adding your codemod files in index.ts](/img/blog/adding-codemods-to-registry/10.png)
     
@@ -105,7 +105,7 @@ For this tutorial, we will follow the steps of adding a JSCodeshift codemod. To 
     ![adding codemod metadata in config.json](/img/blog/adding-codemods-to-registry/11.png)
     
 
-1. Finally, you should just add your new codemod to a new/existing codemod set. To do this, navigate to the `/sets` directory, then look for an existing (if applicable) or create a new codemod set. If you’re adding a new codemod set to the registry, create a directory with the following convention: `framework_version`. In our example, we added a codemod for Immutable JS v4, then we should expect to add our codemod to the `immutable_4` set. Now we should simply just add our new codemod directory into the set’s `config.json` file as shown below.
+1. Finally, you should add your new codemod to a new/existing codemod set. To do this, navigate to the `/sets` directory, then look for an existing (if applicable) or create a new codemod set. If you’re adding a new codemod set to the registry, create a directory with the following convention: `framework_version`. In our example, we added a codemod for Immutable JS v4, then we should expect to add our codemod to the `immutable_4` set. Now we should simply add our new codemod directory into the set’s `config.json` file as shown below.
     
     ![adding your codemod in the codemod sets to config.json](/img/blog/adding-codemods-to-registry/12.jpeg)
     
@@ -128,7 +128,7 @@ And finally, add a description of your added codemod and create the PR.
 
 ![creating the pull request to add your codemod to the registry](/img/blog/adding-codemods-to-registry/15.jpeg)
 
-Once you create your PR, it will be shortly reviewed before getting merged into the codemod registry to be integrated into our platform and used by codemod enthusiasts around the world!
+Once you create your PR, it will be reviewed by the Intuita team and the community before getting merged into the codemod registry to be integrated into our platform and used by codemod enthusiasts around the world!
 
 ## Final Words
 
