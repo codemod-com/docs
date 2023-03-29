@@ -95,17 +95,18 @@ For this tutorial, we will follow the steps of adding a JSCodeshift codemod. To 
     
 
 1. In your new directory, you’ll add an `index.ts` file and a `config.json` file (also preferably a test file, [read more on testing your codemods here](/blog/writing-test-cases-for-codemods). The `index.ts` file will include the codemod you’ve written while the `config.json` file will include the metadata about your codemod.
+
 2. Add your codemod to `index.ts`. In this example, we’ll be using an existing codemod we’ve written for Immutable JS. At this step, you can add any codemod you’ve written.
     
     ![adding your codemod files in index.ts](/img/blog/adding-codemods-to-registry/10.png)
     
 
-1. Now, let’s add some simple metadata about our codemod in the `config.json` file. In this file, enter the metadata relevant and corresponding to the codemod you’re adding to the registry, including the codemod name, engine, required dependency version, etc.
+3. Now, let’s add some simple metadata about our codemod in the `config.json` file. In this file, enter the metadata relevant and corresponding to the codemod you’re adding to the registry, including the codemod name, engine, required dependency version, etc.
     
     ![adding codemod metadata in config.json](/img/blog/adding-codemods-to-registry/11.png)
     
 
-1. Finally, you should add your new codemod to a new/existing codemod set. To do this, navigate to the `/sets` directory, then look for an existing (if applicable) or create a new codemod set. If you’re adding a new codemod set to the registry, create a directory with the following convention: `framework_version`. In our example, we added a codemod for Immutable JS v4, then we should expect to add our codemod to the `immutable_4` set. Now we should simply add our new codemod directory into the set’s `config.json` file as shown below.
+4. Finally, you should add your new codemod to a new/existing codemod set. To do this, navigate to the `/sets` directory, then look for an existing (if applicable) or create a new codemod set. If you’re adding a new codemod set to the registry, create a directory with the following convention: `framework_version`. In our example, we added a codemod for Immutable JS v4, then we should expect to add our codemod to the `immutable_4` set. Now we should simply add our new codemod directory into the set’s `config.json` file as shown below.
     
     ![adding your codemod in the codemod sets to config.json](/img/blog/adding-codemods-to-registry/12.jpeg)
     
