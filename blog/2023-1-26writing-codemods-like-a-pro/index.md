@@ -97,10 +97,10 @@ var mutatedVar = "yep, i'm mutated";
 
 for (var i = 0; i < 5; i++) {
   mutatedVar = "foo";
-	var anotherInsideLoopVar = "should i be changed?";
+  var anotherInsideLoopVar = "should i be changed?";
 }
 
-for (var x in text) {
+for (var x of text) {
   text += x + " ";
 }
 ```
@@ -364,10 +364,10 @@ var mutatedVar = "yep, i'm mutated";
 
 for (var i = 0; i < 5; i++) {
   mutatedVar = "foo";
-	var anotherInsideLoopVar = "should i be changed?";
+  var anotherInsideLoopVar = "should i be changed?";
 }
 
-for (var x in text) {
+for (var x of text) {
   text += x + " ";
 }
 ```
@@ -380,10 +380,10 @@ let mutatedVar = "yep, i'm mutated";
 
 for (let i = 0; i < 5; i++) {
   mutatedVar = "foo";
-	const anotherInsideLoopVar = "should i be changed?";
+  const anotherInsideLoopVar = "should i be changed?";
 }
 
-for (const x in text) {
+for (const x of text) {
   text += x + " ";
 }
 ```
@@ -818,10 +818,10 @@ let mutatedVar = "yep, i'm mutated";
 
 for (let i = 0; i < 5; i++) {
   mutatedVar = "foo";
-const anotherInsideLoopVar = "should i be changed?";
+  const anotherInsideLoopVar = "should i be changed?";
 }
 
-for (const xin text) {
+for (const x of text) {
   text += x + " ";
 }
 ```
