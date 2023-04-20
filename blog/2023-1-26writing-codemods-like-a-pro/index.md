@@ -1,7 +1,7 @@
 ---
 slug: writing-codemods-like-a-pro
 title: Writing Codemods Like A Pro
-image: https://github.com/intuita-inc/intuita-docs/blob/main/static/img/blog/writing-codemods-like-a-pro/header.png
+image: https://github.com/intuita-inc/intuita-docs/blob/main/static/img/blog/writing-codemods-like-a-pro/header.png?raw=true
 authors: [mohab]
 tags: [codemods, tutorial, advanced]
 # Display h2 to h5 headings
