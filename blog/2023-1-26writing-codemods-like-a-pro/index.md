@@ -12,7 +12,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <head>
-  <meta property="og:image" content="/static/img/blog/writing-codemods-like-a-pro/header.png" />
+  <meta property="og:image" content="static/img/blog/writing-codemods-like-a-pro/header.png" />
 </head>
 
 # Writing Codemods Like a Pro
