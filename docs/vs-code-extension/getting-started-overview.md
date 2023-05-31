@@ -12,7 +12,7 @@ import TabItem from '@theme/TabItem';
 
 ## Prerequisites
 
-- Open a Next.js project you would like to update to Next.js v13. In this example, we are using [`netlify/next-runtime`](https://github.com/netlify/next-runtime/).
+- Open a Next.js project you would like to update to Next.js v13. In this example, we are using [`/calcom/cal.com`](https://github.com/calcom/cal.com).
 - Before going through this tutorial, make sure that you have installed [Intuita's VS Code Extension](https://marketplace.visualstudio.com/items?itemName=Intuita.intuita-vscode-extension).
     
 ![installing intuita extension](/img/docs/getting-started/installing-intuita.gif)
