@@ -7,15 +7,15 @@ sidebar_position: 3
 
 ## Intuita VSCode’s Extension Telemetry Data
 
-The Intuita VSCode’s Extension (v0.25.0 and later) uses the VSCode’s official telemetry extension (https://github.com/microsoft/vscode-extension-telemetry) and the telemetry data are thus sent and stored in the Azure App Insights.
+The Intuita VSCode’s Extension (v0.25.0 and later) uses the VSCode’s official telemetry [extension](https://github.com/microsoft/vscode-extension-telemetry) and the telemetry data are thus sent and stored in the Azure App Insights.
 
-As Microsoft treates the GPDR and similar laws seriously (as outlined here: https://code.visualstudio.com/docs/getstarted/telemetry#_gdpr-and-vs-code), so does Intuita. We followed the extension guide on telemetry (https://code.visualstudio.com/api/extension-guides/telemetry) to ensure that we do not collect Personally-Identifiable Information (PII) and we send only the data we need for the continuous improvement of our product.
+As Microsoft treates the GPDR and similar laws seriously (as outlined [here](https://code.visualstudio.com/docs/getstarted/telemetry#_gdpr-and-vs-code)), so does Intuita. We followed the [extension guide on telemetry](https://code.visualstudio.com/api/extension-guides/telemetry) to ensure that we do not collect Personally-Identifiable Information (PII) and we send only the data we need for the continuous improvement of our product.
 
 The extension tracks the events happening within the extension and they have following properties (this is described in the extension’s [source code](https://github.com/intuita-inc/intuita-vscode-extension/blob/d636de9cf6b665b2775748b93c782b12939e2ed1/src/telemetry/telemetry.ts#L6)):
 
 ### Properties:
 
-Some of these properties are required by the VSCode’s official telemetry extension and are described here: https://github.com/microsoft/vscode-extension-telemetry#common-properties
+Some of these properties are required by the VSCode’s official telemetry extension and are described [here](https://github.com/microsoft/vscode-extension-telemetry#common-properties).
 
 | Property Name | Description | When tracked | Required by the VSCode's extension telemetry module | Sample value |
 | --- | --- | --- | --- | --- |
@@ -38,6 +38,6 @@ Some of these properties are required by the VSCode’s official telemetry exten
 | fileCount | number of files processed by codemod | passed if applicable | No | 1 |
 | jobCount | number of jobs that were accepted or rejected | passed if applicable | No | 1 |
 
-Users can disable telemetry by going into Settings, searching the for `telemetry.telemetryLevel` setting and setting it to `off`. You can read more here: https://code.visualstudio.com/docs/getstarted/telemetry#_disable-telemetry-reporting
+Users can disable telemetry by going into Settings, searching the for `telemetry.telemetryLevel` setting and setting it to `off`. You can read more [here](https://code.visualstudio.com/docs/getstarted/telemetry#_disable-telemetry-reporting).
 
-Users can review the telemetry events by using the VSCode’s `Developer: Set Log Level...` command and selecting the `Trace` log level. Then they should navigate to the `Output Panel` and pick `Extension Telemetry` from the dropdown to see the logs. You can read more here: https://code.visualstudio.com/docs/getstarted/telemetry#_output-channel-for-telemetry-events
+Users can review the telemetry events by using the VSCode’s `Developer: Set Log Level...` command and selecting the `Trace` log level. Then they should navigate to the `Output Panel` and pick `Extension Telemetry` from the dropdown to see the logs. You can read more [here](https://code.visualstudio.com/docs/getstarted/telemetry#_output-channel-for-telemetry-events).
