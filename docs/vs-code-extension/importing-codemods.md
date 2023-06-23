@@ -45,11 +45,11 @@ To import a `jscodeshift` codemod using the Codemod Studio, you should:
     ![pasting codemod into codemod studio](/img/docs/importing-codemods/paste-codemod-into-codemod-studio.jpeg)
     
 
-1. Click `Export to VSCode`.
+2. Click `Export to VSCode`.
     
     ![export codemod to vs code](/img/docs/importing-codemods/export-to-vscode.gif)
     
-2. Right click any path and run your codemod over it.
+3. Right click any path and run your codemod over it.
     
     ![run codemod](/img/docs/importing-codemods/run-codemod.gif)
     
