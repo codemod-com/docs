@@ -82,19 +82,19 @@ const config = {
               },
               {
                 label: 'VS Code Extension',
-                to: 'docs/category/vs-code-extension',
+                to: 'docs/vs-code-extension',
               },
               {
                 label: 'Codemod Studio',
-                to: 'docs/category/codemod-studio',
+                to: 'docs/codemod-studio',
               },
               {
                 label: 'Contributing',
-                to: 'docs/category/contributing',
+                to: 'docs/contributing',
               },
               {
                 label: 'About',
-                to: 'docs/category/about-intuita',
+                to: 'docs/about-intuita',
               },
             ],
           },
