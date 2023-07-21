@@ -26,7 +26,7 @@ const sidebars = {
     },
     {
         type: 'category',
-        label: 'Intuita VS Code Extension',
+        label: 'VS Code Extension',
         items: [
           'vs-code-extension/getting-started-overview',
           'vs-code-extension/running-codemods',
