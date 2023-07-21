@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Getting Started
+title: Quickstart
 ---
 
 import ThemedImage from "@theme/ThemedImage";
@@ -11,7 +11,7 @@ import ReactPlayer from 'react-player';
 import ImageSwitcher from '../../src/components/VideoSwitcher.tsx';
 
 
-# Getting Started
+# Getting started
 
 ## Prerequisites
 
@@ -19,7 +19,7 @@ import ImageSwitcher from '../../src/components/VideoSwitcher.tsx';
 
 ---
 
-## Quick Start →
+## Quickstart →
 
 
 Get started with Intuita in two steps:
