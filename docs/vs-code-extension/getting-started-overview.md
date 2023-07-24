@@ -8,7 +8,7 @@ import useBaseUrl from "@docusaurus/useBaseUrl";
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import ReactPlayer from 'react-player';
-import ImageSwitcher from '../../src/components/VideoSwitcher.tsx';
+import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
 
 
 # Getting started
@@ -27,7 +27,7 @@ Get started with Intuita in two steps:
 1. Open the Intuita sidebar menu → View the upgrade codemod you’d like to run → Click `Dry Run`.
 2. View the changes made by Intuita → then apply the approved changes to your project files.
 
-<ImageSwitcher 
+<VideoSwitcher 
 lightImageSrc="/img/docs/getting-started/getting-started-light.mp4"
 darkImageSrc="/img/docs/getting-started/getting-started-dark.mp4"/>
 
