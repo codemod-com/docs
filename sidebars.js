@@ -35,6 +35,14 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Intuita CLI',
+      items: [
+        'cli/quickstart',
+        'cli/advanced-usage',
+      ],
+  },
+    {
+      type: 'category',
       label: 'Contributing',
       items: [
         'contributing/our-community',
