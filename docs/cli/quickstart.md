@@ -9,6 +9,8 @@ import TabItem from '@theme/TabItem';
 import ReactPlayer from 'react-player';
 import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
 
+# Quickstart →
+
 ## Prerequisites
 
 - [NodeJS v16+](https://nodejs.org/)

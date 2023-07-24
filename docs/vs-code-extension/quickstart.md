@@ -11,7 +11,7 @@ import ReactPlayer from 'react-player';
 import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
 
 
-# Quickstart
+# Quickstart →
 
 ## Prerequisites
 
