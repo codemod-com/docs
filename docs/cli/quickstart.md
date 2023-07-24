@@ -22,7 +22,7 @@ Intuita CLI, is a command-line interface to Intuita for running codemods in your
 
 Get started with Intuita in three steps:
 
-1. Install Intuita cli using: `pnpm install --global @intuita-inc/intuita`.
+1. Install Intuita cli using: `pnpm add --global @intuita-inc/intuita`.
 2. List available codemods using: `intuita listNames`.
 3. Run codemod using: `intuita run --name [codemod name]`.
 
