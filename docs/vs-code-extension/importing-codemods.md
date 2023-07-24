@@ -69,5 +69,3 @@ If you’re interested in learning how to write your own codemods, here are some
 
 You can also join and collaborate with our community of codemod experts on [Slack →](https://join.slack.com/t/intuita-inc/shared_invite/zt-1tvxm6ct0-mLZld_78yguDYOSM7DM7Cw)
 :::
-
----
