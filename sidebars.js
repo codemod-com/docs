@@ -28,7 +28,7 @@ const sidebars = {
         type: 'category',
         label: 'VS Code Extension',
         items: [
-          'vs-code-extension/getting-started-overview',
+          'vs-code-extension/quickstart',
           'vs-code-extension/running-codemods',
           'vs-code-extension/importing-codemods',
         ],

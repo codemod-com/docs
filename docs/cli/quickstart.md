@@ -1,5 +1,5 @@
 ---
-title: Getting Started
+title: Quickstart
 ---
 
 import ThemedImage from "@theme/ThemedImage";
@@ -9,17 +9,18 @@ import TabItem from '@theme/TabItem';
 import ReactPlayer from 'react-player';
 import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
 
+# Quickstart →
+
 ## Prerequisites
 
 - [NodeJS v16+](https://nodejs.org/)
 
 ---
 
-## Quickstart →
 
-Get started with Intuita in two steps:
+Get started with Intuita in three steps:
 
-1. Install Intuita cli using: `pnpm install @intuita-inc/intuita`.
+1. Install Intuita cli using: `pnpm install --global @intuita-inc/intuita`.
 2. List available codemods using: `intuita listNames`.
 3. Run codemod using: `intuita run --name [codemod name]`.
 
