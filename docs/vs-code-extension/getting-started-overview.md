@@ -11,16 +11,13 @@ import ReactPlayer from 'react-player';
 import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
 
 
-# Getting started
+# Quickstart
 
 ## Prerequisites
 
 - Before going through this tutorial, make sure that you have installed [Intuita's VS Code Extension](https://marketplace.visualstudio.com/items?itemName=Intuita.intuita-vscode-extension).
 
 ---
-
-## Quickstart →
-
 
 Get started with Intuita in two steps:
 
