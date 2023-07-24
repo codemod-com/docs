@@ -35,13 +35,6 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Codemod Studio',
-      items: [
-        'codemod-studio/getting-started-overview',
-      ],
-    },
-    {
-      type: 'category',
       label: 'Contributing',
       items: [
         'contributing/our-community',
