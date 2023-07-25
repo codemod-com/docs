@@ -76,31 +76,6 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Welcome',
-                to: 'docs/intro',
-              },
-              {
-                label: 'VS Code Extension',
-                to: 'docs/category/vs-code-extension',
-              },
-              {
-                label: 'Codemod Studio',
-                to: 'docs/category/codemod-studio',
-              },
-              {
-                label: 'Contributing',
-                to: 'docs/category/contributing',
-              },
-              {
-                label: 'About',
-                to: 'docs/category/about-intuita',
-              },
-            ],
-          },
-          {
             title: 'Community',
             items: [
               {
