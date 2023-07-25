@@ -1,0 +1,10 @@
+[
+{"button":"left","x":485.4813232421875,"cursorId":"arrow","y":283.88568115234375,"processTimeMs":4545.1176799979294,"type":"mouseDown","unixTimeMs":1689715234835.9365,"activeModifiers":[]},
+{"button":"left","x":485.4813232421875,"cursorId":"custom-30f0751dd9be86a88a5bb51fd11200f65f078227","y":283.70034790039062,"processTimeMs":4673.0793280003127,"type":"mouseUp","unixTimeMs":1689715234963.8982,"activeModifiers":[]},
+{"button":"left","x":498.63052368164062,"cursorId":"custom-30f0751dd9be86a88a5bb51fd11200f65f078227","y":557.03411865234375,"processTimeMs":41388.974501998746,"type":"mouseDown","unixTimeMs":1689715271679.7935,"activeModifiers":[]},
+{"button":"left","x":498.444091796875,"cursorId":"custom-30f0751dd9be86a88a5bb51fd11200f65f078227","y":557.03411865234375,"processTimeMs":41492.662652002764,"type":"mouseUp","unixTimeMs":1689715271783.4817,"activeModifiers":[]},
+{"button":"left","x":239.41561889648438,"cursorId":"custom-30f0751dd9be86a88a5bb51fd11200f65f078227","y":498.022705078125,"processTimeMs":69350.558035992435,"type":"mouseDown","unixTimeMs":1689715299641.377,"activeModifiers":[]},
+{"button":"left","x":497.29644775390625,"cursorId":"custom-30f0751dd9be86a88a5bb51fd11200f65f078227","y":572.22894287109375,"processTimeMs":70823.180538995075,"type":"mouseUp","unixTimeMs":1689715301113.9993,"activeModifiers":[]},
+{"button":"left","x":417.11630249023438,"cursorId":"arrow","y":676.04058837890625,"processTimeMs":73658.040066991816,"type":"mouseDown","unixTimeMs":1689715303948.8586,"activeModifiers":[]},
+{"button":"left","x":417.11630249023438,"cursorId":"arrow","y":676.04058837890625,"processTimeMs":73753.991516990936,"type":"mouseUp","unixTimeMs":1689715304044.8103,"activeModifiers":[]}
+]
