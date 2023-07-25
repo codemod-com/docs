@@ -11,7 +11,7 @@ import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
 
 # Quickstart →
 
-Intuita CLI, is a command-line interface to Intuita for running codemods in your terminal or scripts.
+Intuita CLI is a command-line interface to Intuita for running codemods in your terminal or scripts.
 
 ## Prerequisites
 
