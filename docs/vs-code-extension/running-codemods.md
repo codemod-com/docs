@@ -7,6 +7,8 @@ import ThemedImage from "@theme/ThemedImage";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
+
 
 # Running Codemods
 
@@ -26,7 +28,7 @@ You can also join and collaborate with our community of codemod experts on [Slac
 
 ---
 
-On this page, we will go over:
+On this page, you will learn:
 
 - [Dry-running Codemods](#dry-running-codemods)
 - [Changing a Codemod's Path](#change-codemod-path-optional)
@@ -42,7 +44,10 @@ To dry-run a codemod:
 1. Find the codemod you would like to use.
 2. Click **`Dry Run`.**
 
-![dry running codemods](/img/docs/running-codemods/dry-running-codemods.gif)
+<VideoSwitcher 
+lightImageSrc="/img/docs/running-codemods/dry-run-light.mp4"
+darkImageSrc="/img/docs/running-codemods/dry-run-dark.mp4"/>
+
 
 ## Change Codemod Path (Optional)
 
@@ -62,7 +67,9 @@ To change a codemod's path:
 2. Click on `Edit Path`.
 3. Specify the desired path.
 
-![choosing codemod path](/img/docs/running-codemods/choosing-codemod-path.gif)
+<VideoSwitcher 
+lightImageSrc="/img/docs/running-codemods/change-codemod-path-light.mp4"
+darkImageSrc="/img/docs/running-codemods/change-codemod-path-dark.mp4"/>
 
 ## Reviewing and Applying Changes
 
@@ -73,24 +80,31 @@ When you dry-run a codemod, all the changes are temporarily in preview before be
 To review the changes made:
 
 1. Select a dry run.
-    
-    ![select dry run](/img/docs/running-codemods/select-dry-run.gif)
+    <VideoSwitcher 
+    lightImageSrc="/img/docs/running-codemods/select-dry-run-light.mp4"
+    darkImageSrc="/img/docs/running-codemods/select-dry-run-dark.mp4"/>
     
     Selecting a dry run will show a diff view containing the changes made by the codemod.
     
 2. Accept or decline specific file changes.
     
-    ![accept or decline codemod changes](/img/docs/running-codemods/accept-decline-changes.gif)
+    <VideoSwitcher 
+    lightImageSrc="/img/docs/running-codemods/accept-decline-changes-light.mp4"
+    darkImageSrc="/img/docs/running-codemods/accept-decline-changes-dark.mp4"/>
     
     Sometimes codemods may make unwanted changes to some files. In such cases, you can deselect changes to prevent them from being applied to your project.
     
-3. Set changes as viewed.
+3. Set changes as reviewed.
     
-    ![set codemod changes as viewed](/img/docs/running-codemods/set-changes-viewed.gif)
+    <VideoSwitcher 
+    lightImageSrc="/img/docs/running-codemods/set-changes-as-viewed-light.mp4"
+    darkImageSrc="/img/docs/running-codemods/set-changes-as-viewed-dark.mp4"/>
     
 4. Apply changes.
-    
-    ![apply changes made by Intuita extension](/img/docs/running-codemods/apply-changes.gif)
+
+    <VideoSwitcher 
+    lightImageSrc="/img/docs/running-codemods/apply-changes-light.mp4"
+    darkImageSrc="/img/docs/running-codemods/apply-changes-dark.mp4"/>
     
     When you click `Apply`, the Intuita extension will apply the selected changes to your local project files.
 
@@ -101,14 +115,19 @@ You can use the change explorer to easily browse the affected files. The Change 
 
 Additionally, you can use the change explorer's search to look for specific files.
 
-![Intuita extension change explorer](/img/docs/running-codemods/change-explorer.gif)
+<VideoSwitcher 
+lightImageSrc="/img/docs/running-codemods/change-explorer-light.mp4"
+darkImageSrc="/img/docs/running-codemods/change-explorer-dark.mp4"/>
 
 ### Diff View Switch
 
 You can switch between an inline or side-by-side diff view by clicking the view type toggle.
     
-![Intuita extension diff view switch](/img/docs/running-codemods/diff-view-switch.gif)
-    
+<VideoSwitcher 
+lightImageSrc="/img/docs/running-codemods/diff-view-switch-light.mp4"
+darkImageSrc="/img/docs/running-codemods/diff-view-switch-dark.mp4"/>
+
+
 ### Reporting Issues
 
 If a codemod causes an incorrect change, you can report an issue by clicking `Report Issue`.
