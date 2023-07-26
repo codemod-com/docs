@@ -26,7 +26,7 @@ You can also join and collaborate with our community of codemod experts on [Slac
 
 ---
 
-On this page, we will go over:
+On this page, you will learn:
 
 - [Dry-running Codemods](#dry-running-codemods)
 - [Changing a Codemod's Path](#change-codemod-path-optional)
