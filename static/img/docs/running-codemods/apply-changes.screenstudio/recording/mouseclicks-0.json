@@ -1,0 +1,5 @@
+[
+{"button":"left","x":384.303955078125,"cursorId":"pointingHand","y":791.5245361328125,"processTimeMs":3253.4985550009878,"type":"mouseDown","unixTimeMs":1690389247297.1582,"activeModifiers":[]},
+{"button":"left","x":384.303955078125,"cursorId":"pointingHand","y":791.5245361328125,"processTimeMs":3377.2326129983412,"type":"mouseUp","unixTimeMs":1690389247420.8923,"activeModifiers":[]},
+{"button":"left","x":512.591796875,"cursorId":"arrow","y":787.104736328125,"processTimeMs":8310.1800279982854,"type":"mouseDown","unixTimeMs":1690389252353.8398,"activeModifiers":[]}
+]
