@@ -1,0 +1,14 @@
+[
+{"processTimeMs":4078.603136993479,"activeModifiers":[],"isARepeat":false,"type":"keyDown","character":"e","unixTimeMs":1690387053185.7815},
+{"processTimeMs":4202.7417419885751,"activeModifiers":[],"isARepeat":false,"type":"keyUp","character":"e","unixTimeMs":1690387053309.9199},
+{"processTimeMs":4393.5174789949087,"activeModifiers":[],"isARepeat":false,"type":"keyDown","character":"x","unixTimeMs":1690387053500.6958},
+{"processTimeMs":4537.5920239894185,"activeModifiers":[],"isARepeat":false,"type":"keyUp","character":"x","unixTimeMs":1690387053644.7703},
+{"processTimeMs":4643.4280249959556,"activeModifiers":[],"isARepeat":false,"type":"keyDown","character":"a","unixTimeMs":1690387053750.6062},
+{"processTimeMs":4763.1270049896557,"activeModifiers":[],"isARepeat":false,"type":"keyDown","character":"m","unixTimeMs":1690387053870.3054},
+{"processTimeMs":4800.9210569871357,"activeModifiers":[],"isARepeat":false,"type":"keyUp","character":"a","unixTimeMs":1690387053908.0991},
+{"processTimeMs":4879.9478829896543,"activeModifiers":[],"isARepeat":false,"type":"keyUp","character":"m","unixTimeMs":1690387053987.1262},
+{"processTimeMs":5436.3842249877052,"activeModifiers":[],"isARepeat":false,"type":"keyDown","character":"\t","unixTimeMs":1690387054543.5625},
+{"processTimeMs":5549.0221369982464,"activeModifiers":[],"isARepeat":false,"type":"keyUp","character":"\t","unixTimeMs":1690387054656.2004},
+{"processTimeMs":5979.7423929849174,"activeModifiers":[],"isARepeat":false,"type":"keyDown","character":"\r","unixTimeMs":1690387055086.9207},
+{"processTimeMs":6073.1732929853024,"activeModifiers":[],"isARepeat":false,"type":"keyUp","character":"\r","unixTimeMs":1690387055180.3516}
+]
