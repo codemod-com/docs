@@ -27,8 +27,9 @@ intuita listNames
 ```
 ## Run a Codemod or Recipe
 ```
-intuita --name next/13/app-router   #"next/13/app-router" is a sample recipe. Replace it with any codemod or recipe name from the registry.
+intuita --name next/13/app-router   
 ```
+"next/13/app-router" is a sample recipe. Replace it with any codemod or recipe name from the registry.
 
 <VideoSwitcher 
 lightImageSrc="/img/docs/cli/quickstart/intuita-cli-light.mp4"
