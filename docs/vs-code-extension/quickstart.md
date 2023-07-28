@@ -41,14 +41,10 @@ If you run into an issue while running a codemod, please [let us know →](https
 
 - **Out-of-the-box Prettier Integration -** Your favorite code transformation engines such as Meta’s JSCodeshift or TS-morph will mess up the formatting. Intuita will automatically prettify the changes according to your settings, saving you much time and energy for more exciting features.
 - **Multi-threading -** Execute codemods faster than you would with vanilla jscodeshift or ts-morph. Intuita's engine uses multi-threading, which is customizable via extension settings, to take full advantage of your machine's computing power and expedite large-scale changes.
-- For advanced settings & features, visit the [Intuita docs.](https://docs.intuita.io/docs/vs-code-extension/quickstart)
 
 # Extension vs. the Platform
 
 ![Intuita Platform Architecture](https://github.com/intuita-inc/intuita-docs/raw/main/static/img/docs/intuita-platform-architecture.png)
-
-- **To learn more about codemod.studio, registry, and the CLI visit the [Intuita docs here](https://docs.intuita.io/docs/intro).**
-
 
 ## Telemetry 🔭
 
