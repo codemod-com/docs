@@ -1,5 +1,4 @@
 ---
-sidebar_position: 3
 title: Importing Codemods
 ---
 
@@ -10,14 +9,20 @@ import TabItem from '@theme/TabItem';
 
 # Importing Codemods Into the Intuita VS Code Extension
 
-The Intuita VS Code Extension automatically fetches the latest codemods available on the [Intuita Codemod Registry](https://github.com/intuita-inc/codemod-registry). If you have a codemod you would like to run using the Intuita VS Code Extension, we recommend [submitting your codemod to the registry](https://docs.intuita.io/blog/adding-codemods-to-registry). However, if you would like to run a private codemod using the Intuita VS Code Extension, you can follow this tutorial.
+This page goes through the 
+
+This page will walk you through importing your codemods into the Codemod Registry, allowing you to run your codemods using Intuita's VS Code Extension or CLI.
+
 
 ---
 
-On this page, we will go over two ways of running private codemods using the Intuita VS Code extension:
+Codemods using different codemod engines are imported into the registry using different steps.
+
+This page will cover:
 
 1. Importing `jscodeshift` codemods using Codemod Studio.
 2. Importing `ts-morph` codemods by adding your `.tsm.ts` file.
+3. Importing Uber Piranha rules.
 
 :::caution
 Please note that this is a highly experimental beta feature that is subject to frequent changes. If you would like to see specific improvements in importing your codemods to the Intuita VS Code Extension, please [leave us some feedback here](https://feedback.intuita.io/feature-requests-and-bugs).

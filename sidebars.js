@@ -25,12 +25,20 @@ const sidebars = {
       label: 'What is Intuita?',
     },
     {
+      type: 'category',
+      label: 'Codemod Registry',
+      items: [
+        'codemod-registry/quickstart',
+        'codemod-registry/importing-codemods',
+        'codemod-registry/contributing'
+      ],
+  },
+    {
         type: 'category',
         label: 'VS Code Extension',
         items: [
           'vs-code-extension/quickstart',
           'vs-code-extension/running-codemods',
-          'vs-code-extension/importing-codemods',
         ],
     },
     {
