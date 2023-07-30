@@ -13,7 +13,7 @@ import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
 
 # Quickstart →
 
-Upgrade your projects with the help of codemods created by experts in the community, one framework at a time, starting with Next.js v13.4.
+Install [Intuita's VS Code extension](https://marketplace.visualstudio.com/items?itemName=Intuita.intuita-vscode-extension) & upgrade your projects with the help of codemods created by experts in the community, one framework at a time, starting with Next.js v13.4.
 
 > 🎁 What frameworks should we support next? [Let us know →](https://feedback.intuita.io/codemod-requests)
 
