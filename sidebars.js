@@ -30,7 +30,6 @@ const sidebars = {
       items: [
         'codemod-registry/quickstart',
         'codemod-registry/importing-codemods',
-        'codemod-registry/contributing'
       ],
   },
     {
