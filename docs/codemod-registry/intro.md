@@ -1,17 +1,21 @@
-## Codemod Registry
+---
+title: "Introduction"
+hide_title: true
+---
 
-Intuita’s Codemod Registry is an organized and maintained collection of codemods that can be used to help you upgrade several frameworks and libraries for your projects.
+# Introduction
 
-To get started with running codemods, you have to browse the list of publicly available codemods in the codemod registry. To do so, you need to click on the Intuita extension sidebar menu and look for **Public Codemods.**
-
-![codemod registry](/img/docs/running-codemods/codemod-registry.gif)
-
-Here, you will find a list of all available codemods categorized under their corresponding frameworks, libraries, and specific versions.
-
-
-<img src="/img/docs/running-codemods/codemod-registry-available-codemods.png" width="400" alt="available codemods in codemod registry" />
+Codemod Registry is a collection of codemods and automation recipes built on top of popular engines like Meta’s jscodeshift, ts-morph, and less popular yet very powerful ones such as Uber's piranha.
 
 
-:::note
-To contribute and learn more about the codemod registry, read our article on [Intuita’s codemod registry here →](https://docs.intuita.io/blog/adding-codemods-to-registry)
-:::
+The Codemod Registry is integrated into Intuita's platform. Adding your codemods to the registry allows you to use them inside Intuita's platform. Additionally, contributing to the Codemod Registry allows you to easily ship your codemods to developers and progressive teams around the world.
+> 👩🏼‍💻 [Check out the Codemod Registry here →](https://github.com/intuita-inc/codemod-registry)
+
+
+## Codemod Registry vs. the Platform
+
+![Intuita Platform Architecture](/img/docs/codemod-registry/intuita-platform-architecture-codemod-registry.png)
+
+## Share Feedback 🎁
+
+- Please share your ideas, questions, and feature requests **[here](https://feedback.intuita.io/)**, or chat with us in [Slack](https://join.slack.com/t/intuita-inc/shared_invite/zt-1tvxm6ct0-mLZld_78yguDYOSM7DM7Cw).

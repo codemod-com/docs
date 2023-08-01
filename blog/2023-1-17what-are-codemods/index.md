@@ -112,4 +112,4 @@ Check out our guide here to ***[learn how to write your first codemod](#)***!
 
 ## Share Your Codemods With The Amazing Community 👩🏽‍💻🌎
 
-Check out our guide here about ***[integrating your codemod into Intuita](/blog/adding-codemods-to-registry)***!
+Check out our guide here about ***[integrating your codemod into Intuita](/docs/codemod-registry/importing-codemods)***!
