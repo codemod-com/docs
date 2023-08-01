@@ -28,7 +28,7 @@ const sidebars = {
       type: 'category',
       label: 'Codemod Registry',
       items: [
-        'codemod-registry/quickstart',
+        'codemod-registry/intro',
         'codemod-registry/importing-codemods',
       ],
   },

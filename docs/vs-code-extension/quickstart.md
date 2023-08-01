@@ -44,7 +44,7 @@ If you run into an issue while running a codemod, please [let us know →](https
 
 ## Extension vs. the Platform
 
-![Intuita Platform Architecture](https://github.com/intuita-inc/intuita-docs/raw/main/static/img/docs/codemod-registry/intuita-platform-architecture-codemod-registry.png)
+![Intuita Platform Architecture](/img/docs/vs-code-extension/intuita-platform-architecture-vs-code-extension.png)
 
 ## Telemetry 🔭
 

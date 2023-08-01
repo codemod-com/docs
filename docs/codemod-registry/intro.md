@@ -1,20 +1,20 @@
 ---
-title: "Quickstart"
+title: "Introduction"
 hide_title: true
 ---
 
-# Quickstart
+# Introduction
 
 Codemod Registry is a collection of codemods and automation recipes built on top of popular engines like Meta’s jscodeshift, ts-morph, and less popular yet very powerful ones such as Uber's piranha.
 
 
-The Codemod Registry is integrated into Intuita's platform. Adding your codemods to the registry allows you to use them inside Intuita's powerful platform. Additionally, contributing to the Codemod Registry allows you to easily ship your codemods to developers and progressive teams around the world.
+The Codemod Registry is integrated into Intuita's platform. Adding your codemods to the registry allows you to use them inside Intuita's platform. Additionally, contributing to the Codemod Registry allows you to easily ship your codemods to developers and progressive teams around the world.
 > 👩🏼‍💻 [Check out the Codemod Registry here →](https://github.com/intuita-inc/codemod-registry)
 
 
 ## Codemod Registry vs. the Platform
 
-![Intuita Platform Architecture](https://github.com/intuita-inc/intuita-docs/raw/main/static/img/docs/intuita-platform-architecture.png)
+![Intuita Platform Architecture](/img/docs/codemod-registry/intuita-platform-architecture-codemod-registry.png)
 
 ## Share Feedback 🎁
 

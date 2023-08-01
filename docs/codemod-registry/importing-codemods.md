@@ -8,76 +8,17 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
 
-# Importing Codemods Into the Intuita VS Code Extension
+# Adding existing/new codemods to the Registry
 
-This page will walk you through importing your codemods into the Codemod Registry, allowing you to run your codemods using Intuita's VS Code Extension or CLI.
-
-Intuita allows you to import codemods either into your private registry or the public registry.
+This page will walk you through importing your codemods into the Codemod Registry.
 
 Contributing to the public registry allows your codemods to be automatically integrated within Intuita's platform. This allows you to easily push your codemods to all developers who have the extension or cli installed.
-
-Importing your codemods to your private registry allows you to use your codemods with Intuita's platform within your private projects, without sharing them publicly.
-
-This page covers:
-
-1. [Importing codemods into your private registry.](#importing-codemods-into-your-private-registry)
-2. [Importing codemods into the public registry.](#importing-codemods-into-the-public-registry)
-
----
-
-## Importing codemods into your private registry
-
-Importing codemods into your private registry is done differently based on the codemod's engine.
-
-This section covers:
-
-1. [Importing `jscodeshift` codemods.](#importing-jscodeshift-codemods-using-codemod-studio)
-2. [Importing `ts-morph` codemods.](#importing-ts-morph-codemods)
-3. [Importing Piranha rules.](#importing-piranha-rules)
-
-:::caution
-Please note that this is a highly experimental beta feature that is subject to frequent changes. If you would like to see specific improvements in importing your codemods to the Intuita VS Code Extension, please [leave us some feedback here](https://feedback.intuita.io/feature-requests-and-bugs).
-:::
-
-### Importing jscodeshift codemods
-
-To import and use a `jscodeshift` codemod, you can:
-
-1. Paste your codemod into Codemod Studio's 'Codemod' pane.
-2. Click `Export to VSCode`.
-3. Dry running the codemod.
-    <VideoSwitcher 
-    lightImageSrc="/img/docs/importing-codemods/importing-jscodeshift-codemods.mp4"
-    darkImageSrc="/img/docs/importing-codemods/importing-jscodeshift-codemods.mp4"/>
-    
-
-### Importing ts-morph codemods
-
-To import and use a `ts-morph` codemod, you can:
-
-1. Create and place your codemod into a `[your-codemod].tsm.ts` file anywhere in your project.
-2. Right-click on `[your-codemod].tsm.ts` file and click `Run as a codemod`.
-
-:::note
-Note that the ts-morph codemod will run over the whole project. Path selection is not available yet.
-:::
-
-### Importing Piranha Rules
-
-To import and use a Piranha rule, you can:
-
-1. Create a directory that will contain your Piranha rule.
-2. Place the Piranha rule inside a file called `rules.toml`.
-3. Right-click on the containing directory and click `Run as a Piranha Rule`.
-
 
 ---
 
 ## Importing codemods into the public registry
 
-Intuita ensures that contributions are of high quality and pass Intuita's guidelines and governance so that it is ready to be shared with the community.
-
-To import your codemods to the public registry, you can:
+To ensure quality and usefulness of codemods and code automation recipes, Intuita provides guidelines and sets some basic governance rules. We'll also be building features to empower the community to uprank the highest quality codemods and recipes. Here is the process to add your codemods to the registry.
 
 1. [Understand the registry's structure.](#understanding-the-registrys-structure)
 2. [Open a PR with your codemod.](#opening-a-pr-with-your-codemod)
@@ -132,13 +73,27 @@ To contribute your codemod to the registry, you can [open a PR](https://github.c
     {
 	    "schemaVersion": "[vx.x.x]",
 	    "name": "[framework/version/codemod-name]",
-	    "description": "[codemod description]",
 	    "engine": "[jscodeshift/ts-morph/piranha/repomod-engine]",
         "language": "[java/ts/tsx]", (Optional - Only if engine is Piranha)
 	    "dependencyVersionLowerThan": ["[framework]", "[vx.x.x]"],
 	    "owner": "[codemod owner name]"
     }
     ```
+
+    :::tip
+    Example of the [`replace-next-head`](https://github.com/intuita-inc/codemod-registry/tree/main/next/13/replace-next-head-v2) codemod metadata file:
+
+    ```
+    {
+	    "schemaVersion": "1.0.0",
+	    "name": "next/13/replace-next-head-v2",
+	    "engine": "repomod-engine",
+	    "dependencyVersionLowerThan": ["next", "13.0.0"],
+	    "owner": "intuita"
+    }
+    ```
+    :::
+
 3. Includes an `index.ts` file (if using jscodeshift, ts-morph, or repomod-engine) or `rules.toml` file (if using piranha). This file should include the transform function or the Piranha rule.
 4. Includes a `test.ts` file (if using jscodeshift, ts-morph, or repomod-engine) which includes the codemod's test cases. [Learn more about testing codemods here →](/blog/writing-test-cases-for-codemods)
 
