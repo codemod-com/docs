@@ -49,6 +49,9 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        {name: 'og:image', content: '/img/docs/intuita-docs-opengraph.jpg'}
+      ],
       navbar: {
         title: 'Intuita',
         logo: {
