@@ -23,10 +23,10 @@ Options:
   --help                Show help                                      [boolean]
   --version             Show version number                            [boolean]
   --includePattern      Glob pattern(s) for files to include
-                        [array] [default: ["**/*.*{ts,tsx,js,jsx,mjs,cjs,mdx}"]]
+                            [array] [default: ["**/*.*{ts,tsx,js,jsx,mjs,cjs}"]]
   --excludePattern      Glob pattern(s) for files to exclude
                                    [array] [default: ["**/node_modules/**/*.*"]]
-  --inputDirectoryPath  Input directory path[string] [default: "C:\Users\Mohab"]
+  --inputDirectoryPath  Input directory path  [string] [default: "/Users/[user]"]
   --name                Name of the codemod in the registry  [string] [required]
   --fileLimit           File limit for processing       [number] [default: 1000]
   --usePrettier         Format output with Prettier   [boolean] [default: false]
@@ -59,6 +59,25 @@ The `getMetadataPath` command can be used to get the path to a codemod's metadat
 intuita getMetadataPath --name [codemod name]
 ```
 
+### Generate codemod from file diff (Experimental)
+
+The `learn` command can be used to intelligently generate a codemod using the diff of the latest edited file.
+
+By running the `learn` command, Intuita will check if there is any git diff in the last modified file. If some git diff exists, Intuita will use the diff as before/after snippets in [Codemod Studio](https://codemod.studio). This command uses the following format:
+
+```
+intuita learn
+```
+
+:::caution
+Please note that this is a highly experimental beta feature and may not produce accurate results. If you encounter any issues, please [leave us some feedback here](https://feedback.intuita.io/feature-requests-and-bugs).
+:::
+
+:::tip
+To define a specific file as a target, please refer to the [`--inputFilePath` option usage](#--inputfilepath).
+:::
+
+---
 
 ## Options
 
@@ -118,4 +137,12 @@ The `--useCache` option can be used to enable/disable caching downloaded codemod
 This option uses the following format:
 ```
 intuita run --name [codemod name] --useCache [true/false]
+```
+
+### `--inputFilePath`
+The `inputFilePath` option can be used to select a specific file as a target while running the `intuita learn` command. This option can be useful if you want to use the `intuita learn` command on a file other than the last one you edited.
+
+This option uses the following format:
+```
+intuita learn --inputFilePath [path]
 ```
