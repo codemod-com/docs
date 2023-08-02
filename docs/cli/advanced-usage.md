@@ -140,7 +140,7 @@ intuita run --name [codemod name] --useCache [true/false]
 ```
 
 ### `--inputFilePath`
-The `inputFilePath` option can be used to select a specific file as a target while running the `intuita learn` command. This option can be useful if you want to use the `intuita learn` command on a file other than the last one you edited.
+The `inputFilePath` option can be used to select a specific file as a target while running the `intuita learn` command. This option can be useful if you want to use the `intuita learn` command on a specific file. This option is set to the lastly modified file by default.
 
 This option uses the following format:
 ```
