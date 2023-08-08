@@ -9,7 +9,7 @@ import TabItem from '@theme/TabItem';
 import ReactPlayer from 'react-player';
 import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
 
-# Intuita CLI Overview →
+# Quickstart →
 
 Intuita gives you multiple ways to discover, run & share supported codemods and code automation recipes. With the command-line interface (CLI) you can interact with the Intuita platform using a terminal or through an automated system. Intuita's CLI requires [Node.js v16+](https://nodejs.org/).
 
