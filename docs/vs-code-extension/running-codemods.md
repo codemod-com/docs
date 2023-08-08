@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: Running Codemods
+title: Advanced Usage
 ---
 
 import ThemedImage from "@theme/ThemedImage";
@@ -10,7 +10,7 @@ import TabItem from '@theme/TabItem';
 import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
 
 
-# Running Codemods
+# Advanced Usage
 
 The Intuita VS Code Extension allows you to run codemods over your projects to successfully migrate your project dependencies from one version to the next.
 
