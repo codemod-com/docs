@@ -9,6 +9,8 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
 
+# Codemod Studio
+
 Codemods have superpowers, but building them isn't easy. Codemod Studio lets you “instantly” create code transformation bots with AI, specialized helpers & debuggers, and a vibrant “codemod champion” community.
 
 > 🎁 What feature would you like to see next in Codemod Studio? [Let us know →](http://feedback.intuita.io)

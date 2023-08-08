@@ -25,11 +25,9 @@ const sidebars = {
       label: 'What is Intuita?',
     },
     {
-      type: 'category',
+      type: 'doc',
+      id: 'codemod-studio/quickstart',
       label: 'Codemod Studio',
-      items: [
-        'codemod-studio/quickstart',
-      ],
     },
     {
       type: 'category',
