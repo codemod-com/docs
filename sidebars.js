@@ -26,12 +26,19 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Codemod Studio',
+      items: [
+        'codemod-studio/quickstart',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Codemod Registry',
       items: [
         'codemod-registry/intro',
         'codemod-registry/importing-codemods',
       ],
-  },
+    },
     {
         type: 'category',
         label: 'VS Code Extension',
