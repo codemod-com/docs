@@ -8,7 +8,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
 
-# Adding existing/new codemods to the Registry
+# Adding existing/new codemods to the registry
 
 This page will walk you through importing your codemods into the Codemod Registry.
 
