@@ -42,7 +42,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Intuita CLI',
+      label: 'CLI',
       items: [
         'cli/quickstart',
         'cli/advanced-usage',
