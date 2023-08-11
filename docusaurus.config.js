@@ -50,7 +50,8 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       metadata: [
-        {name: 'og:image', content: '/img/docs/intuita-docs-opengraph.jpg'}
+        {name: 'og:image', content: '/img/docs/intuita-docs-opengraph.jpg'},
+        {name: 'twitter:card', content: '/img/docs/intuita-docs-opengraph'},
       ],
       navbar: {
         title: 'Intuita',
