@@ -51,7 +51,8 @@ const config = {
     ({
       metadata: [
         {name: 'og:image', content: '/img/docs/intuita-docs-opengraph.jpg'},
-        {name: 'twitter:card', content: '/img/docs/intuita-docs-opengraph.jpg'},
+        {name: 'twitter:card', content: 'summary_large_image'},
+        {name: 'twitter:image', content: '/img/docs/intuita-docs-opengraph.jpg'},
       ],
       navbar: {
         title: 'Intuita',
