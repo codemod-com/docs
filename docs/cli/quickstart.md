@@ -29,7 +29,7 @@ intuita listNames
 ```
 intuita next/13/app-router-recipe   
 ```
-"next/13/app-router" is a sample recipe. Replace it with any codemod or recipe name from the registry.
+"next/13/app-router-recipe" is a sample recipe. Replace it with any codemod or recipe name from the registry.
 
 <VideoSwitcher 
 lightImageSrc="/img/docs/cli/quickstart/intuita-cli-light.mp4"
