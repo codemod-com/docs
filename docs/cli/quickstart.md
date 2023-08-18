@@ -27,7 +27,7 @@ intuita listNames
 ```
 ## Run a Codemod or Recipe
 ```
-intuita --name next/13/app-router   
+intuita next/13/app-router-recipe   
 ```
 "next/13/app-router" is a sample recipe. Replace it with any codemod or recipe name from the registry.
 
