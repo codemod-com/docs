@@ -3,10 +3,7 @@ slug: what-are-codemods
 title: What Are Codemods, Deciphered
 authors: [mohab]
 tags: [codemods, tutorial, beginner]
-image: ./what-are-codemods-header.png
 ---
-
-![What Are Codemods](./what-are-codemods-header.png)
 
 Imagine you're upgrading a dependency for a project; however, this upgrade needs unfathomable modifications and refactoring?
 
