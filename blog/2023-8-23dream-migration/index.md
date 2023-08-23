@@ -10,6 +10,8 @@ toc_max_heading_level: 3
 
 import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
 
+In this blog post, we discuss the impact of codemods, and their shortcomings. We also discuss Intuita's game plan to make dream migration a reality for the community.
+
 <!--truncate-->
 
 ---
