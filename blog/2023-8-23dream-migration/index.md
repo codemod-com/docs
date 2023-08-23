@@ -3,13 +3,19 @@ slug: dream-migration
 title: The "Dream Migration"
 authors: [alex]
 tags: [migration, case study]
+toc_min_heading_level: 3
+toc_max_heading_level: 3
 
 ---
 
+import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
 
-Writing codemods using imperative methods (like JSCodeShift for JS/TS) can be extremely powerful for code transformation. However, such codemods can be difficult to create, especially for new codemod authors.
 
-In this article, we'll use what we've learned about ASTs and simple codemod development to tackle a real-world problem.
+As the Next.js ecosystem evolves, it becomes crucial to keep your codebase up-to-date in order to leverage the latest features and optimizations. This is especially true with the recent app router paradigm, which comes with many devX and performance improvements. But code upgrade can be a challenging task, specially in large codebases. 
+
+Fortunately, there is a solution to greatly simplify code migration: code automation bots called codemods! Tech giants like Meta, Google, Uber automate a vast amount of their code migrations with the help of codemods.
+
+In this blog post, we will explore the exciting impact of codemods, as well as their shortcomings. We will also discuss our game plan to tackle these issues on our mission to make dream migration a reality for the community.
 
 
 <!--truncate-->
@@ -55,7 +61,7 @@ darkImageSrc="/img/blog/dream-migration/cms-wordpress-dream-migration.mp4"/>
 
 Follow these steps to install and use Intuita on your own project or to reproduce our results on the cms-wordpress sample project.
 
-### #1 Set up Intuita.
+### #1 Set up Intuita
 
 Install Intuita’s CLI tool by running the following command:
 
@@ -67,7 +73,7 @@ For an even better user experience, you can install the Intuita VS Code extensio
 
 After installing Intuita, navigate to your Next.js project folder and optionally create a branch dedicated to the migration. For our example, we used this [commit](https://github.com/intuita-inc/next.js/commit/56fcd7ac33e700236e6a37a8dac5ed9c378e0823%2056fcd7ac33e700236e6a37a8dac5ed9c378e0823) for the cms-wordpress.
 
-### #2 Execute the codemods.
+### #2 Execute the codemods
 
 We have simplified the process of migration by providing a predefined migration “recipe” that can be executed with a single command. Running the recipe will execute a set of codemods sequentially, eliminating the need to find and run the required codemods in the correct order. For a Next.js migration, you can use the following command:
 
@@ -89,13 +95,13 @@ Now, it's time to commit the changes to your repository.
 
 If you run the recipe on cms-wordpress, you will get [a commit like this](https://github.com/intuita-inc/next.js/pull/13/commits/09aa2f4f9020fd80ce438d2fd7630dbc52e19667), and if you run the individual codemods one by one, you will end up with [a PR like this](https://github.com/intuita-inc/next.js/pull/12/commits).
 
-### #3 Make final tweaks.
+### #3 Make final tweaks
 
 While Intuita's codemods are very powerful, there might be some project-specific cases that require human intervention. We will go into more details in the below sections. For the cms-wordpress project, it is possible to build the project successfully even without manual tweaks after running codemods. But there is a minor tweak that we need to do which is to change the shape of paths returned from getStaticPaths: https://github.com/intuita-inc/next.js/pull/13/commits/d3a77b11831101c1f76848c8e21d5edf61f7e3f6
 
 We will propose a solution for such use cases in the last section.
 
-### #4 Test, build & ship.
+### #4 Test, build & ship
 
 After completing the code changes for the migration, it is essential to perform thorough testing of your application to ensure that everything is working as expected before pushing the changes. Having comprehensive test cases in CI/CD also provides confidence that nothing is broken. Fun fact, for some of our customers, we ran codemods to add types to their codebase, making it more reliable before running the migration codemods. So, If you do not feel confident about automated large-scale changes, you might want to first use custom codemods to bring more conformity and reliability to your codebase.
 
@@ -117,13 +123,13 @@ Codemods can be used for a variety of code evolution tasks. Nextjs codemods fall
 
 Follow these few steps:
 
-### One-time prerequisite:
+### One-time prerequisite
 
 1. Install **Intuita CLI**: `pnpm add --global @intuita-inc/intuita`
 2. Install the **Intuita [extension](https://marketplace.visualstudio.com/items?itemName=Intuita.intuita-vscode-extension)**. While it is not required for `intuita learn`, it provides the best developer experience once the codemod is ready.
 3. Sign in to **Codemod Studio**. Although you can use Codemod Studio anonymously without signing in, you need to be logged in to use its AI assistant, ModGPT.
 
-### **Cleanup codemods or day-to-day large scale changes:**
+### Cleanup codemods or day-to-day large scale changes
 
 1. **Create a diff.**
 2. Run `intuita learn`.
