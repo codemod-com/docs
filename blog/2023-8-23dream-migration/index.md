@@ -70,7 +70,9 @@ After installing Intuita, navigate to your Next.js project folder and optionally
 
 ### #2 Execute the codemods
 
-We have simplified the process of migration by providing a predefined migration “recipe” that can be executed with a single command. Running the recipe will execute a set of codemods sequentially, eliminating the need to find and run the required codemods in the correct order. For a Next.js migration, you can use the following command:
+We have simplified the process of migration by providing a predefined migration “recipe” that can be executed with a single command.
+
+Running the recipe will execute a set of codemods sequentially, eliminating the need to find and run the required codemods in the correct order. For a Next.js migration, you can use the following command:
 
 ```bash
 intuita next/13/app-router-recipe
@@ -92,17 +94,29 @@ If you run the recipe on cms-wordpress, you will get [a commit like this](https:
 
 ### #3 Make final tweaks
 
-While Intuita's codemods are very powerful, there might be some project-specific cases that require human intervention. We will go into more details in the below sections. For the cms-wordpress project, it is possible to build the project successfully even without manual tweaks after running codemods. But there is a minor tweak that we need to do which is to change the shape of paths returned from getStaticPaths: https://github.com/intuita-inc/next.js/pull/13/commits/d3a77b11831101c1f76848c8e21d5edf61f7e3f6
+While Intuita's codemods are very powerful, there might be some project-specific cases that require human intervention.
+
+We will go into more details in the below sections. For the cms-wordpress project, it is possible to build the project successfully even without manual tweaks after running codemods.
+
+But there is a [minor tweak](https://github.com/intuita-inc/next.js/pull/13/commits/d3a77b11831101c1f76848c8e21d5edf61f7e3f6) that we need to do which is to change the shape of paths returned from getStaticPaths.
 
 We will propose a solution for such use cases in the last section.
 
 ### #4 Test, build & ship
 
-After completing the code changes for the migration, it is essential to perform thorough testing of your application to ensure that everything is working as expected before pushing the changes. Having comprehensive test cases in CI/CD also provides confidence that nothing is broken. Fun fact, for some of our customers, we ran codemods to add types to their codebase, making it more reliable before running the migration codemods. So, If you do not feel confident about automated large-scale changes, you might want to first use custom codemods to bring more conformity and reliability to your codebase.
+After completing the code changes for the migration, it is essential to perform thorough testing of your application to ensure that everything is working as expected before pushing the changes. Having comprehensive test cases in CI/CD also provides confidence that nothing is broken.
+
+Fun fact, for some of our customers, we ran codemods to add types to their codebase, making it more reliable before running the migration codemods.
+
+So, If you do not feel confident about automated large-scale changes, you might want to first use custom codemods to bring more conformity and reliability to your codebase.
 
 ## Generic codemods fall short sometimes. So, what now?
 
-Generic codemods can make mistakes, which we call FPs (false positives), or they may miss making all the required transformations, which we call FNs (false negatives). Sometimes, they may make part of the required changes or leave comments for developers to complete the rest (we still don't have a good name for these :) maybe just assistive codemods?). This is especially true when custom logic is involved. 
+Generic codemods can make mistakes, which we call FPs (false positives), or they may miss making all the required transformations, which we call FNs (false negatives).
+
+Sometimes, they may make part of the required changes or leave comments for developers to complete the rest (we still don't have a good name for these :) maybe just assistive codemods?).
+
+This is especially true when custom logic is involved. 
 
 We attempt to address these shortcomings through the following:
 
@@ -114,7 +128,9 @@ As our AI and automation platform mature, there will be decreasing need for the 
 
 ## Generic codemods leave my code looking messy sometimes. Clean up, please?
 
-Codemods can be used for a variety of code evolution tasks. Nextjs codemods fall under the category of generically applicable codemods. After running these codemods, it is common to have many instances of code blocks that you may want to abstract away to achieve a cleaner codebase. To handle such cases, you can use Codemod Studio to create a separate set of cleanup codemods.You can start your codemod creation journey from Codemod Studio or directly from your local machine with just one CLI command: `intuita learn`.
+Codemods can be used for a variety of code evolution tasks. Nextjs codemods fall under the category of generically applicable codemods. After running these codemods, it is common to have many instances of code blocks that you may want to abstract away to achieve a cleaner codebase.
+
+To handle such cases, you can use Codemod Studio to create a separate set of cleanup codemods.You can start your codemod creation journey from Codemod Studio or directly from your local machine with just one CLI command: `intuita learn`.
 
 Follow these few steps:
 
