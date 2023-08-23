@@ -1,8 +1,18 @@
 ---
 slug: dream-migration
 title: The "Dream Migration"
-authors: [mohab]
+authors: [alex]
 tags: [migration, case study]
+
+---
+
+
+Writing codemods using imperative methods (like JSCodeShift for JS/TS) can be extremely powerful for code transformation. However, such codemods can be difficult to create, especially for new codemod authors.
+
+In this article, we'll use what we've learned about ASTs and simple codemod development to tackle a real-world problem.
+
+
+<!--truncate-->
 
 ---
 
