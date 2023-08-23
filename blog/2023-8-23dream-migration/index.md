@@ -10,17 +10,10 @@ toc_max_heading_level: 3
 
 import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
 
-
-As the Next.js ecosystem evolves, it becomes crucial to keep your codebase up-to-date in order to leverage the latest features and optimizations. This is especially true with the recent app router paradigm, which comes with many devX and performance improvements. But code upgrade can be a challenging task, specially in large codebases. 
-
-Fortunately, there is a solution to greatly simplify code migration: code automation bots called codemods! Tech giants like Meta, Google, Uber automate a vast amount of their code migrations with the help of codemods.
-
-In this blog post, we will explore the exciting impact of codemods, as well as their shortcomings. We will also discuss our game plan to tackle these issues on our mission to make dream migration a reality for the community.
-
-
 <!--truncate-->
 
 ---
+
 
 As the Next.js ecosystem evolves, it becomes crucial to keep your codebase up-to-date in order to leverage the latest features and optimizations. This is especially true with the recent app router paradigm, which comes with many devX and performance improvements. But code upgrade can be a challenging task, specially in large codebases. 
 
