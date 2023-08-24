@@ -34,9 +34,11 @@ Enough context; let's get into the demo!
 
 Here is a 30-second demo of running the Next.js app router recipe through the Intuita VS Code extension.
 
+
 <VideoSwitcher 
 lightImageSrc="/img/blog/dream-migration/cms-wordpress-dream-migration.mp4"
 darkImageSrc="/img/blog/dream-migration/cms-wordpress-dream-migration.mp4"/>
+
 
 With Intuita codemods, you will…
 
@@ -103,7 +105,7 @@ Fun fact**:** For some of our customers, we ran codemods to add types to their 
 
 So, If you do not feel confident about automated large-scale changes, you might want first to use custom codemods to bring more conformity and reliability to your codebase.
 
-## Codemods fall short sometimes. What now?
+## Codemod Issues: 1-click Report.
 
 Generic codemods can make mistakes, which we call FPs (false positives), or they may miss making all the required transformations, which we call FNs (false negatives).
 
@@ -119,7 +121,7 @@ We attempt to address these shortcomings through the following:
 
 As our AI and automation platform mature, the need for the above will decrease. However, since there will always be some glitches, we need to provide the best experience in mitigating the shortcomings of codemods.
 
-## Messy code sometimes. Clean up?
+## Cleanup Codemods After Codemods.
 
 Codemods can be used for a variety of code evolution tasks. Next.js codemods fall under the category of generically applicable codemods. After running these codemods, it is common to have many instances of code blocks that you may want to abstract away to achieve a cleaner codebase.
 
