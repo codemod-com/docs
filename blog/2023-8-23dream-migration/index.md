@@ -18,7 +18,7 @@ In this blog post, I will demonstrate the usage of Next.js codemods on a simple 
 
 Code migration projects are crucial for making codebases secure and performant and keeping users and developers happy. However, they are often tedious and error-prone, especially for larger codebases. As generative AI speeds up code creation and more companies end up with massive codebases, migration campaigns can go from difficult to downright impossible without proper infrastructure. Yep, [you've heard that from Googlers](https://abseil.io/resources/swe-book/html/ch22.html).
 
-Fortunately, there is a solution: codemods! These code automation bots automate a vast amount of coding for large migrations. Tech giants like Meta, Google, and Uber have been using codemods (and the infrastructure around them) for a long time to automate their large-scale code changes.
+Fortunately, there is a solution: codemods! These code automation bots automate a vast amount of coding for large migrations. Tech giants such as Meta, Google, and Uber, who have the luxury of hiring top programming language experts, have long automated their migration campaigns with the help of codemods and the infrastructure around them.
 
 At Intuita, by combining the power of AI and community, we are bringing a better version of those tools to the rest of the world. We are here to create a delightful developer experience for migrations, which Guillermo Rauch, Vercel's CEO, describes as the "dream migration."
 
