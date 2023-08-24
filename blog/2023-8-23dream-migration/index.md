@@ -16,7 +16,7 @@ In this blog post, I will demonstrate the usage of Next.js codemods on a simple 
 
 ---
 
-Code migration projects are crucial for making codebases secure and performant, and for keeping users and developers happy. However, they are often tedious and error-prone, especially for larger codebases. As generative AI speeds up code creation and more companies end up with massive codebases, migration campaigns can go difficult to downright impossible without proper infrastructure. Yep, [you've heard that from Googlers](https://abseil.io/resources/swe-book/html/ch22.html).
+Code migration projects are crucial for making codebases secure and performant, and for keeping users and developers happy. However, they are often tedious and error-prone, especially for larger codebases. As generative AI speeds up code creation and more companies end up with massive codebases, migration campaigns can go from difficult to downright impossible without proper infrastructure. Yep, [you've heard that from Googlers](https://abseil.io/resources/swe-book/html/ch22.html).
 
 Fortunately, there is a solution: codemods! These are code automation bots that can automate a vast number of code migration tasks. Tech giants like Meta, Google, and Uber have been using codemods (and the infrastructure around them) for a long time to automate their large-scale code changes.
 
