@@ -141,5 +141,3 @@ Follow these few steps:
     1. It's solid for simple codemods (covers most of the daily usages)
     2. If ModGPT did not create the desired codemod, use its integrated test fixtures, live codemod runner, expert-curated and context-aware prompts, and live debugger to understand and improve the codemod iteratively.
 4. Once the codemod is ready, you can bring it back to your IDE with one click and automate the cleanup process.
-
-<div style="position: relative; padding-bottom: 58.44155844155845%; height: 0;"><iframe src="https://www.loom.com/embed/099bd6db82234bc288c6c1f35b1f7dde?sid=7f91b7e5-2382-4746-b848-8eca7eb0bb9c" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
