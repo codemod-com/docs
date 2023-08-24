@@ -3,7 +3,7 @@ slug: dream-migration
 title: The "Dream Migration"
 authors: [alex]
 tags: [migration, case study]
-toc_min_heading_level: 3
+toc_min_heading_level: 2
 toc_max_heading_level: 3
 
 ---
@@ -30,7 +30,7 @@ For larger projects that have custom business logic, there will be more challeng
 
 Enough context, let’s get into the demo!
 
-# From Pages to App: cms-wordpress Migration with Intuita
+## From Pages to App: cms-wordpress Migration with Intuita
 
 Here is see a 30-second demo of running the Next.js app router recipe through the Intuita VS Code extension.
 
@@ -48,7 +48,7 @@ With Intuita codemods, you will…
 These steps can also be used to reproduce our results on the cms-wordpress sample project demonstrated above.
 
 
-## 1. Set up Intuita
+### 1. Set up Intuita
 
 Install Intuita’s CLI tool by running the following command:
 
@@ -61,7 +61,7 @@ For an even better user experience, install the Intuita VS Code extension from t
 After installing Intuita, navigate to your Next.js project folder and optionally create a branch dedicated to the migration. 
 For our example, we used this [commit](https://github.com/intuita-inc/next.js/commit/56fcd7ac33e700236e6a37a8dac5ed9c378e0823%2056fcd7ac33e700236e6a37a8dac5ed9c378e0823) for the cms-wordpress.
 
-## 2. Execute the codemods
+### 2. Execute the codemods
 
 We have simplified the process of migration by providing a predefined migration “recipe” that can be executed with a single command.
 
@@ -87,7 +87,7 @@ Now, it's time to commit the changes to your repository.
 
 If you run the recipe on cms-wordpress, you will get [a commit like this](https://github.com/intuita-inc/next.js/pull/13/commits/09aa2f4f9020fd80ce438d2fd7630dbc52e19667), and if you run the individual codemods one by one, you will end up with [a PR like this](https://github.com/intuita-inc/next.js/pull/12/commits).
 
-## 3. Make final tweaks
+### 3. Make final tweaks
 
 While Intuita's codemods are very powerful, there might be some project-specific cases that require human intervention.
 
@@ -97,7 +97,7 @@ But there is a [minor tweak](https://github.com/intuita-inc/next.js/pull/13/comm
 
 We will propose a solution for such use cases in the last section.
 
-## 4. Test, build & ship
+### 4. Test, build & ship
 
 After completing the code changes for the migration, it is essential to perform thorough testing of your application to ensure that everything is working as expected before pushing the changes. Having comprehensive test cases in CI/CD also provides confidence that nothing is broken.
 
@@ -105,7 +105,7 @@ Fun fact, for some of our customers, we ran codemods to add types to their codeb
 
 So, If you do not feel confident about automated large-scale changes, you might want to first use custom codemods to bring more conformity and reliability to your codebase.
 
-# Codemods fall short sometimes. What now?
+## Codemods fall short sometimes. What now?
 
 Generic codemods can make mistakes, which we call FPs (false positives), or they may miss making all the required transformations, which we call FNs (false negatives).
 
@@ -121,7 +121,7 @@ We attempt to address these shortcomings through the following:
 
 As our AI and automation platform mature, there will be decreasing need for the above. However, since there will always be some glitches, it is important for us to provide the best experience in mitigating the shortcomings of codemods.
 
-# Messy code sometimes. Clean up?
+## Messy code sometimes. Clean up?
 
 Codemods can be used for a variety of code evolution tasks. Nextjs codemods fall under the category of generically applicable codemods. After running these codemods, it is common to have many instances of code blocks that you may want to abstract away to achieve a cleaner codebase.
 
