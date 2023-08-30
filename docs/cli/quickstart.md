@@ -18,18 +18,24 @@ For a better developer experience with dry-running codemods, reviewing & tweakin
 ---
 
 ## Install CLI
-```
+
+```bash
 pnpm add --global @intuita-inc/intuita
 ```
+
 ## List Available Codemods
+
+```bash
+intuita list
 ```
-intuita listNames
-```
+
 ## Run a Codemod or Recipe
-```
+
+```bash
 intuita next/13/app-router-recipe   
 ```
-"next/13/app-router-recipe" is a sample recipe. Replace it with any codemod or recipe name from the registry.
+
+> `next/13/app-router-recipe` is a sample recipe. Replace it with any codemod or recipe name from the registry.
 
 <VideoSwitcher 
 lightImageSrc="/img/docs/cli/quickstart/intuita-cli-light.mp4"
