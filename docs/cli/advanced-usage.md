@@ -113,7 +113,7 @@ intuita [codemod name] --exclude "[glob pattern]"
 ```
 
 :::tip
-By default, the Intuita CLI excludes the following glob pattern: `--exclude "**/node_modules/**/*.*"`. If you are using your own glob pattern, we recommend excluding the `node_modules` directory to avoid unnecessary codemod runs.
+By default, the Intuita CLI excludes the following glob pattern: `--exclude "**/node_modules/**/*.*"`. If you are using a different glob pattern, we recommend excluding the `node_modules` directory to avoid unnecessary codemod runs.
 :::
 
 ### `--targetPath`
@@ -149,7 +149,7 @@ The `--codemodEngine` option can be used to specify the codemod engine that will
 The `--codemodEngine` option now supports three engines: `jscodeshift`, `ts-morph`, and `repomod-engine`.
 
 :::tip
-This option is used when running a local codemod using the `--sourcePath` optoin.
+This option is used when running a local codemod using the `--sourcePath` option.
 :::
 
 ### `--fileLimit`
@@ -204,10 +204,10 @@ intuita [codemod name] --threadCount [number of threads]
 
 ### `--dryRun`
 
-The `--dryRun` option can be used to switch to dry run mode. Dry running codemods helps you see the changes the codemod will do without affecting the project files.
+The `--dryRun` option can be used to switch to dry run mode. Dry running codemods helps you see the changes the codemod will make without affecting the project files.
 
 :::tip
-Dry running codemods requires specifying the output directory to which the codemod's changes will be written. You can do this by using the `--outputDirectoryPath` option.
+Dry-running codemods requires specifying the output directory to which the codemod's changes will be written. You can do this by using the `--outputDirectoryPath` option.
 :::
 
 This option uses the following format:
