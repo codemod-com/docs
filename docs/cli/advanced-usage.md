@@ -79,7 +79,7 @@ Please note that this is a highly experimental beta feature and may produce inac
 :::
 
 :::tip
-To define a specific file as a target, please refer to the [`--inputFilePath` option usage](#--inputfilepath) (todo: see if this is still viable).
+To detect changes only in a specific path or file, you can use the [`--targetPath` option](#targetpath).
 :::
 
 ---
