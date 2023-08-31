@@ -22,7 +22,7 @@ Options:
   --version              Show version number                         [boolean]
   --include              Glob pattern(s) for files to include        [array] [default: ["**/*.*{ts,tsx,js,jsx,mjs,cjs,mdx}"]]
   --exclude              Glob pattern(s) for files to exclude        [array] [default: ["**/node_modules/**/*.*"]]
-  --targetPath           Input directory path                        [string] [default: "/Users/mohabsameh"]
+  --targetPath           Input directory path                        [string] [default: "/Users/[username]"]
   --sourcePath           Source path of the local codemod to run     [string]
   --codemodEngine        The engine to use with the local codemod: "jscodeshift", "ts-morph", "repomod-engine" [string]
   --fileLimit            File limit for processing                   [number] [default: 1000]
