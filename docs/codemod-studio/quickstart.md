@@ -22,6 +22,12 @@ darkImageSrc="/img/docs/codemod-studio/quickstart/codemod-studio-quickstart.mp4"
 
 With the help of fine-tuned LLMs under-the-hood and codemod creation features such as expert-curated prompts, smart highlighting & GUI codemod builder, Codemod Studio can help you build codemods in a few minutes.
 
+:::tip Your codemod creation journey can also start right from your IDE/CLI and with just one command: `intuita learn`
+
+More info [here](https://docs.intuita.io/docs/cli/advanced-usage#generate-codemod-from-file-diff).
+
+:::
+
 ## 2. Test
 
 Codemod Studio allows you to iteratively test, debug, and improve your codemods’ as you build them.
