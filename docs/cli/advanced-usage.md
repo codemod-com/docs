@@ -83,12 +83,9 @@ lightImageSrc="/img/docs/cli/quickstart/intuita-learn-workflow.mp4"
 darkImageSrc="/img/docs/cli/quickstart/intuita-learn-workflow.mp4"/>
 
 :::caution
-Please note that this is a highly experimental beta feature and may produce inaccurate results. If you encounter any issues, please [leave us some feedback here](https://feedback.intuita.io/feature-requests-and-bugs).
+If you encounter any issues with the auto-generated codemod, please [leave us some feedback here](https://feedback.intuita.io/feature-requests-and-bugs).
 :::
 
-:::tip
-To detect changes only in a specific path or file, you can use the [`--targetPath` option](#--targetpath).
-:::
 
 ---
 
