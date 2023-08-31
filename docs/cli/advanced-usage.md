@@ -2,6 +2,8 @@
 title: Advanced Usage
 ---
 
+import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
+
 The command-line interface (CLI) to Intuita is the `intuita` command, which accepts a variety of subcommands and options for various preferences. With the Intuita CLI, you can interact with Intuita using a terminal or a script.
 
 If you want to use Intutia through a graphical interface, check out the [Intuita VS Code Extension](/docs/vs-code-extension/quickstart).
@@ -73,6 +75,12 @@ By running the `learn` command, Intuita will check if there is any git diff in t
 ```bash
 intuita learn
 ```
+
+#### Quick look
+
+<VideoSwitcher 
+lightImageSrc="/img/docs/cli/quickstart/intuita-learn-workflow.mp4"
+darkImageSrc="/img/docs/cli/quickstart/intuita-learn-workflow.mp4"/>
 
 :::caution
 Please note that this is a highly experimental beta feature and may produce inaccurate results. If you encounter any issues, please [leave us some feedback here](https://feedback.intuita.io/feature-requests-and-bugs).
