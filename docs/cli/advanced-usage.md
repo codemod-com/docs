@@ -66,11 +66,11 @@ The `syncRegistry` command can be used to sync local codemods with the public [C
 intuita syncRegistry
 ```
 
-### Generate codemod from file diff (Experimental)
+### Generate codemod from file diff
 
-The `learn` command can be used to intelligently generate a codemod using the diff of the latest edited file.
+The `learn` command can be used to send the diff of the latest edited file to Codemod Studio and have it automatically build an explainable and debuggable codemod.
 
-By running the `learn` command, Intuita will check if there is any git diff in the last modified file. If some git diff exists, Intuita will use the diff as before/after snippets in [Codemod Studio](https://codemod.studio). This command uses the following format:
+After running this command, if any git diff exists, Intuita will use the diff as before/after snippets in [Codemod Studio](https://codemod.studio). This command uses the following format:
 
 ```bash
 intuita learn
