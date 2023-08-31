@@ -12,10 +12,11 @@ To view a list of the commands and options available using the Intuita CLI, run 
 
 ```
 Commands:
-  intuita               runs a codemod or recipe                       [default]
-  intuita list          lists all the codemods & recipes in the public registry
-  intuita syncRegistry  syncs all the codemods from the registry
-  intuita learn         exports the current `git diff` in a file to before/after panels in codemod studio
+  intuita               Runs a codemod or recipe                       [default]
+  intuita list          Lists all the codemods & recipes in the public registry
+  intuita syncRegistry  Syncs all the codemods from the registry
+  intuita learn         Exports the current `git diff` in a file to before/after panels in codemod studio
+  intuita help          Show help
 
 Options:
   --help                 Show help                                   [boolean]
