@@ -45,7 +45,7 @@ intuita [codemod name]
 ```
 
 :::note
-By default, using the `intuita` cli command will run the codemod over the current directory. To run codemods over a specific file, use the [`--targetPath`](#--targetpath) option.
+By default, using the `intuita` cli command will run the codemod over the current directory. To run codemods over a specific file, use the [`--targetPath` option](#--targetpath).
 :::
 
 ### Listing all public codemods
