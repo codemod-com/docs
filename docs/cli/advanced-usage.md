@@ -12,26 +12,26 @@ To view a list of the commands and options available using the Intuita CLI, run 
 
 ```
 Commands:
-  intuita               runs a codemod or recipe                       [default]
-  intuita list          lists all the codemods & recipes in the public registry
-  intuita syncRegistry  syncs all the codemods from the registry
-  intuita learn         exports the current `git diff` in a file to before/after panels in codemod studio
+  intuita               Runs a codemod or recipe                       [default]
+  intuita list          Lists all the codemods & recipes in the public registry
+  intuita syncRegistry  Syncs all the codemods from the registry
+  intuita learn         Exports the current `git diff` in a file to before/after panels in codemod studio
+  intuita help          Show help
 
 Options:
-  --help                 Show help                                   [boolean]
-  --version              Show version number                         [boolean]
-  --include              Glob pattern(s) for files to include        [array] [default: ["**/*.*{ts,tsx,js,jsx,mjs,cjs,mdx}"]]
-  --exclude              Glob pattern(s) for files to exclude        [array] [default: ["**/node_modules/**/*.*"]]
-  --targetPath           Input directory path                        [string] [default: "/Users/mohabsameh"]
-  --sourcePath           Source path of the local codemod to run     [string]
-  --codemodEngine        The engine to use with the local codemod: "jscodeshift", "ts-morph", "repomod-engine" [string]
-  --fileLimit            File limit for processing                   [number] [default: 1000]
-  --usePrettier          Format output with Prettier                 [boolean] [default: false]
-  --useCache             Use cache for HTTP(S) requests              [boolean] [default: false]
-  --useJson              Use JSON responses in the console           [boolean] [default: false]
-  --threadCount          Number of worker threads                    [number] [default: 4]
-  --dryRun               Perform a dry run                           [boolean] [default: false]
-  --outputDirectoryPath  Output directory path for dry-run only      [string]
+  --version              Show version number                              [boolean]
+  --include              Specify glob pattern(s) for files to include     [array] [default: ["**/*.*{ts,tsx,js,jsx,mjs,cjs,mdx}"]]
+  --exclude              Specify glob pattern(s) for files to exclude     [array] [default: ["**/node_modules/**/*.*"]]
+  --targetPath           Specify a target directory path                  [string] [default: "/Users/mohabsameh"]
+  --sourcePath           Specify the path of a local codemod to run       [string]
+  --codemodEngine        Specify the engine to use while running a local codemod ["jscodeshift", "ts-morph", "repomod-engine"]
+  --fileLimit            Specify a max file limit while running codemods  [number] [default: 1000]
+  --usePrettier          Format output with Prettier                      [boolean] [default: false]
+  --useCache             Use cached codemod instead of redownloading      [boolean] [default: false]
+  --useJson              Use JSON responses in the console                [boolean] [default: false]
+  --threadCount          Set the number of threads while running codemods [number] [default: 4]
+  --dryRun               Enable dry-run mode while running codemods       [boolean] [default: false]
+  --outputDirectoryPath  Specify the dry-run output directory path        [string]
   ```
 
 ## Commands
