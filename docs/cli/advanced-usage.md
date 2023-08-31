@@ -56,7 +56,7 @@ The `list` command can be used to list all codemods available in the [Codemod Re
 intuita list
 ```
 
-### Getting codemod metadata
+### Syncing registry
 
 The `syncRegistry` command can be used to sync local codemods with the public [Codemod Registry](https://github.com/intuita-inc/codemod-registry). This command uses the following format:
 
