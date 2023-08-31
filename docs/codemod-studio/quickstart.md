@@ -30,8 +30,8 @@ With close integration with Intuita’s platform, Codemod Studio allows you to e
 ## Quick Look
 
 <VideoSwitcher 
-lightImageSrc="/img/docs/codemod-studio/quickstart/codemod-studio-quick-look.mp4"
-darkImageSrc="/img/docs/codemod-studio/quickstart/codemod-studio-quick-look.mp4"/>
+lightImageSrc="/img/docs/codemod-studio/quickstart/codemod-studio-quickstart.mp4"
+darkImageSrc="/img/docs/codemod-studio/quickstart/codemod-studio-quickstart.mp4"/>
 
 ## Codemod Studio vs. the Platform
 
