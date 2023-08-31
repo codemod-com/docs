@@ -79,7 +79,7 @@ Please note that this is a highly experimental beta feature and may produce inac
 :::
 
 :::tip
-To detect changes only in a specific path or file, you can use the [`--targetPath` option](#targetpath).
+To detect changes only in a specific path or file, you can use the [`--targetPath` option](#--targetpath).
 :::
 
 ---
@@ -133,7 +133,7 @@ intuita [codemod name] --targetPath [path]
 The `--sourcePath` option can be used to specify the path to a local codemod you want to run using Intuita.
 
 :::tip
-Running local codemods requires specifying the codemod engine your codemod uses. You can do this by using the `--codemodEngine` option.
+Running local codemods requires specifying the codemod engine your codemod uses. You can do this by using the [`--codemodEngine` option](#--codemodengine).
 :::
 
 This option uses the following format:
@@ -141,6 +141,16 @@ This option uses the following format:
 ```bash
 intuita --sourcePath [path] --codemodEngine [codemod engine]
 ```
+
+### `--codemodEngine`
+
+The `--codemodEngine` option can be used to specify the codemod engine that will be used while running the codemod.
+
+The `--codemodEngine` option now supports three engines: `jscodeshift`, `ts-morph`, and `repomod-engine`.
+
+:::tip
+This option is used when running a local codemod using the `--sourcePath` optoin.
+:::
 
 ### `--fileLimit`
 
