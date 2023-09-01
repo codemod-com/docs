@@ -7,6 +7,7 @@ tags: [codemods, tutorial, beginner]
 ---
 
 <head>
+  <meta name='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/mohab/int-1592-fix-blog-og-images/static/img/blog/intuita-blog-opengraph.png'/>
   <meta property='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/mohab/int-1592-fix-blog-og-images/static/img/blog/intuita-blog-opengraph.png'/>
   
   <meta name='twitter:card' content='summary_large_image'/>
