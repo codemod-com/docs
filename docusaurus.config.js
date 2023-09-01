@@ -50,9 +50,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       metadata: [
-        {name: 'og:image', content: 'https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.jpg'},
+        {name: 'og:image', content: 'https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'},
         {name: 'twitter:card', content: 'summary_large_image'},
-        {name: 'twitter:image', content: 'https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.jpg'},
+        {name: 'twitter:image', content: 'https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'},
       ],
       navbar: {
         title: 'Intuita',
