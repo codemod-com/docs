@@ -8,6 +8,10 @@ toc_min_heading_level: 2
 toc_max_heading_level: 3
 ---
 
+<head>
+  <meta property='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/mohab/int-1592-fix-blog-og-images/static/img/blog/intuita-blog-opengraph.png'/>
+</head>
+
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
