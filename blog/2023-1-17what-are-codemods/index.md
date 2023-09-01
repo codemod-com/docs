@@ -5,6 +5,10 @@ authors: [mohab]
 tags: [codemods, tutorial, beginner]
 ---
 
+<head>
+  <meta property='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/mohab/int-1592-fix-blog-og-images/static/img/blog/intuita-blog-opengraph.png'/>
+</head>
+
 Imagine you're upgrading a dependency for a project; however, this upgrade needs unfathomable modifications and refactoring?
 
 In this article we go over:
