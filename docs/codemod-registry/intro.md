@@ -3,6 +3,16 @@ title: "Introduction"
 hide_title: true
 ---
 
+<head>
+  <meta property='og:title' content='Quickstart | Codemod Registry'/>
+  <meta property='og:description' content='The new way to build, share & run codemods at any scale.'/>
+  <meta name='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'/>
+  <meta property='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'/>
+  
+  <meta name='twitter:card' content='summary_large_image'/>
+  <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'/>
+</head>
+
 # Introduction
 
 [Codemod Registry](https://github.com/intuita-inc/codemod-registry) is an open-source, single-stop repository for codemods and code automation recipes that are built on top of tried-and-true engines such as Meta's jscodeshift, ts-morph, and Uber's piranha.
