@@ -49,6 +49,14 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        {property: 'og:title', content: 'Intuita Docs'},
+        {property: 'og:image', content: 'https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'},
+        {property: 'og:description', content: 'The new way to build, share & run codemods at any scale.'},
+        {property: 'og:url', content: 'The new way to build, share & run codemods at any scale.'},
+        {name: 'twitter:card', content: 'summary_large_image'},
+        {name: 'twitter:image', content: 'https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'},
+      ],
       navbar: {
         title: 'Intuita',
         logo: {
