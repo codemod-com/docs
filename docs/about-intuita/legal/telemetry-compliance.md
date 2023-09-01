@@ -2,6 +2,15 @@
 sidebar_position: 3
 ---
 
+<head>
+  <meta property='og:title' content='Telemetry Compliance | Intuita'/>
+  <meta property='og:description' content='The new way to build, share & run codemods at any scale.'/>
+  <meta name='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'/>
+  <meta property='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'/>
+  
+  <meta name='twitter:card' content='summary_large_image'/>
+  <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'/>
+</head>
 
 # Telemetry Compliance
 
