@@ -3,6 +3,16 @@ sidebar_position: 1
 title: Quickstart
 ---
 
+<head>
+  <meta property='og:title' content='Quickstart | Codemod Studio'/>
+  <meta property='og:description' content='The new way to build, share & run codemods at any scale.'/>
+  <meta name='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'/>
+  <meta property='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'/>
+  
+  <meta name='twitter:card' content='summary_large_image'/>
+  <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'/>
+</head>
+
 import ThemedImage from "@theme/ThemedImage";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import Tabs from '@theme/Tabs';

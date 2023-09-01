@@ -2,6 +2,16 @@
 title: Importing Codemods
 ---
 
+<head>
+  <meta property='og:title' content='Importing Codemods | Codemod Registry'/>
+  <meta property='og:description' content='The new way to build, share & run codemods at any scale.'/>
+  <meta name='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'/>
+  <meta property='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'/>
+  
+  <meta name='twitter:card' content='summary_large_image'/>
+  <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'/>
+</head>
+
 import ThemedImage from "@theme/ThemedImage";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import Tabs from '@theme/Tabs';
@@ -20,8 +30,10 @@ Contributing to the public registry allows your codemods to be automatically int
 
 To ensure quality and usefulness of codemods and code automation recipes, Intuita provides guidelines and sets some basic governance rules. We'll also be building features to empower the community to uprank the highest quality codemods and recipes. Here is the process to add your codemods to the registry.
 
-1. [Understand the registry's structure.](#understanding-the-registrys-structure)
-2. [Open a PR with your codemod.](#opening-a-pr-with-your-codemod)
+- [Adding existing/new codemods to the registry](#adding-existingnew-codemods-to-the-registry)
+  - [Importing codemods into the public registry](#importing-codemods-into-the-public-registry)
+    - [Understanding the registry's structure](#understanding-the-registrys-structure)
+    - [Opening a PR with your codemod](#opening-a-pr-with-your-codemod)
 
 
 ### Understanding the registry's structure
