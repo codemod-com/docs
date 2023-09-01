@@ -50,8 +50,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       metadata: [
-        {name: 'og:image', content: 'https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'},?
-        {prefix:'og: http://ogp.me/ns#', property: 'og:image', content: 'https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'},
+        {property: 'og:title', content: 'Intuita Docs'},
+        {property: 'og:image', content: 'https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'},
+        {property: 'og:description', content: 'The new way to build, share & run codemods at any scale.'},
+        {property: 'og:url', content: 'The new way to build, share & run codemods at any scale.'},
         {name: 'twitter:card', content: 'summary_large_image'},
         {name: 'twitter:image', content: 'https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'},
       ],
