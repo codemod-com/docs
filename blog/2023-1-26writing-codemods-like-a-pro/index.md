@@ -1,6 +1,7 @@
 ---
 slug: writing-codemods-like-a-pro
 title: Writing Codemods Like A Pro
+description: Learn more about building codemods the way pros do it.
 authors: [mohab]
 tags: [codemods, tutorial, advanced]
 # Display h2 to h5 headings

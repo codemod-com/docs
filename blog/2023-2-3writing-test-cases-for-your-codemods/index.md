@@ -1,6 +1,7 @@
 ---
 slug: writing-test-cases-for-codemods
 title: Writing Test Cases for Your Codemods
+description: Learn about writing test cases for your codemods.
 authors: [mohab]
 tags: [codemods, tutorial, advanced]
 # Display h2 to h5 headings

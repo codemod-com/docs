@@ -1,6 +1,7 @@
 ---
 slug: what-are-codemods
 title: What Are Codemods, Deciphered
+description: Learn more about what are codemods, how they work, and what problems they can solve.
 authors: [mohab]
 tags: [codemods, tutorial, beginner]
 ---
