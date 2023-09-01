@@ -1,5 +1,6 @@
 ---
 title: Importing Codemods
+description: Learn how to import codemods into Intuita's Codemod Registry.
 ---
 
 <head>

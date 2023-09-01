@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 title: Quickstart
+description: Get started with making codemods using Intuita's Codemod Studio.
 ---
 
 <head>

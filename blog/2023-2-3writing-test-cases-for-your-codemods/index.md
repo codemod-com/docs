@@ -1,6 +1,7 @@
 ---
 slug: writing-test-cases-for-codemods
 title: Writing Test Cases for Your Codemods
+description: Learn about writing test cases for your codemods.
 authors: [mohab]
 tags: [codemods, tutorial, advanced]
 # Display h2 to h5 headings
@@ -9,10 +10,11 @@ toc_max_heading_level: 3
 ---
 
 <head>
-  <meta property='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/mohab/int-1592-fix-blog-og-images/static/img/blog/intuita-blog-opengraph.png'/>
+  <meta name='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/blog/intuita-blog-opengraph.png'/>
+  <meta property='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/blog/intuita-blog-opengraph.png'/>
   
   <meta name='twitter:card' content='summary_large_image'/>
-  <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/mohab/int-1592-fix-blog-og-images/static/img/blog/intuita-blog-opengraph.png'/>
+  <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/blog/intuita-blog-opengraph.png'/>
 </head>
 
 import Tabs from '@theme/Tabs';
