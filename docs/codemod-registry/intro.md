@@ -1,6 +1,7 @@
 ---
 title: "Introduction"
 hide_title: true
+description: Get started with using Intuita's Codemod Registry.
 ---
 
 <head>

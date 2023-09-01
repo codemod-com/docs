@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 title: Advanced Usage
+description: Learn more about running codemods with Intuita's VS Code extension.
 ---
 
 import ThemedImage from "@theme/ThemedImage";

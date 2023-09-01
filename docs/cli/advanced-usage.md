@@ -1,5 +1,6 @@
 ---
 title: Advanced Usage
+description: Learn more about using the Intuita command-line interface.
 ---
 
 <head>

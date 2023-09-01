@@ -1,5 +1,6 @@
 ---
 title: Quickstart
+description: Get started with using the Intuita command-line interface.
 ---
 
 import ThemedImage from "@theme/ThemedImage";

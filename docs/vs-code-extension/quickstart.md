@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 title: Quickstart
+description: Get started with using Intuita's VS Code extension.
 ---
 
 import ThemedImage from "@theme/ThemedImage";
