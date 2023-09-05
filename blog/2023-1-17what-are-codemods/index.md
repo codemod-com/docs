@@ -14,8 +14,6 @@ tags: [codemods, tutorial, beginner]
   <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/blog/intuita-blog-opengraph.png'/>
 </head>
 
-Imagine you're upgrading a dependency for a project; however, this upgrade needs unfathomable modifications and refactoring?
-
 In this article we go over:
 - How codebase migrations can be problematic?
 - What are codemods and how do they solve this issue?
