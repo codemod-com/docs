@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+description: Get started with contributing to Intuita's community of codemod experts.
 ---
 
 # Our Community

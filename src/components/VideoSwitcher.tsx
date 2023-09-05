@@ -14,6 +14,7 @@ const ImageSwitcher = ({ lightImageSrc, darkImageSrc }: Props) => {
     <>
       <ReactPlayer
         playing
+        controls
         muted={true}
         loop={true}
         width="100%"

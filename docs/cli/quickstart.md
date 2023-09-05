@@ -1,5 +1,6 @@
 ---
 title: Quickstart
+description: Get started with using the Intuita command-line interface.
 ---
 
 import ThemedImage from "@theme/ThemedImage";
@@ -8,6 +9,16 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import ReactPlayer from 'react-player';
 import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
+
+<head>
+  <meta property='og:title' content='Quickstart | Intuita CLI'/>
+  <meta property='og:description' content='The new way to build, share & run codemods at any scale.'/>
+  <meta name='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'/>
+  <meta property='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'/>
+  
+  <meta name='twitter:card' content='summary_large_image'/>
+  <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'/>
+</head>
 
 # Quickstart →
 
@@ -18,18 +29,24 @@ For a better developer experience with dry-running codemods, reviewing & tweakin
 ---
 
 ## Install CLI
-```
+
+```bash
 pnpm add --global @intuita-inc/intuita
 ```
+
 ## List Available Codemods
+
+```bash
+intuita list
 ```
-intuita listNames
-```
+
 ## Run a Codemod or Recipe
-```
+
+```bash
 intuita next/13/app-router-recipe   
 ```
-"next/13/app-router-recipe" is a sample recipe. Replace it with any codemod or recipe name from the registry.
+
+> `next/13/app-router-recipe` is a sample recipe. Replace it with any codemod or recipe name from the registry.
 
 <VideoSwitcher 
 lightImageSrc="/img/docs/cli/quickstart/intuita-cli-light.mp4"

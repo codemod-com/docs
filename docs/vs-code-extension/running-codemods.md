@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 title: Advanced Usage
+description: Learn more about running codemods with Intuita's VS Code extension.
 ---
 
 import ThemedImage from "@theme/ThemedImage";
@@ -9,6 +10,15 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
 
+<head>
+  <meta property='og:title' content='Advanced Usage | Intuita VS Code Extension'/>
+  <meta property='og:description' content='The new way to build, share & run codemods at any scale.'/>
+  <meta name='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'/>
+  <meta property='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'/>
+  
+  <meta name='twitter:card' content='summary_large_image'/>
+  <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'/>
+</head>
 
 # Advanced Usage
 
@@ -30,10 +40,14 @@ You can also join and collaborate with our community of codemod experts on [Slac
 
 On this page, you will learn:
 
-- [Dry-running Codemods](#dry-running-codemods)
-- [Changing a Codemod's Path](#change-codemod-path-optional)
-- [Reviewing and Applying Changes](#reviewing-and-applying-changes)
-- [More Helpful Features](#more-helpful-features)
+- [Advanced Usage](#advanced-usage)
+  - [Dry-running Codemods](#dry-running-codemods)
+  - [Change Codemod Path (Optional)](#change-codemod-path-optional)
+  - [Reviewing and Applying Changes](#reviewing-and-applying-changes)
+  - [More Helpful Features](#more-helpful-features)
+    - [Change Explorer](#change-explorer)
+    - [Diff View Switch](#diff-view-switch)
+    - [Reporting Issues](#reporting-issues)
 
 
 ## Dry-running Codemods
