@@ -133,13 +133,13 @@ You can use [Codemod Studio](https://codemod.studio/) to create a separate set o
 
 Follow these few steps:
 
-### One-time prerequisite
+#### One-time prerequisite
 
 1. Install **Intuita CLI**: `pnpm add --global @intuita-inc/intuita`
 2. Install the **Intuita [extension](https://marketplace.visualstudio.com/items?itemName=Intuita.intuita-vscode-extension)**. While it is not required for `intuita learn`, it provides the best developer experience once the codemod is ready.
 3. Sign in to **Codemod Studio**. Although you can use Codemod Studio anonymously without signing in, you must be logged in to use its AI assistant, ModGPT.
 
-### Cleanup codemods or day-to-day large-scale changes
+#### Cleanup codemods or day-to-day large-scale changes
 
 1. **Create a diff.**
 2. Run `intuita learn`.
