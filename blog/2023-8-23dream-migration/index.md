@@ -138,3 +138,7 @@ Follow these few steps:
     1. It's solid for simple codemods (covers most of the daily usages)
     2. If ModGPT did not create the desired codemod, use its integrated test fixtures, live codemod runner, expert-curated and context-aware prompts, and live debugger to understand and improve the codemod iteratively.
 4. Once the codemod is ready, you can bring it back to your IDE with one click and automate the cleanup process.
+
+<VideoSwitcher 
+lightImageSrc="/img/docs/cli/quickstart/intuita-learn-workflow.mp4"
+darkImageSrc="/img/docs/cli/quickstart/intuita-learn-workflow.mp4"/>
