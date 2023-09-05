@@ -24,7 +24,7 @@ In this post, I'm diving into the growing challenges of code migrations in the G
 
 ---
 
-Code migration projects are crucial for making codebases secure and performant and keeping users and developers happy. However, they are often tedious and error-prone, especially for larger codebases. **As generative AI speeds up code creation and more companies end up with massive codebases, migration campaigns can go from difficult to downright impossible without proper infrastructure**. For more on evolving large codebases, read this informative [article by Google](https://abseil.io/resources/swe-book/html/ch22.html).
+Code migration projects are crucial for making codebases secure and performant and keeping users and developers happy. However, they are often tedious and error-prone, especially for larger codebases. As generative AI speeds up code creation and more companies end up with massive codebases, migration campaigns can go from difficult to downright impossible without proper infrastructure. For more on evolving large codebases, read this informative [article by Google](https://abseil.io/resources/swe-book/html/ch22.html).
 
 Fortunately, there is a solution: **codemods!** These code automation bots automate a vast amount of coding for large migrations. Tech giants such as Meta, Google, and Uber, who have the luxury of hiring top programming language experts, have long automated their migration campaigns with the help of codemods and the infrastructure around them.
 
@@ -38,9 +38,9 @@ There will be more challenges and less automation coverage for larger projects w
 
 Enough context; let's get into the demo!
 
-## From Pages to App: cms-wordpress Migration with Intuita
+## From Pages to App: Migration with Intuita
 
-Here is a 30-second demo of running the Next.js app router recipe through the Intuita VS Code extension.
+Here is a 30-second demo of running the Next.js app router recipe on [cms-wordpress](https://github.com/vercel/next.js/tree/canary/examples/cms-wordpress) through the Intuita VS Code extension.
 
 <VideoSwitcher 
 lightImageSrc="/img/blog/dream-migration/cms-wordpress-dream-migration.mp4"
@@ -52,7 +52,7 @@ With Intuita codemods, you will…
 - **Save brainpower:** While we are obsessed with the intricacies of Next.js, we would prefer if you focused your brainpower on creating new, delightful experiences for end users. Our generically applicable codemods will automate many demanding tasks for you. Some of them include generating **metadata** and **generateMetadata** functions considering the imports & dependencies; moving dependencies from **pages** to the **app** directory and generating new API functions; migrating **useRouter** hook usages to new hooks; removing **next/head** usages and related component code; and creating boilerplate functions to replace **getStaticPaths**, **getServerSideProps**, and **getStaticProps**. Without the codemods, you would have to handle these tasks manually, referring to documentation and considering API differences, making the process demanding and error-prone.
 - **Save time**: The effort required for migration depends on the size and complexity of the project (we can assist with estimating this effort). But as a reference, using our migration codemods for even a tiny project like cms-wordpress with only two pages has the potential to save approximately one day: 4 hours of reading upgrade documentation and 4 hours of manually analyzing, detecting, and properly transforming the code to complete the migration.
 
-**Follow the steps below to automate your Next.js App Router migration with the help of Intuita.**
+**Follow the steps below to automate your Next.js App Router migration with Intuita.**
 
 These steps can also reproduce our results on the cms-wordpress sample project demonstrated above.
 
