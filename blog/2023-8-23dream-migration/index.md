@@ -1,6 +1,6 @@
 ---
 slug: dream-migration
-title: The "Dream Migration"
+title: "The Dream Migration"
 authors: [alex]
 tags: [migration, case study]
 toc_min_heading_level: 2
@@ -18,21 +18,22 @@ import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
   <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/blog/intuita-blog-opengraph.png'/>
 </head>
 
-In this blog post, I will demonstrate the usage of Next.js codemods on a simple project, cms-wordpress, which fully automates the Pages to App migration via Intuita's code automation platform. Additionally, I outline the shortcomings of codemods and our plan for addressing them as we work towards making dream migration a reality for the developer community.
+In this post, I will demonstrate the usage of Next.js codemods on a simple project, cms-wordpress, which fully automates the Pages to App migration via Intuita's code automation platform. 
+I also outline the shortcomings of codemods and our plan for addressing them as we work towards making dream migration a reality for the developer community.
 
 <!--truncate-->
 
 ---
 
-Code migration projects are crucial for making codebases secure and performant and keeping users and developers happy. However, they are often tedious and error-prone, especially for larger codebases. As generative AI speeds up code creation and more companies end up with massive codebases, migration campaigns can go from difficult to downright impossible without proper infrastructure. Yep,  [hear that again from Googlers](https://abseil.io/resources/swe-book/html/ch22.html).
+Code migration projects are crucial for making codebases secure and performant and keeping users and developers happy. However, they are often tedious and error-prone, especially for larger codebases. **As generative AI speeds up code creation and more companies end up with massive codebases, migration campaigns can go from difficult to downright impossible without proper infrastructure**. For more on evolving large codebases, read this informative [article by Google](https://abseil.io/resources/swe-book/html/ch22.html).
 
-Fortunately, there is a solution: codemods! These code automation bots automate a vast amount of coding for large migrations. Tech giants such as Meta, Google, and Uber, who have the luxury of hiring top programming language experts, have long automated their migration campaigns with the help of codemods (and the infrastructure around them).
+Fortunately, there is a solution: **codemods!** These code automation bots automate a vast amount of coding for large migrations. Tech giants such as Meta, Google, and Uber, who have the luxury of hiring top programming language experts, have long automated their migration campaigns with the help of codemods and the infrastructure around them.
 
 At Intuita, by combining the power of AI and community, we are bringing a better version of those tools to the rest of the world. We are here to create a delightful developer experience for migrations, which Guillermo Rauch, Vercel's CEO, describes as the "dream migration."
 
-For a start, we teamed up with Vercel to build a comprehensive set of codemods for Next.js, the cutting-edge web framework.
+For the start, we teamed up with Vercel to build a comprehensive set of codemods for Next.js, the cutting-edge web framework.
 
-These open-source codemods can automate the bulk of the migration for Next.js developers. We have increased automation coverage from 79% to 88%, then to 92%, and finally to 100% for simple projects that do not have much business logic. We tested our codemods on several open-source projects, including the rauchg blog, Cal.com, and others. To showcase the capability of codemods, we chose [cms-wordpress](https://github.com/vercel/next.js/tree/canary/examples/cms-wordpress), one of the popular example projects in the Next.js repository.
+These open-source codemods can automate the bulk of the migration for Next.js developers. We have increased automation coverage from 79% to 88%, then to 92%, and finally to 100% for simple projects that do not have much business logic. We tested our codemods on several open-source projects, including the rauchg blog, Cal.com, and others. To showcase the capability of codemods, we chose [cms-wordpress](https://github.com/vercel/next.js/tree/canary/examples/cms-wordpress), one of the most popular example projects in the Next.js repository.
 
 There will be more challenges and less automation coverage for larger projects with custom business logic. We will discuss these challenges below.
 
@@ -51,11 +52,11 @@ With Intuita codemods, you will…
 - **Save brainpower:** While we are obsessed with the intricacies of Next.js, we would prefer if you focused your brainpower on creating new, delightful experiences for end users. Our generically applicable codemods will automate many demanding tasks for you. Some of them include generating **metadata** and **generateMetadata** functions considering the imports & dependencies; moving dependencies from **pages** to the **app** directory and generating new API functions; migrating **useRouter** hook usages to new hooks; removing **next/head** usages and related component code; and creating boilerplate functions to replace **getStaticPaths**, **getServerSideProps**, and **getStaticProps**. Without the codemods, you would have to handle these tasks manually, referring to documentation and considering API differences, making the process demanding and error-prone.
 - **Save time**: The effort required for migration depends on the size and complexity of the project (we can assist with estimating this effort). But as a reference, using our migration codemods for even a tiny project like cms-wordpress with only two pages has the potential to save approximately one day: 4 hours of reading upgrade documentation and 4 hours of manually analyzing, detecting, and properly transforming the code to complete the migration.
 
-**Follow the steps below to install and use Intuita on your own Next.js (or any other supported frameworks or libraries) projects.**
+**Follow the steps below to automate your Next.js App Router migration with the help of Intuita.**
 
 These steps can also reproduce our results on the cms-wordpress sample project demonstrated above.
 
-### Step 1: Set up Intuita.
+### 1: Set up Intuita.
 
 Install Intuita’s CLI tool by running the following command:
 
@@ -67,7 +68,7 @@ For an even better user experience, install the Intuita VS Code extension from t
 
 After installing Intuita, navigate to your Next.js project folder and optionally create a branch dedicated to the migration. For our example, we used this [commit](https://github.com/intuita-inc/next.js/commit/56fcd7ac33e700236e6a37a8dac5ed9c378e0823) for the cms-wordpress.
 
-### Step 2: Execute the codemods.
+### 2: Execute the codemods.
 
 We have simplified the migration process by providing a predefined migration "recipe" that can be executed with a single command.
 Running the recipe will execute a set of codemods sequentially, eliminating the need to find and run the required codemods in the correct order. Learn how to easily run a codemod [using the VS Code extension here](https://docs.intuita.io/docs/vs-code-extension/running-codemods#dry-running-codemods), or [using the CLI here](https://docs.intuita.io/docs/cli/quickstart#run-a-codemod-or-recipe). For a Next.js migration, you can use the following command:
@@ -92,7 +93,7 @@ Now, it's time to commit the changes to your repository.
 
 If you run the recipe on cms-wordpress, you will get [a commit like this](https://github.com/intuita-inc/next.js/pull/13/commits/09aa2f4f9020fd80ce438d2fd7630dbc52e19667), and if you run the individual codemods one by one, you will end up with [a PR like this](https://github.com/intuita-inc/next.js/pull/12/commits).
 
-### Step 3: Make final tweaks.
+### 3: Final tweaks
 
 While Intuita's codemods are very powerful, some project-specific cases might require human intervention.
 
@@ -102,13 +103,13 @@ But there is a [minor tweak](https://github.com/intuita-inc/next.js/pull/13/com
 
 We will propose a solution for such use cases in the last section.
 
-### Step 4: Test, build & ship.
+### 4: Test, build & ship.
 
 After completing the code changes for the migration, it is essential to perform thorough testing of your application to ensure that everything is working as expected before pushing the changes. Having comprehensive test cases in CI/CD also provides confidence that nothing is broken.
 
 > 💡 Fun fact**:** For some of our customers, we ran custom codemods to add types to their codebase, making it more reliable before running the migration codemods. So, If you do not feel confident about automated large-scale changes, you might want first to use custom codemods to bring more conformity and reliability to your codebase. To build custom codemods, you can use [Codemod Studio](https://codemod.studio/) or [contact us](https://join.slack.com/t/intuita-inc/shared_invite/zt-1bjj5exxi-95yPfWi71HcO2p_sS5L2wA) if you need help.
 
-## Codemod Issues: 1-click Report.
+## Codemod Issues, 1-click Report.
 
 Generic codemods can make mistakes, which we call FPs (false positives), or they may miss making all the required transformations, which we call FNs (false negatives).
 
@@ -124,7 +125,7 @@ We attempt to address these shortcomings through the following:
 
 As our AI and automation platform mature, the need for the above will decrease. However, since there will always be some glitches, we need to provide the best experience in mitigating the shortcomings of codemods.
 
-## Cleanup Codemods After Codemods.
+## Custom Cleanup Codemods
 
 Codemods can be used for a variety of code evolution tasks. Next.js codemods fall under the category of generically applicable codemods. After running these codemods, it is common to have many instances of code blocks that you may want to abstract away to achieve a cleaner codebase.
 
