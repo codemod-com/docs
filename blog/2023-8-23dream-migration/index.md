@@ -18,8 +18,7 @@ import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
   <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/blog/intuita-blog-opengraph.png'/>
 </head>
 
-In this post, I will demonstrate the usage of Next.js codemods on a simple project, cms-wordpress, which fully automates the Pages to App migration via Intuita's code automation platform. 
-I also outline the shortcomings of codemods and our plan for addressing them as we work towards making dream migration a reality for the developer community.
+In this post, I'm diving into the growing challenges of code migrations in the Gen AI era. I'll also walk you through how to use Intuita to fully automate the App Router migration for a simple project called 'cms-wordpress'. Finally, I'll touch on the limitations of codemods and share our game plan to tackle those issues. Our goal? Making dream migrations a reality for all developers out there!
 
 <!--truncate-->
 
