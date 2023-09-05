@@ -47,6 +47,7 @@ Here is a 30-second demo of running the Next.js app router recipe through the In
 lightImageSrc="/img/blog/dream-migration/cms-wordpress-dream-migration.mp4"
 darkImageSrc="/img/blog/dream-migration/cms-wordpress-dream-migration.mp4"/>
 
+
 With Intuita codemods, you will…
 
 - **Save brainpower:** While we are obsessed with the intricacies of Next.js, we would prefer if you focused your brainpower on creating new, delightful experiences for end users. Our generically applicable codemods will automate many demanding tasks for you. Some of them include generating **metadata** and **generateMetadata** functions considering the imports & dependencies; moving dependencies from **pages** to the **app** directory and generating new API functions; migrating **useRouter** hook usages to new hooks; removing **next/head** usages and related component code; and creating boilerplate functions to replace **getStaticPaths**, **getServerSideProps**, and **getStaticProps**. Without the codemods, you would have to handle these tasks manually, referring to documentation and considering API differences, making the process demanding and error-prone.
@@ -68,7 +69,7 @@ For an even better user experience, install the Intuita VS Code extension from t
 
 After installing Intuita, navigate to your Next.js project folder and optionally create a branch dedicated to the migration. For our example, we used this [commit](https://github.com/intuita-inc/next.js/commit/56fcd7ac33e700236e6a37a8dac5ed9c378e0823) for the cms-wordpress.
 
-### 2: Execute the codemods.
+### 2: Run codemods.
 
 We have simplified the migration process by providing a predefined migration "recipe" that can be executed with a single command.
 Running the recipe will execute a set of codemods sequentially, eliminating the need to find and run the required codemods in the correct order. Learn how to easily run a codemod [using the VS Code extension here](https://docs.intuita.io/docs/vs-code-extension/running-codemods#dry-running-codemods), or [using the CLI here](https://docs.intuita.io/docs/cli/quickstart#run-a-codemod-or-recipe). For a Next.js migration, you can use the following command:
