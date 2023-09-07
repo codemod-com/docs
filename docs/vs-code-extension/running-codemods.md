@@ -20,22 +20,19 @@ import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
   <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'/>
 </head>
 
-# Advanced Usage
-
 The Intuita VS Code Extension allows you to run codemods over your projects to successfully migrate your project dependencies from one version to the next. This page will walk you through running these codemods as well as Intuita's useful features that make running codemods easier.
 
 ---
 
 On this page, you will learn:
 
-- [Advanced Usage](#advanced-usage)
-  - [Dry-running Codemods](#dry-running-codemods)
-  - [Change Codemod Path (Optional)](#change-codemod-path-optional)
-  - [Reviewing and Applying Changes](#reviewing-and-applying-changes)
-  - [More Helpful Features](#more-helpful-features)
-    - [Change Explorer](#change-explorer)
-    - [Diff View Switch](#diff-view-switch)
-    - [Reporting Issues](#reporting-issues)
+- [Dry-running Codemods](#dry-running-codemods)
+- [Change Codemod Path (Optional)](#change-codemod-path-optional)
+- [Reviewing and Applying Changes](#reviewing-and-applying-changes)
+- [More Helpful Features](#more-helpful-features)
+  - [Change Explorer](#change-explorer)
+  - [Diff View Switch](#diff-view-switch)
+  - [Reporting Issues](#reporting-issues)
 
 
 ## Dry-running Codemods

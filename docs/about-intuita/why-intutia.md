@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+title: Why Intuita?
 ---
 
 <head>
@@ -11,8 +12,6 @@ sidebar_position: 1
   <meta name='twitter:card' content='summary_large_image'/>
   <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'/>
 </head>
-
-# Why Intuita?
 
 ## Codemod Consumers 🧑🏾‍💻👩🏻‍💻
 
