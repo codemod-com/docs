@@ -19,11 +19,10 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
 
-# Adding existing/new codemods to the registry
 
-This page will walk you through importing your codemods into the Codemod Registry.
+Open-source framework/library builders! Follow this guide to add your codemods to the Codemod Registry. Once added, they will **automatically** integrate with Intuita's platform. This simplifies **codemod discovery** and **distribution**, and offers **a great developer experience for running codemods**. 
 
-Contributing to the public registry allows your codemods to be automatically integrated within Intuita's platform. This allows you to easily push your codemods to all developers who have the extension or cli installed.
+Thanks to features like **codemod deep links** and **codemod engines that are powered up by Intuita under the hood** via its IDE extensions and CLI, your users can go from migration docs to having their code automatically transformed with just one click!
 
 ---
 
