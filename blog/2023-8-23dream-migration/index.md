@@ -47,6 +47,8 @@ lightImageSrc="/img/blog/dream-migration/cms-wordpress-dream-migration.mp4"
 darkImageSrc="/img/blog/dream-migration/cms-wordpress-dream-migration.mp4"/>
 
 
+
+
 **Follow the steps below to automate your Next.js App Router migration with Intuita.**
 
 These steps can also reproduce our results on the cms-wordpress sample project demonstrated above.
