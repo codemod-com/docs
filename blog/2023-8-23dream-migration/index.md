@@ -47,11 +47,6 @@ lightImageSrc="/img/blog/dream-migration/cms-wordpress-dream-migration.mp4"
 darkImageSrc="/img/blog/dream-migration/cms-wordpress-dream-migration.mp4"/>
 
 
-With Intuita codemods, you will…
-
-- **Save brainpower:** While we are obsessed with the intricacies of Next.js, we would prefer if you focused your brainpower on creating new, delightful experiences for end users. Our generically applicable codemods will automate many demanding tasks for you. Some of them include generating **metadata** and **generateMetadata** functions considering the imports & dependencies; moving dependencies from **pages** to the **app** directory and generating new API functions; migrating **useRouter** hook usages to new hooks; removing **next/head** usages and related component code; and creating boilerplate functions to replace **getStaticPaths**, **getServerSideProps**, and **getStaticProps**. Without the codemods, you would have to handle these tasks manually, referring to documentation and considering API differences, making the process demanding and error-prone.
-- **Save time**: The effort required for migration depends on the size and complexity of the project (we can assist with estimating this effort). But as a reference, using our migration codemods for even a tiny project like cms-wordpress with only two pages has the potential to save approximately one day: 4 hours of reading upgrade documentation and 4 hours of manually analyzing, detecting, and properly transforming the code to complete the migration.
-
 **Follow the steps below to automate your Next.js App Router migration with Intuita.**
 
 These steps can also reproduce our results on the cms-wordpress sample project demonstrated above.
@@ -107,7 +102,24 @@ We will propose a solution for such use cases in the last section.
 
 After completing the code changes for the migration, it is essential to perform thorough testing of your application to ensure that everything is working as expected before pushing the changes. Having comprehensive test cases in CI/CD also provides confidence that nothing is broken.
 
-> 💡 Fun fact**:** For some of our customers, we ran custom codemods to add types to their codebase, making it more reliable before running the migration codemods. So, If you do not feel confident about automated large-scale changes, you might want first to use custom codemods to bring more conformity and reliability to your codebase. To build custom codemods, you can use [Codemod Studio](https://codemod.studio/) or [contact us](https://join.slack.com/t/intuita-inc/shared_invite/zt-1bjj5exxi-95yPfWi71HcO2p_sS5L2wA) if you need help.
+> 💡 Fun fact: For some of our customers, we ran custom codemods to add types to their codebase, making it more reliable before running the migration codemods. So, If you do not feel confident about automated large-scale changes, you might want first to use custom codemods to bring more conformity and reliability to your codebase. To build custom codemods, you can use [Codemod Studio](https://codemod.studio/) or [contact us](https://join.slack.com/t/intuita-inc/shared_invite/zt-1bjj5exxi-95yPfWi71HcO2p_sS5L2wA) if you need help.
+
+Alright! The migration for cms-wordpress is over, and with Intuita codemods, you...
+
+- **Saved brainpower**
+    - While we are obsessed with the intricacies of Next.js, we would prefer if you focused your brainpower on creating new, delightful experiences for end-users.
+    - Our generically applicable codemods will automate many demanding tasks for you.
+    - Some of them include:
+        - Generating **metadata** and **generateMetadata** functions, considering the imports and dependencies.
+        - Moving dependencies from **pages** to the **app** directory and generating new API functions.
+        - Migrating **useRouter** hook usages to new hooks.
+        - Removing **next/head** usages and related component code.
+        - Creating boilerplate functions to replace **getStaticPaths**, **getServerSideProps**, and **getStaticProps**.
+    - Without the codemods, you would have to handle these tasks manually, referring to documentation and considering API differences, making the process demanding and error-prone.
+- **Saved time**
+    - The effort required for migration depends on the size and complexity of the project (we can assist with estimating this effort).
+    - But as a reference, **using our migration codemods for even a tiny project like cms-wordpress with only two pages has the potential to save approximately one day**:
+        - 4 hours of reading upgrade documentation and 4 hours of manually analyzing, detecting, and properly transforming the code to complete the migration.
 
 ## Codemod Issues, 1-click Report.
 
