@@ -165,3 +165,6 @@ Follow these few steps:
 <VideoSwitcher 
 lightImageSrc="/img/docs/cli/quickstart/intuita-learn-workflow.mp4"
 darkImageSrc="/img/docs/cli/quickstart/intuita-learn-workflow.mp4"/>
+
+
+If you find this artcile useful or have some ideas or feedback you want to share, [drop me a line](https://join.slack.com/t/intuita-inc/shared_invite/zt-1bjj5exxi-95yPfWi71HcO2p_sS5L2wA).
