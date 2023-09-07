@@ -156,7 +156,7 @@ Follow these few steps:
 #### Cleanup codemods or day-to-day large-scale changes
 
 1. **Create a diff.**
-2. Run `intuita learn` or `npx -c 'intuita learn'` if you haven’t installed it.
+2. Run `intuita learn`.
 3. Watch as your **codemod is created automatically**.
     1. It's solid for simple codemods (covers most of the daily usages)
     2. If ModGPT did not create the desired codemod, use its integrated test fixtures, live codemod runner, expert-curated and context-aware prompts, and live debugger to understand and improve the codemod iteratively.
