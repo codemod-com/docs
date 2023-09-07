@@ -22,7 +22,7 @@ import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
 
 Intuita gives you multiple ways to discover, run & share supported codemods and code automation recipes. With the command-line interface (CLI) you can interact with the Intuita platform using a terminal or through an automated system. Intuita's CLI requires [Node.js v16+](https://nodejs.org/).
 
-For a better developer experience with dry-running codemods, reviewing & tweaking automated changes, reporting issues, and sharing codemods, we recommend using [Intuita's VS Code Extension](https://docs.intuita.io/docs/vs-code-extension/quickstart).
+For a better developer experience with dry-running codemods, reviewing & tweaking automated changes, reporting issues, and sharing codemods, we recommend using [Intuita's VS Code Extension](../vs-code-extension/quickstart).
 
 ---
 
