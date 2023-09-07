@@ -21,7 +21,6 @@ import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
   <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'/>
 </head>
 
-# Quickstart →
 
 Install [Intuita's VS Code extension](https://marketplace.visualstudio.com/items?itemName=Intuita.intuita-vscode-extension) & upgrade your projects with the help of codemods created by experts in the community, one framework at a time, starting with Next.js v13.4.
 
