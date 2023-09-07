@@ -29,7 +29,7 @@ For a better developer experience with dry-running codemods, reviewing & tweakin
 ## Install CLI
 
 ```bash
-pnpm i -g @intuita-inc/intuita
+npm i -g intuita
 ```
 
 ## List Available Codemods
