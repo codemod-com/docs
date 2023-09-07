@@ -20,9 +20,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
 
-# Codemod Studio
-
-Codemods are powerful but hard to build. [Codemod Studio](https://codemod.studio/) allows you to "instantly" create code automation bots with the help of AI, specialized helpers & debuggers, and a vibrant community of "codemod champions".
+[Codemod Studio](https://codemod.studio/) is an AI workbench for creating codemods. Codemods are powerful code automation bots that can automate many crucial yet tedious coding tasks, such as migrations, upgrades, large-scale changes, enforcing best practices, and bringing conformity to a codebase (learn more about codemods [here](https://docs.intuita.io/blog/what-are-codemods)). However, building them has been very hard and time-consuming. Until now. [Codemod Studio](https://codemod.studio/) allows you to "instantly" create code automation bots with the help of AI, specialized helpers, and debuggers, as well as a vibrant community of "codemod champions."
 
 <VideoSwitcher 
 lightImageSrc="/img/docs/codemod-studio/quickstart/codemod-studio-quickstart.mp4"
