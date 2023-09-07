@@ -58,7 +58,7 @@ These steps can also reproduce our results on the cms-wordpress sample project d
 Install Intuita’s CLI tool by running the following command:
 
 ```bash
-pnpm i -g @intuita-inc/intuita
+npm i -g intuita
 ```
 
 For an even better user experience, install the Intuita VS Code extension from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=Intuita.intuita-vscode-extension).
