@@ -20,8 +20,6 @@ import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
   <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'/>
 </head>
 
-# Quickstart →
-
 Intuita gives you multiple ways to discover, run & share supported codemods and code automation recipes. With the command-line interface (CLI) you can interact with the Intuita platform using a terminal or through an automated system. Intuita's CLI requires [Node.js v16+](https://nodejs.org/).
 
 For a better developer experience with dry-running codemods, reviewing & tweaking automated changes, reporting issues, and sharing codemods, we recommend using [Intuita's VS Code Extension](https://docs.intuita.io/docs/vs-code-extension/quickstart).
@@ -31,7 +29,7 @@ For a better developer experience with dry-running codemods, reviewing & tweakin
 ## Install CLI
 
 ```bash
-pnpm add --global @intuita-inc/intuita
+pnpm i -g @intuita-inc/intuita
 ```
 
 ## List Available Codemods
