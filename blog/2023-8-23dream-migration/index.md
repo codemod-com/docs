@@ -30,7 +30,7 @@ Fortunately, there is a solution: **codemods!** These code automation bots autom
 
 At Intuita, by combining the power of AI and community, we are bringing a better version of those tools to the rest of the world. We are here to create a delightful developer experience for migrations, which Guillermo Rauch, Vercel's CEO, describes as the "dream migration."
 
-For the start, we teamed up with Vercel to build a comprehensive set of codemods for Next.js, the React framework for the web, used by some of the world's largest companies.
+To start, we teamed up with Vercel to build a comprehensive set of codemods for Next.js, the React framework for the web, which is used by some of the world's largest companies.
 
 These open-source codemods can automate the bulk of the migration for Next.js developers. We have increased automation coverage from 79% to 88%, then to 92%, and finally to 100% for simple projects that do not have much business logic. We tested our codemods on several open-source projects, including the rauchg blog, Cal.com, and others. To showcase the capability of codemods, we chose [cms-wordpress](https://github.com/vercel/next.js/tree/canary/examples/cms-wordpress), one of the most popular example projects in the Next.js repository.
 
