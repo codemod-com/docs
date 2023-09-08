@@ -21,23 +21,25 @@ import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
   <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'/>
 </head>
 
-
 Install [Intuita's VS Code extension](https://marketplace.visualstudio.com/items?itemName=Intuita.intuita-vscode-extension) & upgrade your projects with the help of codemods created by experts in the community, one framework at a time, starting with Next.js v13.4.
 
 > 🎁 What frameworks should we support next? [Let us know →](https://feedback.intuita.io/codemod-requests)
-
 
 ## 1. Discover
 
 - Intuita is **a one-stop shop for discovering & sharing quality-governed codemods.** You don't need to install and run many codemod engines for each dependency. Simply search for your framework codemods and click run. With codemod deep links, you can reach & run your target codemod with just one click.
 
-![Discover Codemods](https://github.com/intuita-inc/intuita-docs/raw/main/static/img/vsce/vsce-discover.gif)
+<VideoSwitcher 
+lightImageSrc="/img/vsce/vsce-discover.mp4"
+darkImageSrc="/img/vsce/vsce-discover.mp4"/>
 
 ## 2. Run
 
 - **Safely dry-run the codemods**, preview the changes with a user-friendly experience, adjust the changes as necessary, and apply them to your code only when you feel confident.
 
-![Running Codemods](https://github.com/intuita-inc/intuita-docs/raw/main/static/img/vsce/vsce-run.gif)
+<VideoSwitcher 
+lightImageSrc="/img/vsce/vsce-run.mp4"
+darkImageSrc="/img/vsce//vsce-run.mp4"/>
 
 ## 3. Customize & Improve
 
@@ -65,5 +67,3 @@ If you run into an issue while running a codemod, please [let us know →](https
 ## Share Feedback 🎁
 
 - Please share your ideas, questions, and feature requests **[here](https://feedback.intuita.io/)**, or chat with us in [Slack](https://join.slack.com/t/intuita-inc/shared_invite/zt-1tvxm6ct0-mLZld_78yguDYOSM7DM7Cw).
-
-
