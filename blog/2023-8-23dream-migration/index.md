@@ -74,6 +74,9 @@ Running the recipe will execute a set of codemods sequentially, eliminating the 
 intuita next/13/app-router-recipe
 ```
 
+![hero-video](https://github.com/intuita-inc/intuita-docs/assets/78109534/2d179ce9-36c3-472f-9ca9-ca5a495133cb)
+
+
 Alternatively, you can use the VS Code [deep link for the migration recipe](https://shorturl.at/jJP69) and execute it with just one click.
 
 For larger projects, it is recommended to run the codemods individually.
@@ -89,6 +92,9 @@ After executing the recipe or codemods, you'll notice that most of the migration
 Now, it's time to commit the changes to your repository.
 
 If you run the recipe on cms-wordpress, you will get [a commit like this](https://github.com/intuita-inc/next.js/pull/13/commits/09aa2f4f9020fd80ce438d2fd7630dbc52e19667), and if you run the individual codemods one by one, you will end up with [a PR like this](https://github.com/intuita-inc/next.js/pull/12/commits).
+
+![from pages to app](https://github.com/intuita-inc/intuita-docs/assets/78109534/5ac4fcab-dfd2-46be-96b1-fb49fc6ee0cd)
+
 
 ### 3: Final tweaks
 
