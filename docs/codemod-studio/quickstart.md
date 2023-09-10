@@ -34,7 +34,7 @@ With the help of fine-tuned LLMs under-the-hood and codemod creation features su
 :::tip 
 Your codemod creation journey can also start right from your IDE/CLI and with just one command: `intuita learn`
 
-[More info here ->](../cli/advanced-usage#generate-codemod-from-file-diff).
+[More info here ->](../cli/advanced-usage#generate-codemod-from-file-diff)
 :::
 
 ## 2. Test
