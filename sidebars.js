@@ -42,7 +42,7 @@ const sidebars = {
         label: 'VS Code Extension',
         items: [
           'vs-code-extension/quickstart',
-          'vs-code-extension/running-codemods',
+          'vs-code-extension/advanced-usage',
         ],
     },
     {
