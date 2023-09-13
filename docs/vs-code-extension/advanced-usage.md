@@ -28,6 +28,7 @@ On this page, you will learn:
 
 - [Dry-running Codemods](#dry-running-codemods)
 - [Change Codemod Path (Optional)](#change-codemod-path-optional)
+- [Set Codemod Arguments](#set-codemod-arguments)
 - [Reviewing and Applying Changes](#reviewing-and-applying-changes)
 - [More Helpful Features](#more-helpful-features)
   - [Change Explorer](#change-explorer)
@@ -46,7 +47,6 @@ To dry-run a codemod:
 <VideoSwitcher 
 lightImageSrc="/img/docs/running-codemods/dry-run-light.mp4"
 darkImageSrc="/img/docs/running-codemods/dry-run-dark.mp4"/>
-
 
 ## Change Codemod Path (Optional)
 
@@ -69,6 +69,19 @@ To change a codemod's path:
 <VideoSwitcher 
 lightImageSrc="/img/docs/running-codemods/change-codemod-path-light.mp4"
 darkImageSrc="/img/docs/running-codemods/change-codemod-path-dark.mp4"/>
+
+## Set Codemod Arguments
+
+Some codemods may require custom arguments to be set before running. This feature allows you to specify custom arguments when needed.
+
+To set codemod arguments:
+
+1. Click on the `Edit Codemod Arguments` icon.
+2. Set the value of the available arguments.
+
+<VideoSwitcher 
+    lightImageSrc="/img/docs/running-codemods/set-codemod-arguments.mp4"
+    darkImageSrc="/img/docs/running-codemods/set-codemod-arguments.mp4"/>
 
 ## Reviewing and Applying Changes
 
