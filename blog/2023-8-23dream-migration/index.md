@@ -59,10 +59,12 @@ We partnered with Vercel to build the most comprehensive set of open-source code
 
 We partnered with Vercel to build the most comprehensive set of open-source codemods for Next.js, automating the bulk of the migration for the Pages router to App router for developers. Over the past few weeks, we have increased automation coverage from 79% to 88%, then to 92%, and finally to 100% for simple projects that do not have much business logic. We tested our codemods on one of the most popular examples for wordpress and are currently running them on Cal.com's large production-ready open-source codebase.
 
-|  | Personal Projects | Mid-size codebases | Large codebase |
+
+| Next.js Migration with Intuita | Personal Projects | Mid-size codebases | Large codebase |
 | --- | --- | --- | --- |
+| Pages to migrate | Less than ten | Tens | Hundreds |
 | Potential time saving | Day(s) | Weeks | Months |
-| Pages to migrate | less than ten | Tens | Hundreds |
+
 
 While generically applicable codemods can save weeks and months for large codebases, due to custom business logic, there will be more challenges to overcome. That's why at Intuita, we have built an AI-powered Codemod Studio to empower developers to instantly create their custom codemods. We are also gathering top codemod experts and enthusiasts in our community. We will briefly discuss those at the end with some pointers for you to learn more and join us to make a dent in the future of software development together.
 
