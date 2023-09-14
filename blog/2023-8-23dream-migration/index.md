@@ -1,9 +1,9 @@
 ---
 slug: dream-migration
-title: "The Dream Migration"
+title: "From Pages to App: Next.js Migration with Intuita"
 authors: [alex]
 tags: [migration, case study]
-toc_min_heading_level: 2
+toc_min_heading_level: 3
 toc_max_heading_level: 3
 
 ---
