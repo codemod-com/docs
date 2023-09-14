@@ -1,6 +1,6 @@
 ---
 slug: dream-migration
-title: "From Pages to App: Next.js Migration with Intuita"
+title: "Next.js App Router Migration with Intuita"
 authors: [alex]
 tags: [migration, case study]
 toc_min_heading_level: 3
@@ -18,18 +18,14 @@ import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
   <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/blog/intuita-blog-opengraph.png'/>
 </head>
 
-In this post, I'm diving into the growing challenges of code migrations in the Gen AI era. I'll also walk you through how to use Intuita to fully automate the App Router migration for a simple project called 'cms-wordpress'. Finally, I'll touch on the limitations of codemods and share our game plan to tackle those issues. Our goal? Making dream migrations a reality for all developers out there!
-
-<!--truncate-->
-
 ---
 
-## Key Takeaways
+In this post, I'll touch on the following topics:
 
-- Migrations are important, but increasingly difficult as code volume and velocity increase, thanks to generative AI.
+- Code migrations are becoming more important but also more difficult.
 - Migrations do not need to be a headache. I share our criteria for a dream migration.
-- Demo of using Intuita to fully automate app router migration for the cms-wordpress project.
-- Next: Incremental improvement of codemods with the help of AI and the community.
+- I demo Intuita for fully automating Next.js app router migration for the cms-wordpress project.
+- I share my thoughts on the future of code automation at scale with, the help of AI and the community.
 
 ---
 
@@ -44,7 +40,7 @@ Code migration projects are crucial for making codebases secure and performant, 
 Fortunately, there is a solution: **codemods!** These code automation bots automate a vast amount of coding for large migrations. Tech giants such as Meta, Google, and Uber, who have the luxury of hiring top programming language experts, have long automated their migration campaigns with the help of codemods and the infrastructure around them. In fact, progressive software teams are always undergoing incremental migrations!
 
 :::tip Note
-Learn more about our ABM (Always Be Migrating) motto and Malte's (Vercel’s CTO) take on this topic [here](https://www.linkedin.com/posts/alexbit_why-all-application-migrations-should-be-activity-7102796682681049089-4l6V/).
+Discover our "Always Be Migrating" (ABM) philosophy and delve into Vercel’s CTO, Malte's perspective on the subject [here >](https://www.linkedin.com/posts/alexbit_why-all-application-migrations-should-be-activity-7102796682681049089-4l6V/)
 :::
 
 ## Intuita: The end-to-end platform for code automation at scale
