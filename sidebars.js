@@ -52,31 +52,7 @@ const sidebars = {
         'cli/quickstart',
         'cli/advanced-usage',
       ],
-  },
-    {
-      type: 'category',
-      label: 'Contributing',
-      items: [
-        'contributing/our-community',
-        'contributing/roadmap',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'About Intuita',
-      items: [
-        'about-intuita/why-intutia',
-        {
-          type: 'category',
-          label: 'Legal',
-          items: [
-            'about-intuita/legal/privacy-policy',
-            'about-intuita/legal/terms-and-conditions',
-            'about-intuita/legal/telemetry-compliance',            
-          ],
-        },
-      ],
-    },
+  }
   ],
    
 };

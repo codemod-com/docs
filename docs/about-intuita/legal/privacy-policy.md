@@ -2,6 +2,8 @@
 sidebar_position: 1
 ---
 
+# Privacy Policy
+
 <head>
   <meta property='og:title' content='Privacy Policy | Intuita'/>
   <meta property='og:description' content='The new way to build, share & run codemods at any scale.'/>
@@ -11,8 +13,6 @@ sidebar_position: 1
   <meta name='twitter:card' content='summary_large_image'/>
   <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'/>
 </head>
-
-# Privacy Policy
 
 Last updated: January 14, 2023
 
