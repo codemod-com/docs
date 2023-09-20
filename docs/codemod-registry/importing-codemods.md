@@ -79,6 +79,11 @@ To contribute your codemod to the registry, you can [open a PR](https://github.c
     - Estimated time saving per occurrence.
     - Owner.
     - Links for more info (any links to manual/codemod migration steps).
+
+      :::tip
+      You can use the codemod Readme template [here →](https://intuita.notion.site/Codemod-Readme-Template-1797c9773653469fa23a9ad21d7e17c9?pvs=4)
+      :::
+
 2. Includes a `config.json` metadata file which indicates the following fields:
 
     ```
