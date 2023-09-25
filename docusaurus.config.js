@@ -44,6 +44,9 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/intuita-inc/intuita-docs/tree/main/',
+          blogTitle: 'Intuita Blog',
+          blogDescription: 'Check out the latest blog posts by Intuita.',
+          postsPerPage: 'ALL',
         },
         theme: {
           customCss: require.resolve('./src/css/custom-dev.css'),
