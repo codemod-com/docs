@@ -12,6 +12,8 @@ import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
 
 <head>
   <meta content="https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/blog/intuita-blog-opengraph.png" property="og:image"/>
+  <meta content="This article showcases codebase migration challenges and how Intuita helps developers tackle large-scale migrations through automation and better DevX." property="og:description"/>
+
   
   <meta content="@intuita_io" name="twitter:site"/>
   <meta content="summary_large_image" name="twitter:card"/>
