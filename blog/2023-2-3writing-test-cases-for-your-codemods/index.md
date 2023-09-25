@@ -10,10 +10,10 @@ toc_max_heading_level: 3
 ---
 
 <head>
-  <meta name='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/blog/intuita-blog-opengraph.png'/>
-  <meta property='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/blog/intuita-blog-opengraph.png'/>
+  <meta content="https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/blog/intuita-blog-opengraph.png" property="og:image"/>
   
-  <meta name='twitter:card' content='summary_large_image'/>
+  <meta content="@intuita_io" name="twitter:site"/>
+  <meta content="summary_large_image" name="twitter:card"/>
   <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/blog/intuita-blog-opengraph.png'/>
 </head>
 
