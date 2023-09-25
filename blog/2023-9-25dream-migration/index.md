@@ -20,14 +20,14 @@ import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
   <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/blog/intuita-blog-opengraph.png'/>
 </head>
 
----
-
 In this post, I'll touch on the following topics:
 
 - Code migrations are becoming more important but also more difficult.
 - Migrations do not need to be a headache. I share our criteria for a dream migration.
 - I demo Intuita for fully automating Next.js app router migration for the cms-wordpress project.
 - I share my thoughts on the future of code automation at scale with, the help of AI and the community.
+
+<!--truncate-->
 
 ---
 
