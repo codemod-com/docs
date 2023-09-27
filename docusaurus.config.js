@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Intuita Docs',
   tagline: 'Upgrade dependencies faster with high-quality codemods.',
-  url: 'https://docs.intutia.io',
+  url: 'https://docs.intuita.io',
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
