@@ -70,6 +70,10 @@ We partnered with Vercel to build the most comprehensive set of open-source code
 
 While generically applicable codemods can save weeks and months for large codebases, due to custom business logic, there will be more challenges to overcome. That's why at Intuita, we have built an AI-powered Codemod Studio to empower developers to instantly create their custom codemods. We are also gathering top codemod experts and enthusiasts in our community. We will briefly discuss those at the end with some pointers for you to learn more and join us to make a dent in the future of software development together.
 
+:::note
+If you have a large Next.js project and prefer to delegate the migration project, please contact us, and we will take full ownership of the migration for you.
+:::
+
 Enough context; let's get into the demo!
 
 ## App Router migration for cms-wordpress with Intuita
@@ -182,7 +186,7 @@ Follow these few steps:
 lightImageSrc="/img/docs/cli/quickstart/intuita-learn-workflow.mp4"
 darkImageSrc="/img/docs/cli/quickstart/intuita-learn-workflow.mp4"/>
 
-Next.js codemods are backed by Intuit and Vercel. So, if you ever come across any issues, report them as a GitHub issue in the Codemod Registry with just one click.
+Next.js codemods are backed by Intuita and Vercel. So, if you ever come across any issues, report them as a GitHub issue in the Codemod Registry with just one click.
 
 ![Report Issue](/img/blog/dream-migration/report-issue.png)
 
