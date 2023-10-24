@@ -6,11 +6,11 @@ description: Learn more about using the Intuita command-line interface.
 <head>
   <meta property='og:title' content='Advanced Usage | Intuita CLI'/>
   <meta property='og:description' content='The new way to build, share & run codemods at any scale.'/>
-  <meta name='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'/>
-  <meta property='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'/>
+  <meta name='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/cli/intuita-cli-advanced-usage-og.png'/>
+  <meta property='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/cli/intuita-cli-advanced-usage-og.png'/>
   
   <meta name='twitter:card' content='summary_large_image'/>
-  <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'/>
+  <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/cli/intuita-cli-advanced-usage-og.png'/>
 </head>
 
 import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';

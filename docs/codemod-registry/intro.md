@@ -7,11 +7,11 @@ description: Get started with using Intuita's Codemod Registry.
 <head>
   <meta property='og:title' content='Quickstart | Codemod Registry'/>
   <meta property='og:description' content='The new way to build, share & run codemods at any scale.'/>
-  <meta name='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'/>
-  <meta property='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'/>
+  <meta name='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/codemod-registry/codemod-registry-og.png'/>
+  <meta property='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/codemod-registry/codemod-registry-og.png'/>
   
   <meta name='twitter:card' content='summary_large_image'/>
-  <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'/>
+  <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/codemod-registry/codemod-registry-og.png'/>
 </head>
 
 # Introduction

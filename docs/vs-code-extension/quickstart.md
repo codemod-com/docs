@@ -14,11 +14,11 @@ import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
 <head>
   <meta property='og:title' content='Quickstart | Intuita VS Code Extension'/>
   <meta property='og:description' content='The new way to build, share & run codemods at any scale.'/>
-  <meta name='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'/>
-  <meta property='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'/>
+  <meta name='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/vs-code-extension/getting-started-vs-code-extension-og.png'/>
+  <meta property='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/vs-code-extension/getting-started-vs-code-extension-og.png'/>
   
   <meta name='twitter:card' content='summary_large_image'/>
-  <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'/>
+  <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/vs-code-extension/getting-started-vs-code-extension-og.png'/>
 </head>
 
 Install [Intuita's VS Code extension](https://marketplace.visualstudio.com/items?itemName=Intuita.intuita-vscode-extension) & upgrade your projects with the help of codemods created by experts in the community, one framework at a time, starting with Next.js v13.4.

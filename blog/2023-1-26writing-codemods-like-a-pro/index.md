@@ -13,11 +13,11 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <head>
-  <meta content="https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/blog/intuita-blog-opengraph.png" property="og:image"/>
+  <meta content="https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/blog/writing-codemods-like-a-pro/writing-codemods-like-a-pro-og.png" property="og:image"/>
   
   <meta content="@intuita_io" name="twitter:site"/>
   <meta content="summary_large_image" name="twitter:card"/>
-  <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/blog/intuita-blog-opengraph.png'/>
+  <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/blog/writing-codemods-like-a-pro/writing-codemods-like-a-pro-og.png'/>
 </head>
 
 # Writing Codemods Like a Pro

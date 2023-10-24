@@ -11,13 +11,13 @@ toc_max_heading_level: 3
 import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
 
 <head>
-  <meta content="https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/blog/intuita-blog-opengraph.png" property="og:image"/>
+  <meta content="https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/blog/dream-migration/nextjs-app-router-migration-with-intuita-og.png" property="og:image"/>
   <meta content="This article showcases codebase migration challenges and how Intuita helps developers tackle large-scale migrations through automation and better DevX." property="og:description"/>
 
   
   <meta content="@intuita_io" name="twitter:site"/>
   <meta content="summary_large_image" name="twitter:card"/>
-  <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/blog/intuita-blog-opengraph.png'/>
+  <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/blog/dream-migration/nextjs-app-router-migration-with-intuita-og.png'/>
 </head>
 
 In this post, I'll touch on the following topics:

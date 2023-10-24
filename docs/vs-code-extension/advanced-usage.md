@@ -13,11 +13,11 @@ import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
 <head>
   <meta property='og:title' content='Advanced Usage | Intuita VS Code Extension'/>
   <meta property='og:description' content='The new way to build, share & run codemods at any scale.'/>
-  <meta name='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'/>
-  <meta property='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'/>
+  <meta name='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/vs-code-extension/advanced-usage-vs-code-extension-og.png'/>
+  <meta property='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/vs-code-extension/advanced-usage-vs-code-extension-og.png'/>
   
   <meta name='twitter:card' content='summary_large_image'/>
-  <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'/>
+  <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/vs-code-extension/advanced-usage-vs-code-extension-og.png'/>
 </head>
 
 The Intuita VS Code Extension allows you to run codemods over your projects to successfully migrate your project dependencies from one version to the next. This page will walk you through running these codemods as well as Intuita's useful features that make running codemods easier.

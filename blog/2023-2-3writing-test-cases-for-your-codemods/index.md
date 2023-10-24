@@ -10,11 +10,11 @@ toc_max_heading_level: 3
 ---
 
 <head>
-  <meta content="https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/blog/intuita-blog-opengraph.png" property="og:image"/>
+  <meta content="https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/blog/writing-test-cases-for-your-codemods/writing-test-cases-for-your-codemods-og.png" property="og:image"/>
   
   <meta content="@intuita_io" name="twitter:site"/>
   <meta content="summary_large_image" name="twitter:card"/>
-  <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/blog/intuita-blog-opengraph.png'/>
+  <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/blog/writing-test-cases-for-your-codemods/writing-test-cases-for-your-codemods-og.png'/>
 </head>
 
 import Tabs from '@theme/Tabs';
