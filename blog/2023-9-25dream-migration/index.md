@@ -59,8 +59,6 @@ For us, the dream migration is one that is:
 
 We partnered with Vercel to build the most comprehensive set of open-source codemods for Next.js, automating the bulk of the migration for the Pages router to App router for developers. Over the past few weeks, we have increased automation coverage from 79% to 88%, then to 92%, and finally to 100% for simple projects that do not have much business logic. We tested our codemods on one of the most popular examples for wordpress and are currently running them on Cal.com's large production-ready open-source codebase.
 
-We partnered with Vercel to build the most comprehensive set of open-source codemods for Next.js, automating the bulk of the migration for the Pages router to App router for developers. Over the past few weeks, we have increased automation coverage from 79% to 88%, then to 92%, and finally to 100% for simple projects that do not have much business logic. We tested our codemods on one of the most popular examples for wordpress and are currently running them on Cal.com's large production-ready open-source codebase.
-
 
 | Next.js Migration with Intuita | Personal Projects | Mid-size codebases | Large codebase |
 | --- | --- | --- | --- |
