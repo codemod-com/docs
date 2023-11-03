@@ -6,13 +6,13 @@ description: Get started with making codemods using Intuita's Codemod Studio.
 
 <head>
   <meta property='og:title' content='Quickstart | Codemod Studio'/>
-  <meta property='og:description' content='The new way to build, share & run codemods at any scale.'/>
+  <meta property='og:description' content='The new way to build, share and run codemods at any scale.'/>
   <meta name='og:image' content='https://github.com/intuita-inc/intuita-docs/blob/main/static/img/docs/codemod-studio/quickstart/codemod-studio-og.png?raw=true'/>
   <meta property='og:image' content='https://github.com/intuita-inc/intuita-docs/blob/main/static/img/docs/codemod-studio/quickstart/codemod-studio-og.png?raw=true'/>
   
   <meta name='twitter:card' content='summary_large_image'/>
   <meta name='twitter:title' content='Quickstart | Codemod Studio'/>
-  <meta name='twitter:description' content='The new way to build, share & run codemods at any scale.'/>
+  <meta name='twitter:description' content='The new way to build, share and run codemods at any scale.'/>
   <meta name='twitter:image' content='https://github.com/intuita-inc/intuita-docs/blob/main/static/img/docs/codemod-studio/quickstart/codemod-studio-og.png?raw=true'/>
 </head>
 
