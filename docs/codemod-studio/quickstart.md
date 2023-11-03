@@ -7,14 +7,14 @@ description: Get started with making codemods using Intuita's Codemod Studio.
 <head>
   <meta property='og:title' content='Quickstart | Codemod Studio'/>
   <meta property='og:description' content='The new way to build, share and run codemods at any scale.'/>
-  <meta name='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/codemod-studio/quickstart/codemod-studio-og.png'/>
-  <meta property='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/codemod-studio/quickstart/codemod-studio-og.png'/>
+  <meta name='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/codemod-studio/quickstart/codemod-studio-og.jpg'/>
+  <meta property='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/codemod-studio/quickstart/codemod-studio-og.jpg'/>
   
   <meta content="summary_large_image" name="twitter:card">
   <meta content="@intuita_io" name="twitter:site">
   <meta name='twitter:title' content='Quickstart | Codemod Studio'/>
   <meta name='twitter:description' content='The new way to build, share and run codemods at any scale.'/>
-  <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/codemod-studio/quickstart/codemod-studio-og.png'/>
+  <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/codemod-studio/quickstart/codemod-studio-og.jpg'/>
 </head>
 
 import ThemedImage from "@theme/ThemedImage";
