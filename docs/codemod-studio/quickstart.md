@@ -10,7 +10,8 @@ description: Get started with making codemods using Intuita's Codemod Studio.
   <meta name='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/codemod-studio/quickstart/codemod-studio-og.png'/>
   <meta property='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/codemod-studio/quickstart/codemod-studio-og.png'/>
   
-  <meta name='twitter:card' content='summary_large_image'/>
+  <meta content="summary_large_image" name="twitter:card">
+  <meta content="@intuita_io" name="twitter:site">
   <meta name='twitter:title' content='Quickstart | Codemod Studio'/>
   <meta name='twitter:description' content='The new way to build, share and run codemods at any scale.'/>
   <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/codemod-studio/quickstart/codemod-studio-og.png'/>
