@@ -45,6 +45,7 @@ Options:
   --threadCount          Set the number of threads while running codemods [number]  [default: 4]
   --dryRun               Enable dry-run mode while running codemods       [boolean] [default: false]
   --outputDirectoryPath  Specify the dry-run output directory path        [string]
+  --telemetryDisable     Disable telemetry                                [boolean] [default: false]
   ```
 
 ## Commands
@@ -231,3 +232,10 @@ This option uses the following format:
 ```bash
 intuita [codemod name] --dryRun true --outputDirectoryPath [path]
 ```
+
+### `--telemetryDisable`
+
+
+The `--telemetryDisable` option can be used to disable CLI telemetry. Telemetry is enabled by default. 
+
+
