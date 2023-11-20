@@ -7,11 +7,11 @@ tags: [codemods, tutorial, beginner]
 ---
 
 <head>
-  <meta content="https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/blog/what-are-codemods/what-are-codemods-og.png" property="og:image"/>
+  <meta content="https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/blog/what-are-codemods/what-are-codemods-og.jpg" property="og:image"/>
   
   <meta content="@intuita_io" name="twitter:site"/>
   <meta content="summary_large_image" name="twitter:card"/>
-  <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/blog/what-are-codemods/what-are-codemods-og.png'/>
+  <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/blog/what-are-codemods/what-are-codemods-og.jpg'/>
 </head>
 
 In this article we go over:
