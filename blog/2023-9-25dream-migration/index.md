@@ -104,7 +104,7 @@ npm i -g intuita
 
 For an even better user experience, install the Intuita VS Code extension from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=Intuita.intuita-vscode-extension).
 
-After installing Intuita, navigate to your Next.js project folder and optionally create a branch dedicated to the migration. For our example, we used this [commit](https://github.com/intuita-inc/next.js/commit/56fcd7ac33e700236e6a37a8dac5ed9c378e0823) for the cms-wordpress.
+After installing Intuita, navigate to your Next.js project folder and optionally create a branch dedicated to the migration.
 
 ### 2: Run codemods.
 
@@ -133,7 +133,7 @@ After executing the recipe or codemods, you'll notice that most of the migration
 
 Now, it's time to commit the changes to your repository.
 
-If you run the recipe on cms-wordpress, you will get [a commit like this](https://github.com/intuita-inc/next.js/pull/13/commits/09aa2f4f9020fd80ce438d2fd7630dbc52e19667), and if you run the individual codemods one by one, you will end up with [a PR like this](https://github.com/intuita-inc/next.js/pull/12/commits).
+If you run the individual codemods one by one, you can end up with a PR like this:
 
 ![PR Example](/img/blog/dream-migration/pr-example.png)
 
@@ -143,7 +143,7 @@ While Intuita's codemods are very powerful, some project-specific cases might re
 
 I will go into more detail in the below sections. For the cms-wordpress project, it is possible to build it successfully even without manual tweaks after running codemods.
 
-But there is a [minor tweak](https://github.com/intuita-inc/next.js/pull/13/commits/d3a77b11831101c1f76848c8e21d5edf61f7e3f6) that we need to do, which is to change the shape of paths returned from getStaticPaths.
+But there is a minor tweak that we need to do, which is to change the shape of paths returned from getStaticPaths.
 
 I will propose a solution for such use cases in the last section.
 
