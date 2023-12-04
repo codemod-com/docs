@@ -52,7 +52,12 @@ const sidebars = {
         'cli/quickstart',
         'cli/advanced-usage',
       ],
-  }
+    },
+    {
+      type: 'doc',
+      id: 'changelog',
+      label: 'Changelog',
+    }
   ],
    
 };
