@@ -23,11 +23,7 @@ import TabItem from '@theme/TabItem';
 
 This page lists highlights, releases, bug fixes, and progress for official Intuita releases.
 
-:::tip
-
-If there are features you would like to see in the upcoming releases, please let us know though our [feedback page](https://feedback.intuita.io), or directly through our [Slack community](https://intuita.io/community).
-
-:::
+> **Tip:** If there are features you would like to see in the upcoming releases, please let us know though our [feedback page](https://feedback.intuita.io), or directly through our [Slack community](https://intuita.io/community).
 
 ## Version 1.29.0
 
