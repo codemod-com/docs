@@ -116,7 +116,7 @@ As you can see, in Mocha.js `describe`, `beforeEach`, `it` and `afterAll` functi
 
 Instead of writing the JSCodeshift codemod ourselves, we can automate it using the Codemod Studio.
 
-Within a few iterations with the AI helper, we got the following codemod:
+Within a few iterations with the AI helper, we got [the following codemod](https://go.intuita.io/WASAwm):
 
 ```tsx
 import type { FileInfo, API, Options } from 'jscodeshift';
