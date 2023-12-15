@@ -9,3 +9,9 @@ alex:
   title: Founder & CEO
   url: https://twitter.com/Alex__Bit
   image_url: https://pbs.twimg.com/profile_images/1335022169500205056/HfvQ1QkH_400x400.jpg
+
+greg:
+  name: Greg Pabian
+  title: Founding Engineer
+  url: https://github.com/grzpab
+  image_url: https://github.com/grzpab.png
