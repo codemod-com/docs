@@ -190,7 +190,7 @@ The filemod we built removes all Mocha.js configuration files, drops the library
 
 Having both a JSCodeshift codemod and a filemod left us with two code automation agents to execute sequentially. To facilitate that, we introduced the concept of a recipe. Our recipes contain information for the codemod runners to execute specific agents one by one and combine the results.
 
-We called the recipe for the described migration `mocha/vitest/recipe`.
+We called the recipe for the described migration [`mocha/vitest/recipe`](vscode://intuita.intuita-vscode-extension/showCodemod?chd=oDAjaOrkUfLtuw4nNXnfIHLEL-o).
 
 ### 2. Running the automation agents
 
