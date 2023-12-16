@@ -20,14 +20,9 @@ import Figure from '../../src/components/figures.jsx'
   <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/blog/mocha-to-vitest/mocha-to-vitest-og.jpg'/>
 </head>
 
-Read along to learn how we built and used codemods to automate the Mocha to Vitest migration, saving ourselves and the community countless hours of tedious work.
-
-<!--truncate-->
-
----
-## Introduction
-
 Over the years, the JavaScript community has introduced many test runners. The [StateOfJS 2022 survey](https://2022.stateofjs.com/en-US/libraries/testing/) provides interesting data points and visuals on the trends of these testing libraries and frameworks, with Vitest sitting at the top in terms of community interest.
+
+Read on to learn how we built and used open-source codemods to automate the migration from Mocha to Vitest, saving countless hours of tedious work.
 
 ![Screenshot 2023-12-15 at 12 40 42 PM](https://github.com/intuita-inc/intuita-docs/assets/78109534/91b8dc80-e613-4146-8f75-d8caea1458bc)
 
