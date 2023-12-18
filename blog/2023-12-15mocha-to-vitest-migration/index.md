@@ -26,6 +26,7 @@ Read on to learn how we built and used open-source codemods to automate the migr
 
 ![Screenshot 2023-12-15 at 12 40 42 PM](https://github.com/intuita-inc/intuita-docs/assets/78109534/91b8dc80-e613-4146-8f75-d8caea1458bc)
 
+<!--truncate-->
 
 ## Why bother migrating to Vitest?
 
