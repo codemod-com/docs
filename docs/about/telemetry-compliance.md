@@ -5,7 +5,7 @@ sidebar_position: 3
 # Telemetry Compliance
 
 <head>
-  <meta property='og:title' content='Telemetry Compliance | Intuita'/>
+  <meta property='og:title' content='Telemetry Compliance | Codemod.com'/>
   <meta property='og:description' content='The new way to build, share & run codemods at any scale.'/>
   <meta name='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'/>
   <meta property='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'/>
@@ -14,11 +14,11 @@ sidebar_position: 3
   <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/intuita-docs-opengraph.png'/>
 </head>
 
-## Intuita VSCode’s Extension Telemetry Data
+## Codemod.com VSCode’s Extension Telemetry Data
 
-The Intuita VSCode’s Extension (v0.25.0 and later) uses the VSCode’s official telemetry [extension](https://github.com/microsoft/vscode-extension-telemetry) and the telemetry data are thus sent and stored in the Azure App Insights.
+The Codemod.com VSCode’s Extension (v0.25.0 and later) uses the VSCode’s official telemetry [extension](https://github.com/microsoft/vscode-extension-telemetry) and the telemetry data are thus sent and stored in the Azure App Insights.
 
-As Microsoft treates the GPDR and similar laws seriously (as outlined [here](https://code.visualstudio.com/docs/getstarted/telemetry#_gdpr-and-vs-code)), so does Intuita. We followed the [extension guide on telemetry](https://code.visualstudio.com/api/extension-guides/telemetry) to ensure that we do not collect Personally-Identifiable Information (PII) and we send only the data we need for the continuous improvement of our product.
+As Microsoft treates the GPDR and similar laws seriously (as outlined [here](https://code.visualstudio.com/docs/getstarted/telemetry#_gdpr-and-vs-code)), so does Codemod.com. We followed the [extension guide on telemetry](https://code.visualstudio.com/api/extension-guides/telemetry) to ensure that we do not collect Personally-Identifiable Information (PII) and we send only the data we need for the continuous improvement of our product.
 
 The extension tracks the events happening within the extension and they have following properties (this is described in the extension’s [source code](https://github.com/intuita-inc/intuita-vscode-extension/blob/d636de9cf6b665b2775748b93c782b12939e2ed1/src/telemetry/telemetry.ts#L6)).
 
@@ -50,18 +50,3 @@ Some of these properties are required by the VSCode’s official telemetry exten
 Users can disable telemetry by going into Settings, searching the for `telemetry.telemetryLevel` setting and setting it to `off`. You can read more [here](https://code.visualstudio.com/docs/getstarted/telemetry#_disable-telemetry-reporting).
 
 Users can review the telemetry events by using the VSCode’s `Developer: Set Log Level...` command and selecting the `Trace` log level. Then they should navigate to the `Output Panel` and pick `Extension Telemetry` from the dropdown to see the logs. You can read more [here](https://code.visualstudio.com/docs/getstarted/telemetry#_output-channel-for-telemetry-events).
-
-## Intuita CLI Telemetry Data
-
-The Intuita CLI (v0.1.4 and later) uses official Microsoft telemetry [SDK](https://github.com/Microsoft/ApplicationInsights-node.js/). Telemetry data is processed and stored in the Azure App Insights.
-
-The CLI tracks the events happening within the CLI that contain specific properties that can be checked in the [source code](https://github.com/intuita-inc/codemod-engine-node/blob/b85ba57156bfe2a0c28407626ff160be09017c77/src/telemetryService.ts#L4).
-
-| Property Name | Description | When tracked | Required by the VSCode's extension telemetry module | Sample value |
-| --- | --- | --- | --- | --- |
-| kind | the type of event | tracked by default | No | codemodExecuted |
-| executionId | id of the codemod execution | passed if applicable | No | "32668" |
-| codemodName | name of the executed codemod | passed if applicable | No | New Link |
-| fileCount | number of files processed by codemod | passed if applicable | No | 1 |
-
-Users can disable telemetry by providing `--telemetryDisable` flag. 
