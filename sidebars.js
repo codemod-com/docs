@@ -52,6 +52,15 @@ const sidebars = {
         'cli/quickstart',
         'cli/advanced-usage',
       ],
+    },
+    {
+      type: 'category',
+      label: 'About',
+      items: [
+        'about/privacy-policy',
+        'about/terms-and-conditions',
+        'about/telemetry-compliance',
+      ],
   }
   ],
    

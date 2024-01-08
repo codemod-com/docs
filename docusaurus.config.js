@@ -115,15 +115,15 @@ const config = {
             items: [
               {
                 label: 'Privacy Policy',
-                to: 'docs/about-intuita/legal/privacy-policy',
+                to: 'docs/about/privacy-policy',
               },
               {
                 label: 'Terms & Conditions',
-                to: 'docs/about-intuita/legal/terms-and-conditions',
+                to: 'docs/about/terms-and-conditions',
               },
               {
                 label: 'Telemetry Compliance',
-                to: 'docs/about-intuita/legal/telemetry-compliance',
+                to: 'docs/about/telemetry-compliance',
               },
             ],
           },
