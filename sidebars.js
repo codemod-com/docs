@@ -22,7 +22,7 @@ const sidebars = {
     {
       type: 'doc',
       id: 'intro',
-      label: 'What is Intuita?',
+      label: 'What is Codemod.com?',
     },
     {
       type: 'doc',
