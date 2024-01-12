@@ -1,27 +1,27 @@
 ---
 title: Advanced Usage
-description: Learn more about using the Intuita command-line interface.
+description: Learn more about using the Codemod.com command-line interface.
 ---
 
 <head>
-  <meta property='og:title' content='Advanced Usage | Intuita CLI'/>
+  <meta property='og:title' content='Advanced Usage | Codemod.com CLI'/>
   <meta property='og:description' content='The new way to build, share & run codemods at any scale.'/>
-  <meta name='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/cli/intuita-cli-advanced-usage-og.png'/>
-  <meta property='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/cli/intuita-cli-advanced-usage-og.png'/>
+  <meta name='og:image' content='https://raw.githubusercontent.com/codemod-com/docs/main/static/img/docs/cli/intuita-cli-advanced-usage-og.png'/>
+  <meta property='og:image' content='https://raw.githubusercontent.com/codemod-com/docs/main/static/img/docs/cli/intuita-cli-advanced-usage-og.png'/>
   
   <meta name='twitter:card' content='summary_large_image'/>
-  <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/cli/intuita-cli-advanced-usage-og.png'/>
+  <meta name='twitter:image' content='https://raw.githubusercontent.com/codemod-com/docs/main/static/img/docs/cli/intuita-cli-advanced-usage-og.png'/>
 </head>
 
 import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
 
-The command-line interface (CLI) to Intuita is the `intuita` command, which accepts a variety of subcommands and options for various preferences. With the Intuita CLI, you can interact with Intuita using a terminal or a script.
+The command-line interface (CLI) to Codemod.com is the `intuita` command, which accepts a variety of subcommands and options for various preferences. With the Codemod.com CLI, you can interact with Codemod.com using a terminal or a script.
 
-If you want to use Intutia through a graphical interface, check out the [Intuita VS Code Extension](/docs/vs-code-extension/quickstart).
+If you want to use Codemod.com through a graphical interface, check out the [Codemod.com VS Code Extension](/docs/vs-code-extension/quickstart).
 
 ---
 
-To view a list of the commands and options available using the Intuita CLI, run `intuita help`:
+To view a list of the commands and options available using the Codemod.com CLI, run `intuita help`:
 
 ```
 Commands:
@@ -82,7 +82,7 @@ intuita syncRegistry
 
 The `learn` command can be used to send the diff of the latest edited file to Codemod Studio and have it automatically build an explainable and debuggable codemod.
 
-After running this command, if any git diff exists, Intuita will use the diff as before/after snippets in [Codemod Studio](https://codemod.studio). This command uses the following format:
+After running this command, if any git diff exists, the Codemod.com will use the diff as before/after snippets in [Codemod Studio](https://codemod.studio). This command uses the following format:
 
 ```bash
 intuita learn
@@ -103,7 +103,7 @@ If you encounter any issues with the auto-generated codemod, please [leave us so
 
 ## Options
 
-The following options can be used to change the default behavior of the Intuita CLI. Option-specific information is provided below.
+The following options can be used to change the default behavior of the Codemod.com CLI. Option-specific information is provided below.
 
 ### `--include`
 
@@ -116,7 +116,7 @@ intuita [codemod name] --include "[glob pattern]"
 ```
 
 :::tip
-You can specify your glob patterns to include specific file formats or directory structures. The default pattern Intuita CLI uses is: `--include "**/*.*{ts,tsx,js,jsx,mjs,cjs,mdx}"`.
+You can specify your glob patterns to include specific file formats or directory structures. The default pattern CLI uses is: `--include "**/*.*{ts,tsx,js,jsx,mjs,cjs,mdx}"`.
 :::
 
 ### `--exclude`
@@ -130,12 +130,12 @@ intuita [codemod name] --exclude "[glob pattern]"
 ```
 
 :::tip
-By default, the Intuita CLI excludes the following glob pattern: `--exclude "**/node_modules/**/*.*"`. If you are using a different glob pattern, we recommend excluding the `node_modules` directory to avoid unnecessary codemod runs.
+By default, the CLI excludes the following glob pattern: `--exclude "**/node_modules/**/*.*"`. If you are using a different glob pattern, we recommend excluding the `node_modules` directory to avoid unnecessary codemod runs.
 :::
 
 ### `--targetPath`
 
-The `--targetPath` option can be used to specify the directory of your project that Intuita should target while running codemods.
+The `--targetPath` option can be used to specify the directory of your project that the CLI should target while running codemods.
 
 This option is set as the current directory by default.
 
@@ -147,7 +147,7 @@ intuita [codemod name] --targetPath [path]
 
 ### `--sourcePath`
 
-The `--sourcePath` option can be used to specify the path to a local codemod you want to run using Intuita.
+The `--sourcePath` option can be used to specify the path to a local codemod you want to run using Codemod.com.
 
 :::tip
 Running local codemods requires specifying the codemod engine your codemod uses. You can do this by using the [`--codemodEngine` option](#--codemodengine).
@@ -201,7 +201,7 @@ intuita [codemod name] --useCache [true/false]
 
 ### `--useJson`
 
-The `--useJson` option can be used to switch Intuita's CLI responses to JSON format.
+The `--useJson` option can be used to switch the CLI responses to JSON format.
 
 This option uses the following format:
 
@@ -211,7 +211,7 @@ intuita [codemod name] --useJson
 
 ### `--threadCount`
 
-The `--threadCount` option can be used to specify the number of worker threads Intuita uses while running codemods. This option is set to 4 threads by default.
+The `--threadCount` option can be used to specify the number of worker threads the CLI uses while running codemods. This option is set to 4 threads by default.
 
 This option uses the following format:
 

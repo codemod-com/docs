@@ -1,20 +1,20 @@
 ---
 sidebar_position: 1
 title: Quickstart
-description: Get started with making codemods using Intuita's Codemod Studio.
+description: Get started with making codemods using the Codemod Studio.
 ---
 
 <head>
   <meta property='og:title' content='Quickstart | Codemod Studio'/>
   <meta property='og:description' content='The new way to build, share and run codemods at any scale.'/>
-  <meta name='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/codemod-studio/quickstart/codemod-studio-og.jpg'/>
-  <meta property='og:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/codemod-studio/quickstart/codemod-studio-og.jpg'/>
+  <meta name='og:image' content='https://raw.githubusercontent.com/codemod-com/docs/main/static/img/docs/codemod-studio/quickstart/codemod-studio-og.jpg'/>
+  <meta property='og:image' content='https://raw.githubusercontent.com/codemod-com/docs/main/static/img/docs/codemod-studio/quickstart/codemod-studio-og.jpg'/>
   
   <meta content="summary_large_image" name="twitter:card" />
   <meta content="@intuita_io" name="twitter:site" />
   <meta name='twitter:title' content='Quickstart | Codemod Studio'/>
   <meta name='twitter:description' content='The new way to build, share and run codemods at any scale.'/>
-  <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/docs/codemod-studio/quickstart/codemod-studio-og.jpg'/>
+  <meta name='twitter:image' content='https://raw.githubusercontent.com/codemod-com/docs/main/static/img/docs/codemod-studio/quickstart/codemod-studio-og.jpg'/>
 </head>
 
 import ThemedImage from "@theme/ThemedImage";
@@ -46,7 +46,7 @@ Codemod Studio allows you to iteratively test, debug, and improve your codemods�
 
 ## 3. Deploy
 
-With close integration with Intuita’s platform, Codemod Studio allows you to easily deploy and run your codemods over your projects using Intuita’s VS Code Extension.
+With close integration with Codemod.com’s platform, Codemod Studio allows you to easily deploy and run your codemods over your projects using Codemod.com’s VS Code Extension.
 
 
 ## Codemod Studio vs. the Platform

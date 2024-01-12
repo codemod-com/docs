@@ -11,13 +11,13 @@ toc_max_heading_level: 3
 import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
 
 <head>
-  <meta content="https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/blog/dream-migration/nextjs-app-router-migration-with-intuita-og.jpg" property="og:image"/>
-  <meta content="This article showcases codebase migration challenges and how Intuita helps developers tackle large-scale migrations through automation and better DevX." property="og:description"/>
+  <meta content="https://raw.githubusercontent.com/codemod-com/docs/main/static/img/blog/dream-migration/nextjs-app-router-migration-with-intuita-og.jpg" property="og:image"/>
+  <meta content="This article showcases codebase migration challenges and how Codemod.com helps developers tackle large-scale migrations through automation and better DevX." property="og:description"/>
 
   
   <meta content="@intuita_io" name="twitter:site"/>
   <meta content="summary_large_image" name="twitter:card"/>
-  <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/blog/dream-migration/nextjs-app-router-migration-with-intuita-og.jpg'/>
+  <meta name='twitter:image' content='https://raw.githubusercontent.com/codemod-com/docs/main/static/img/blog/dream-migration/nextjs-app-router-migration-with-intuita-og.jpg'/>
 </head>
 
 In this post, I'll touch on the following topics:
@@ -66,7 +66,7 @@ We partnered with Vercel to build the most comprehensive set of open-source code
 | Potential time saving | Day(s) | Weeks | Months |
 
 
-While generically applicable codemods can save weeks and months for large codebases, due to custom business logic, there will be more challenges to overcome. That's why at Intuita, we have built an AI-powered Codemod Studio to empower developers to instantly create their custom codemods. We are also gathering top codemod experts and enthusiasts in our community. We will briefly discuss those at the end with some pointers for you to learn more and join us to make a dent in the future of software development together.
+While generically applicable codemods can save weeks and months for large codebases, due to custom business logic, there will be more challenges to overcome. That's why at Codemod.com, we have built an AI-powered Codemod Studio to empower developers to instantly create their custom codemods. We are also gathering top codemod experts and enthusiasts in our community. We will briefly discuss those at the end with some pointers for you to learn more and join us to make a dent in the future of software development together.
 
 :::note
 If you have a large Next.js project and prefer to delegate the migration project, please contact us, and we will take full ownership of the migration for you.
@@ -155,7 +155,7 @@ After completing the code changes for the migration, it is essential to perform 
 For some of our customers, we ran custom codemods to add types to their codebase, making it more reliable before running the migration codemods. So, If you do not feel confident about automated large-scale changes, you might want first to use custom codemods to bring more conformity and reliability to your codebase. To build custom codemods, you can use [Codemod Studio](https://codemod.studio/) or [contact us](https://go.codemod.com/slack) if you need help.
 :::
 
-Alright! The migration for cms-wordpress is complete. But what if your project has custom business logic or you encounter issues with Intuita codemods?
+Alright! The migration for cms-wordpress is complete. But what if your project has custom business logic or you encounter issues with Codemod.com codemods?
 
 ## AI-assisted custom codemods
 
@@ -188,4 +188,4 @@ Next.js codemods are backed by Codemod.com and Vercel. So, if you ever come acro
 
 ![Report Issue](/img/blog/dream-migration/report-issue.png)
 
-If you find this article useful or have some ideas or feedback you want to share, [drop me a line](https://join.slack.com/t/intuita-inc/shared_invite/zt-1bjj5exxi-95yPfWi71HcO2p_sS5L2wA).
+If you find this article useful or have some ideas or feedback you want to share, [drop me a line](https://codemod.com/community).

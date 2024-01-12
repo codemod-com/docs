@@ -13,11 +13,11 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <head>
-  <meta content="https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/blog/writing-codemods-like-a-pro/writing-codemods-like-a-pro-og.jpg" property="og:image"/>
+  <meta content="https://raw.githubusercontent.com/codemod-com/docs/main/static/img/blog/writing-codemods-like-a-pro/writing-codemods-like-a-pro-og.jpg" property="og:image"/>
   
   <meta content="@intuita_io" name="twitter:site"/>
   <meta content="summary_large_image" name="twitter:card"/>
-  <meta name='twitter:image' content='https://raw.githubusercontent.com/intuita-inc/intuita-docs/main/static/img/blog/writing-codemods-like-a-pro/writing-codemods-like-a-pro-og.jpg'/>
+  <meta name='twitter:image' content='https://raw.githubusercontent.com/codemod-com/docs/main/static/img/blog/writing-codemods-like-a-pro/writing-codemods-like-a-pro-og.jpg'/>
 </head>
 
 # Writing Codemods Like a Pro
@@ -847,7 +847,7 @@ After taking your first steps with writing your first codemod that solves a real
 
 In the upcoming tutorial, we will cover:
 
-- Integrating declarative codemod engines, like [Intuita’s Codemod Studio](https://codemod.studio), into your workflow.
+- Integrating declarative codemod engines, like [Codemod Studio](https://codemod.studio), into your workflow.
 - Writing tests for your codemods [(Read More →)](/blog/writing-test-cases-for-codemods)
-- Adding your codemods to Intuita’s codemod registry [(Read More →)](/blog/writing-codemods-like-a-pro)
-- Get active within the codemod community! [Join Intuita’s Slack](https://join.slack.com/t/intuita-inc/shared_invite/zt-1bjj5exxi-95yPfWi71HcO2p_sS5L2wA) community gathering leading codemod champions around the world.
+- Adding your codemods to the Codemod Registry [(Read More →)](/blog/writing-codemods-like-a-pro)
+- Get active within the codemod community! [Join Codemod.com Slack](https://codemod.com/community) community gathering leading codemod champions around the world.

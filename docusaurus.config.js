@@ -128,7 +128,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Intuita`,
+        copyright: `Copyright © ${new Date().getFullYear()} Codemod.com`,
       },
       colorMode: {
         defaultMode: 'dark',
