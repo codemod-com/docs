@@ -152,7 +152,7 @@ I will propose a solution for such use cases in the last section.
 After completing the code changes for the migration, it is essential to perform thorough testing of your application to ensure that everything is working as expected before pushing the changes. Having comprehensive test cases in CI/CD also provides confidence that nothing is broken.
 
 :::tip
-For some of our customers, we ran custom codemods to add types to their codebase, making it more reliable before running the migration codemods. So, If you do not feel confident about automated large-scale changes, you might want first to use custom codemods to bring more conformity and reliability to your codebase. To build custom codemods, you can use [Codemod Studio](https://codemod.studio/) or [contact us](https://join.slack.com/t/intuita-inc/shared_invite/zt-1bjj5exxi-95yPfWi71HcO2p_sS5L2wA) if you need help.
+For some of our customers, we ran custom codemods to add types to their codebase, making it more reliable before running the migration codemods. So, If you do not feel confident about automated large-scale changes, you might want first to use custom codemods to bring more conformity and reliability to your codebase. To build custom codemods, you can use [Codemod Studio](https://codemod.studio/) or [contact us](https://go.codemod.com/slack) if you need help.
 :::
 
 Alright! The migration for cms-wordpress is complete. But what if your project has custom business logic or you encounter issues with Codemod.com codemods?
@@ -188,4 +188,4 @@ Next.js codemods are backed by Codemod.com and Vercel. So, if you ever come acro
 
 ![Report Issue](/img/blog/dream-migration/report-issue.png)
 
-If you find this article useful or have some ideas or feedback you want to share, [drop me a line](https://join.slack.com/t/intuita-inc/shared_invite/zt-1bjj5exxi-95yPfWi71HcO2p_sS5L2wA).
+If you find this article useful or have some ideas or feedback you want to share, [drop me a line](https://codemod.com/community).
