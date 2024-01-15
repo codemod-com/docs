@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Intuita Docs',
+  title: 'Codemod.com Docs',
   tagline: 'Upgrade dependencies faster with high-quality codemods.',
-  url: 'https://docs.intuita.io',
+  url: 'https://docs.codemod.com',
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -16,8 +16,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'intuita-inc', // Usually your GitHub org/user name.
-  projectName: 'intuita-docs', // Usually your repo name.
+  organizationName: 'codemod-com', // Usually your GitHub org/user name.
+  projectName: 'docs', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -37,15 +37,15 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/intuita-inc/intuita-docs/tree/main/',
+            'https://github.com/codemod-com/docs/tree/main/',
         },
         blog: {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/intuita-inc/intuita-docs/tree/main/',
-          blogTitle: 'Intuita Blog',
-          blogDescription: 'Check out the latest blog posts by Intuita.',
+            'https://github.com/codemod-com/docs/tree/main/',
+          blogTitle: 'Codemod Blog',
+          blogDescription: 'Check out the latest blog posts by Codemod.com.',
           postsPerPage: 'ALL',
         },
         theme: {
@@ -59,11 +59,11 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Intuita',
+        title: 'Codemod.com',
         logo: {
-          alt: 'Intuita Logo',
+          alt: 'Codemod.com Logo',
           src: 'img/intuita-logo.png',
-          href: 'https://intuita.io',
+          href: 'https://codemod.com',
           target: '_self',
         },
         items: [
@@ -75,7 +75,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/intuita-inc',
+            href: 'https://github.com/codemod-com',
             label: 'GitHub',
             position: 'right',
           },
@@ -89,15 +89,15 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/intuita-inc/',
+                href: 'https://github.com/codemod-com/',
               },
               {
                 label: 'Join Slack',
-                href: 'https://join.slack.com/t/intuita-inc/shared_invite/zt-1bjj5exxi-95yPfWi71HcO2p_sS5L2wA',
+                href: 'https://codemod.com/community',
               },
               {
                 label: 'Feature Requests',
-                href: 'https://feedback.intuita.io/feature-requests',
+                href: 'https://feedback.codemod.com/feature-requests',
               },
             ],
           },
@@ -128,7 +128,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Intuita`,
+        copyright: `Copyright © ${new Date().getFullYear()} Codemod.com`,
       },
       colorMode: {
         defaultMode: 'dark',
