@@ -15,7 +15,7 @@ import TabItem from '@theme/TabItem';
 <head>
   <meta content="https://raw.githubusercontent.com/codemod-com/docs/main/static/img/blog/writing-codemods-like-a-pro/writing-codemods-like-a-pro-og.jpg" property="og:image"/>
   
-  <meta content="@intuita_io" name="twitter:site"/>
+  <meta content="@codemod" name="twitter:site"/>
   <meta content="summary_large_image" name="twitter:card"/>
   <meta name='twitter:image' content='https://raw.githubusercontent.com/codemod-com/docs/main/static/img/blog/writing-codemods-like-a-pro/writing-codemods-like-a-pro-og.jpg'/>
 </head>

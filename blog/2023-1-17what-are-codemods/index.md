@@ -9,7 +9,7 @@ tags: [codemods, tutorial, beginner]
 <head>
   <meta content="https://raw.githubusercontent.com/codemod-com/docs/main/static/img/blog/what-are-codemods/what-are-codemods-og.jpg" property="og:image"/>
   
-  <meta content="@intuita_io" name="twitter:site"/>
+  <meta content="@codemod" name="twitter:site"/>
   <meta content="summary_large_image" name="twitter:card"/>
   <meta name='twitter:image' content='https://raw.githubusercontent.com/codemod-com/docs/main/static/img/blog/what-are-codemods/what-are-codemods-og.jpg'/>
 </head>

@@ -15,7 +15,7 @@ import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
   <meta content="This article showcases codebase migration challenges and how Codemod.com helps developers tackle large-scale migrations through automation and better DevX." property="og:description"/>
 
   
-  <meta content="@intuita_io" name="twitter:site"/>
+  <meta content="@codemod" name="twitter:site"/>
   <meta content="summary_large_image" name="twitter:card"/>
   <meta name='twitter:image' content='https://raw.githubusercontent.com/codemod-com/docs/main/static/img/blog/dream-migration/nextjs-app-router-migration-with-intuita-og.jpg'/>
 </head>

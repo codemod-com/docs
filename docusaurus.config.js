@@ -93,7 +93,7 @@ const config = {
               },
               {
                 label: 'Join Slack',
-                href: 'https://join.slack.com/t/intuita-inc/shared_invite/zt-1bjj5exxi-95yPfWi71HcO2p_sS5L2wA',
+                href: 'https://codemod.com/community',
               },
               {
                 label: 'Feature Requests',

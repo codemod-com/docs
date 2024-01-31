@@ -15,7 +15,7 @@ import Figure from '../../src/components/figures.jsx'
   <meta content="https://raw.githubusercontent.com/codemod-com/docs/main/static/img/blog/mocha-to-vitest/mocha-to-vitest-og.jpg" property="og:image"/>
   <meta content="Read about our practical experience in automating the migration from Mocha.js to Vitest using Codemod.com. This article provides a detailed overview of streamlining code updates with modern tools." property="og:description"/>
 
-  <meta content="@intuita_io" name="twitter:site"/>
+  <meta content="@codemod" name="twitter:site"/>
   <meta content="summary_large_image" name="twitter:card"/>
   <meta name='twitter:image' content='https://raw.githubusercontent.com/codemod-com/docs/main/static/img/blog/mocha-to-vitest/mocha-to-vitest-og.jpg'/>
 </head>
