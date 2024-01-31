@@ -15,21 +15,21 @@ description: Learn more about using the Codemod.com command-line interface.
 
 import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
 
-The command-line interface (CLI) to Codemod.com is the `intuita` command, which accepts a variety of subcommands and options for various preferences. With the Codemod.com CLI, you can interact with Codemod.com using a terminal or a script.
+The command-line interface (CLI) to Codemod.com is the `codemod` command, which accepts a variety of subcommands and options for various preferences. With the Codemod.com CLI, you can interact with Codemod.com using a terminal or a script.
 
 If you want to use Codemod.com through a graphical interface, check out the [Codemod.com VS Code Extension](/docs/vs-code-extension/quickstart).
 
 ---
 
-To view a list of the commands and options available using the Codemod.com CLI, run `intuita help`:
+To view a list of the commands and options available using the Codemod.com CLI, run `codemod help`:
 
 ```
 Commands:
-  intuita               Runs a codemod or recipe                       [default]
-  intuita list          Lists all the codemods & recipes in the public registry
-  intuita syncRegistry  Syncs all the codemods from the registry
-  intuita learn         Exports the current `git diff` in a file to before/after panels in codemod studio
-  intuita help          Show help
+  codemod               Runs a codemod or recipe                       [default]
+  codemod list          Lists all the codemods & recipes in the public registry
+  codemod syncRegistry  Syncs all the codemods from the registry
+  codemod learn         Exports the current `git diff` in a file to before/after panels in codemod studio
+  codemod help          Show help
 
 Options:
   --version              Show version number                              [boolean]
@@ -52,30 +52,30 @@ Options:
 
 ### Running codemods
 
-You can use the `intuita` command to run codemods. The `intuita` command uses the following format:
+You can use the `codemod` command to run codemods. The `codemod` command uses the following format:
 
 ```bash
-intuita [codemod name]
+codemod [codemod name]
 ```
 
 :::note
-By default, using the `intuita` CLI command will run the codemod over the current directory. To run codemods over a specific file, use the [`--targetPath` option](#--targetpath).
+By default, using the `codemod` CLI command will run the codemod over the current directory. To run codemods over a specific file, use the [`--targetPath` option](#--targetpath).
 :::
 
 ### Listing all public codemods
 
-The `list` command can be used to list all codemods available in the [Codemod Registry](https://github.com/intuita-inc/codemod-registry). This command uses the following format:
+The `list` command can be used to list all codemods available in the [Codemod Registry](https://github.com/codemod-com/codemod-registry). This command uses the following format:
 
 ```bash
-intuita list
+codemod list
 ```
 
 ### Syncing registry
 
-The `syncRegistry` command can be used to sync local codemods with the public [Codemod Registry](https://github.com/intuita-inc/codemod-registry). This command uses the following format:
+The `syncRegistry` command can be used to sync local codemods with the public [Codemod Registry](https://github.com/codemod-com/codemod-registry). This command uses the following format:
 
 ```bash
-intuita syncRegistry
+codemod syncRegistry
 ```
 
 ### Generate codemod from file diff
@@ -85,7 +85,7 @@ The `learn` command can be used to send the diff of the latest edited file to Co
 After running this command, if any git diff exists, the Codemod.com will use the diff as before/after snippets in [Codemod Studio](https://codemod.studio). This command uses the following format:
 
 ```bash
-intuita learn
+codemod learn
 ```
 
 #### Quick look
@@ -95,7 +95,7 @@ lightImageSrc="/img/docs/cli/quickstart/intuita-learn-workflow.mp4"
 darkImageSrc="/img/docs/cli/quickstart/intuita-learn-workflow.mp4"/>
 
 :::caution
-If you encounter any issues with the auto-generated codemod, please [leave us some feedback here](https://feedback.intuita.io/feature-requests-and-bugs).
+If you encounter any issues with the auto-generated codemod, please [leave us some feedback here](https://feedback.codemod.com/feature-requests-and-bugs).
 :::
 
 
@@ -112,7 +112,7 @@ The `--include` option can be used to specify a glob pattern of the files to be 
 This option uses the following format:
 
 ```bash
-intuita [codemod name] --include "[glob pattern]"
+codemod [codemod name] --include "[glob pattern]"
 ```
 
 :::tip
@@ -126,7 +126,7 @@ While running a codemod, you may want to prevent changes from occurring to speci
 This option uses the following format:
 
 ```bash
-intuita [codemod name] --exclude "[glob pattern]"
+codemod [codemod name] --exclude "[glob pattern]"
 ```
 
 :::tip
@@ -142,7 +142,7 @@ This option is set as the current directory by default.
 This option uses the following format:
 
 ```bash
-intuita [codemod name] --targetPath [path]
+codemod [codemod name] --targetPath [path]
 ```
 
 ### `--sourcePath`
@@ -156,7 +156,7 @@ Running local codemods requires specifying the codemod engine your codemod uses.
 This option uses the following format:
 
 ```bash
-intuita --sourcePath [path] --codemodEngine [codemod engine]
+codemod --sourcePath [path] --codemodEngine [codemod engine]
 ```
 
 ### `--codemodEngine`
@@ -176,7 +176,7 @@ The `--fileLimit` option can be used to specify a limit to the number of files t
 This option uses the following format:
 
 ```bash
-intuita [codemod name] --fileLimit [number]
+codemod [codemod name] --fileLimit [number]
 ```
 
 ### `--usePrettier`
@@ -186,7 +186,7 @@ The `usePrettier` option can be used to enable/disable prettier formatting to th
 This option uses the following format:
 
 ```bash
-intuita [codemod name] --usePrettier [true/false]
+codemod [codemod name] --usePrettier [true/false]
 ```
 
 ### `--useCache`
@@ -196,7 +196,7 @@ The `--useCache` option can be used to enable/disable caching downloaded codemod
 This option uses the following format:
 
 ```bash
-intuita [codemod name] --useCache [true/false]
+codemod [codemod name] --useCache [true/false]
 ```
 
 ### `--useJson`
@@ -206,7 +206,7 @@ The `--useJson` option can be used to switch the CLI responses to JSON format.
 This option uses the following format:
 
 ```bash
-intuita [codemod name] --useJson
+codemod [codemod name] --useJson
 ```
 
 ### `--threadCount`
@@ -216,7 +216,7 @@ The `--threadCount` option can be used to specify the number of worker threads t
 This option uses the following format:
 
 ```bash
-intuita [codemod name] --threadCount [number of threads]
+codemod [codemod name] --threadCount [number of threads]
 ```
 
 ### `--dryRun`
@@ -230,7 +230,7 @@ Dry-running codemods requires specifying the output directory to which the codem
 This option uses the following format:
 
 ```bash
-intuita [codemod name] --dryRun true --outputDirectoryPath [path]
+codemod [codemod name] --dryRun true --outputDirectoryPath [path]
 ```
 
 ### `--telemetryDisable`

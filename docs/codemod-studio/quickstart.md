@@ -23,7 +23,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
 
-[Codemod Studio](https://codemod.studio/) is an AI workbench for creating codemods. Codemods are powerful code automation bots that can automate many crucial yet tedious coding tasks, such as migrations, upgrades, large-scale changes, enforcing best practices, and bringing conformity to a codebase (learn more about codemods [here](https://docs.intuita.io/blog/what-are-codemods)). However, building them has been very hard and time-consuming. Until now. [Codemod Studio](https://codemod.studio/) allows you to "instantly" create code automation bots with the help of AI, specialized helpers, and debuggers, as well as a vibrant community of "codemod champions."
+[Codemod Studio](https://codemod.studio/) is an AI workbench for creating codemods. Codemods are powerful code automation bots that can automate many crucial yet tedious coding tasks, such as migrations, upgrades, large-scale changes, enforcing best practices, and bringing conformity to a codebase (learn more about codemods [here](https://docs.codemod.com/blog/what-are-codemods)). However, building them has been very hard and time-consuming. Until now. [Codemod Studio](https://codemod.studio/) allows you to "instantly" create code automation bots with the help of AI, specialized helpers, and debuggers, as well as a vibrant community of "codemod champions."
 
 <VideoSwitcher 
 lightImageSrc="/img/docs/codemod-studio/quickstart/codemod-studio-quickstart.mp4"
@@ -35,7 +35,7 @@ darkImageSrc="/img/docs/codemod-studio/quickstart/codemod-studio-quickstart.mp4"
 With the help of fine-tuned LLMs under-the-hood and codemod creation features such as expert-curated prompts, smart highlighting & GUI codemod builder, Codemod Studio can help you build codemods in a few minutes.
 
 :::tip 
-Your codemod creation journey can also start right from your IDE/CLI and with just one command: `intuita learn`
+Your codemod creation journey can also start right from your IDE/CLI and with just one command: `codemod learn`
 
 [More info here ->](../cli/advanced-usage#generate-codemod-from-file-diff)
 :::

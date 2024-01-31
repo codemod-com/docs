@@ -29,19 +29,19 @@ For a better developer experience with dry-running codemods, reviewing & tweakin
 ## Install CLI
 
 ```bash
-npm i -g intuita
+npm i -g codemod
 ```
 
 ## List Available Codemods
 
 ```bash
-intuita list
+codemod list
 ```
 
 ## Run a Codemod or Recipe
 
 ```bash
-intuita next/13/app-router-recipe   
+codemod next/13/app-router-recipe   
 ```
 
 > `next/13/app-router-recipe` is a sample recipe. Replace it with any codemod or recipe name from the registry.

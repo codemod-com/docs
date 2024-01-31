@@ -99,7 +99,7 @@ These steps can also reproduce our results on the cms-wordpress sample project d
 Install Codemod’s CLI tool by running the following command:
 
 ```bash
-npm i -g intuita
+npm i -g codemod
 ```
 
 For an even better user experience, install the Codemod VS Code extension from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=Intuita.intuita-vscode-extension).
@@ -109,10 +109,10 @@ After installing the extension, navigate to your Next.js project folder and opti
 ### 2: Run codemods.
 
 We have simplified the migration process by providing a predefined migration "recipe" that can be executed with a single command.
-Running the recipe will execute a set of codemods sequentially, eliminating the need to find and run the required codemods in the correct order. Learn how to easily run a codemod [using the VS Code extension here](https://docs.intuita.io/docs/vs-code-extension/quickstart#2-run), or [using the CLI here](https://docs.codemod.com/docs/cli/quickstart#run-a-codemod-or-recipe). For a Next.js migration, you can use the following command:
+Running the recipe will execute a set of codemods sequentially, eliminating the need to find and run the required codemods in the correct order. Learn how to easily run a codemod [using the VS Code extension here](https://docs.codemod.com/docs/vs-code-extension/quickstart#2-run), or [using the CLI here](https://docs.codemod.com/docs/cli/quickstart#run-a-codemod-or-recipe). For a Next.js migration, you can use the following command:
 
 ```bash
-intuita next/13/app-router-recipe
+codemod next/13/app-router-recipe
 ```
 
 <VideoSwitcher 
@@ -126,7 +126,7 @@ For larger projects, it is recommended to run the codemods individually.
 There are three ways to discover the list of codemods:
 
 1. Codemod Discovery panel in Codemod's VS Code extension
-2. Running the Codemod CLI command: intuita list
+2. Running the Codemod CLI command: `codemod list`
 3. Exploring the public [Code Registry repository](https://github.com/codemod-com/codemod-registry) on GitHub.
 
 After executing the recipe or codemods, you'll notice that most of the migration work has been automated.
@@ -161,20 +161,20 @@ Alright! The migration for cms-wordpress is complete. But what if your project h
 
 After running Next.js's generically applicable codemods, you may end up with many repetitive code blocks that you might want to abstract away. Or, your team may have specific best practices to enforce that differ from the output of generic codemods.
 
-For such use cases, you can use [Codemod Studio](https://codemod.studio/) to create a separate set of cleanup codemods. You can [start your codemod creation journey](https://docs.codemod.com/docs/codemod-studio/quickstart) from Codemod Studio or your local machine with just one CLI command: `intuita learn`.
+For such use cases, you can use [Codemod Studio](https://codemod.studio/) to create a separate set of cleanup codemods. You can [start your codemod creation journey](https://docs.codemod.com/docs/codemod-studio/quickstart) from Codemod Studio or your local machine with just one CLI command: `codemod learn`.
 
 Follow these few steps:
 
 **One-time prerequisite**
 
-1. Install **Codemod CLI**: `npm i -g intuita`
-2. Install the **Codemod [extension](https://marketplace.visualstudio.com/items?itemName=Intuita.intuita-vscode-extension)**. While it is not required for `intuita learn`, it provides the best developer experience once the codemod is ready.
+1. Install **Codemod CLI**: `npm i -g codemod`
+2. Install the **Codemod [extension](https://marketplace.visualstudio.com/items?itemName=Intuita.intuita-vscode-extension)**. While it is not required for `codemod learn`, it provides the best developer experience once the codemod is ready.
 3. Sign in to **Codemod Studio**. Although you can use Codemod Studio anonymously without signing in, you must be logged in to use its AI assistant, ModGPT.
 
 **Cleanup codemods or day-to-day large-scale changes**
 
 1. **Create a diff.**
-2. Run `intuita learn`
+2. Run `codemod learn`
 3. Watch as your **codemod is created automatically**.
     1. It's solid for simple codemods (covers most of the daily usages)
     2. If ModGPT did not create the desired codemod, use its integrated test fixtures, live codemod runner, expert-curated and context-aware prompts, and live debugger to understand and improve the codemod iteratively.
