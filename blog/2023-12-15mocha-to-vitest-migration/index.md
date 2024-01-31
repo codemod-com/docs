@@ -184,7 +184,7 @@ We called the recipe for the described migration [`mocha/vitest/recipe`](vscode:
 
 Codemods could be run via Codemod.com's VS Code Extension ([click on this deep-link](https://tinyurl.com/ytpbx5kb)), or via the CLI command from the root folder of the project:
 ```bash
-npx intuita mocha/vitest/recipe
+npx codemod mocha/vitest/recipe
 ```
 
 We ran the recipe over 3 of our own repositories:
