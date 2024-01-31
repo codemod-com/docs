@@ -1,6 +1,6 @@
 ---
 title: Quickstart
-description: Get started with using the Codemod.com command-line interface.
+description: Get started with using the Codemod command-line interface.
 ---
 
 import ThemedImage from "@theme/ThemedImage";
@@ -11,7 +11,7 @@ import ReactPlayer from 'react-player';
 import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
 
 <head>
-  <meta property='og:title' content='Quickstart | Codemod.com CLI'/>
+  <meta property='og:title' content='Quickstart | Codemod CLI'/>
   <meta property='og:description' content='The new way to build, share & run codemods at any scale.'/>
   <meta name='og:image' content='https://raw.githubusercontent.com/codemod-com/docs/main/static/img/docs/cli/getting-started-cli-og.png'/>
   <meta property='og:image' content='https://raw.githubusercontent.com/codemod-com/docs/main/static/img/docs/cli/getting-started-cli-og.png'/>
@@ -20,9 +20,9 @@ import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
   <meta name='twitter:image' content='https://raw.githubusercontent.com/codemod-com/docs/main/static/img/docs/cli/getting-started-cli-og.png'/>
 </head>
 
-Codemod.com gives you multiple ways to discover, run & share supported codemods and code automation recipes. With the command-line interface (CLI) you can interact with the Codemod.com platform using a terminal or through an automated system. Codemod.com's CLI requires [Node.js v16+](https://nodejs.org/).
+The Codemod platform gives you multiple ways to discover, run & share supported codemods and code automation recipes. With the command-line interface (CLI) you can interact with the Codemod platform using a terminal or through an automated system. The Codemod CLI requires [Node.js v16+](https://nodejs.org/).
 
-For a better developer experience with dry-running codemods, reviewing & tweaking automated changes, reporting issues, and sharing codemods, we recommend using [Codemod.com's VS Code Extension](../vs-code-extension/quickstart).
+For a better developer experience with dry-running codemods, reviewing & tweaking automated changes, reporting issues, and sharing codemods, we recommend using [the Codemod VS Code Extension](../vs-code-extension/quickstart).
 
 ---
 

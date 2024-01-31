@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Advanced Usage
-description: Learn more about running codemods with Codemod.com's VS Code extension.
+description: Learn more about running codemods with the Codemod VS Code extension.
 ---
 
 import ThemedImage from "@theme/ThemedImage";
@@ -11,7 +11,7 @@ import TabItem from '@theme/TabItem';
 import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
 
 <head>
-  <meta property='og:title' content='Advanced Usage | Codemod.com VS Code Extension'/>
+  <meta property='og:title' content='Advanced Usage | Codemod VS Code Extension'/>
   <meta property='og:description' content='The new way to build, share & run codemods at any scale.'/>
   <meta name='og:image' content='https://raw.githubusercontent.com/codemod-com/docs/main/static/img/docs/vs-code-extension/advanced-usage-vs-code-extension-og.png'/>
   <meta property='og:image' content='https://raw.githubusercontent.com/codemod-com/docs/main/static/img/docs/vs-code-extension/advanced-usage-vs-code-extension-og.png'/>
@@ -20,7 +20,7 @@ import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
   <meta name='twitter:image' content='https://raw.githubusercontent.com/codemod-com/docs/main/static/img/docs/vs-code-extension/advanced-usage-vs-code-extension-og.png'/>
 </head>
 
-The Codemod.com VS Code Extension allows you to run codemods over your projects to successfully migrate your project dependencies from one version to the next. This page will walk you through running these codemods as well as Codemod.com's useful features that make running codemods easier.
+The Codemod VS Code Extension allows you to run codemods over your projects to successfully migrate your project dependencies from one version to the next. This page will walk you through running these codemods as well the useful features that make running codemods easier.
 
 ---
 
@@ -50,7 +50,7 @@ darkImageSrc="/img/docs/running-codemods/dry-run-dark.mp4"/>
 
 ## Change Codemod Path (Optional)
 
-Before dry-running a codemod over your project, the Codemod.com extension allows you to limit the codemod’s changes to a specific path in your project.
+Before dry-running a codemod over your project, the Codemod extension allows you to limit the codemod’s changes to a specific path in your project.
 
 This is useful for tackling large project migrations by breaking them down into smaller, manageable tasks.
 
@@ -118,7 +118,7 @@ To review the changes made:
     lightImageSrc="/img/docs/running-codemods/apply-changes-light.mp4"
     darkImageSrc="/img/docs/running-codemods/apply-changes-dark.mp4"/>
     
-    When you click `Apply`, the Codemod.com extension will apply the selected changes to your local project files.
+    When you click `Apply`, the Codemod extension will apply the selected changes to your local project files.
 
 ## More Helpful Features
 

@@ -46,7 +46,7 @@ Codemod Studio allows you to iteratively test, debug, and improve your codemods�
 
 ## 3. Deploy
 
-With close integration with Codemod.com’s platform, Codemod Studio allows you to easily deploy and run your codemods over your projects using Codemod.com’s VS Code Extension.
+With close integration with the Codemod platform, Codemod Studio allows you to easily deploy and run your codemods over your projects using the Codemod VS Code Extension.
 
 
 ## Codemod Studio vs. the Platform

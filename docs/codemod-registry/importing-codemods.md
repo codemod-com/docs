@@ -1,6 +1,6 @@
 ---
 title: Importing Codemods
-description: Learn how to import codemods into Codemod.com's Codemod Registry.
+description: Learn how to import codemods into the Codemod Registry.
 ---
 
 <head>
@@ -20,15 +20,15 @@ import TabItem from '@theme/TabItem';
 import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
 
 
-Open-source framework/library builders! Follow this guide to add your codemods to the Codemod Registry. Once added, they will **automatically** integrate with Codemod.com's platform. This simplifies **codemod discovery** and **distribution**, and offers **a great developer experience for running codemods**. 
+Open-source framework/library builders! Follow this guide to add your codemods to the Codemod Registry. Once added, they will **automatically** integrate with the Codemod platform. This simplifies **codemod discovery** and **distribution**, and offers **a great developer experience for running codemods**. 
 
-Thanks to features like **codemod deep links** and **codemod engines that are powered up by Codemod.com under the hood** via its IDE extensions and CLI, your users can go from migration docs to having their code automatically transformed with just one click!
+Thanks to features like **codemod deep links** and **codemod engines that are powered up by the Codemod platform under the hood** via its IDE extensions and CLI, your users can go from migration docs to having their code automatically transformed with just one click!
 
 ---
 
 ## Importing codemods into the public registry
 
-To ensure quality and usefulness of codemods and code automation recipes, Codemod.com provides guidelines and sets some basic governance rules. We'll also be building features to empower the community to uprank the highest quality codemods and recipes. Here is the process to add your codemods to the registry.
+To ensure quality and usefulness of codemods and code automation recipes, the Codemod platform provides guidelines and sets some basic governance rules. We'll also be building features to empower the community to uprank the highest quality codemods and recipes. Here is the process to add your codemods to the registry.
 
 - [Adding existing/new codemods to the registry](#adding-existingnew-codemods-to-the-registry)
   - [Importing codemods into the public registry](#importing-codemods-into-the-public-registry)
@@ -38,7 +38,7 @@ To ensure quality and usefulness of codemods and code automation recipes, Codemo
 
 ### Understanding the registry's structure
 
-The codemod registry consists of many codemods running over various codemod engines (jscodeshift, ts-morph, Uber's Piranha, and Codemod.com's File Transformation Engine).
+The codemod registry consists of many codemods running over various codemod engines (jscodeshift, ts-morph, Uber's Piranha, and Filemod).
 
 The codemod registry contains directories for each framework/library. Within each directory, you can find the supported framework/library versions. For each version, you can find all the supported codemods.
 
@@ -75,7 +75,7 @@ To contribute your codemod to the registry, you can [open a PR](https://github.c
     - Before and after code examples.
     - Applicability criteria (applicable framework/library versions, etc.)
     - Change mode (Assistive/autonomous).
-    - Used codemod engine (jscodeshift, ts-morph, Uber Piranha, Codemod.com File transformation Engine).
+    - Used codemod engine (jscodeshift, ts-morph, Uber Piranha, and Filemod).
     - Estimated time saving per occurrence.
     - Owner.
     - Links for more info (any links to manual/codemod migration steps).

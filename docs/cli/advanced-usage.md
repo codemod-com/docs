@@ -1,10 +1,10 @@
 ---
 title: Advanced Usage
-description: Learn more about using the Codemod.com command-line interface.
+description: Learn more about using the Codemod command-line interface.
 ---
 
 <head>
-  <meta property='og:title' content='Advanced Usage | Codemod.com CLI'/>
+  <meta property='og:title' content='Advanced Usage | Codemod CLI'/>
   <meta property='og:description' content='The new way to build, share & run codemods at any scale.'/>
   <meta name='og:image' content='https://raw.githubusercontent.com/codemod-com/docs/main/static/img/docs/cli/intuita-cli-advanced-usage-og.png'/>
   <meta property='og:image' content='https://raw.githubusercontent.com/codemod-com/docs/main/static/img/docs/cli/intuita-cli-advanced-usage-og.png'/>
@@ -15,13 +15,13 @@ description: Learn more about using the Codemod.com command-line interface.
 
 import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
 
-The command-line interface (CLI) to Codemod.com is the `codemod` command, which accepts a variety of subcommands and options for various preferences. With the Codemod.com CLI, you can interact with Codemod.com using a terminal or a script.
+The Codemod command-line interface (CLI) is the `codemod` command, which accepts a variety of subcommands and options for various preferences. With the Codemod CLI, you can interact with the Codemod platform using a terminal or a script.
 
-If you want to use Codemod.com through a graphical interface, check out the [Codemod.com VS Code Extension](/docs/vs-code-extension/quickstart).
+If you want to use the Codemod platform through a graphical interface, check out the [the Codemod VS Code Extension](/docs/vs-code-extension/quickstart).
 
 ---
 
-To view a list of the commands and options available using the Codemod.com CLI, run `codemod help`:
+To view a list of the commands and options available using the Codemod CLI, run `codemod help`:
 
 ```
 Commands:
@@ -82,7 +82,7 @@ codemod syncRegistry
 
 The `learn` command can be used to send the diff of the latest edited file to Codemod Studio and have it automatically build an explainable and debuggable codemod.
 
-After running this command, if any git diff exists, the Codemod.com will use the diff as before/after snippets in [Codemod Studio](https://codemod.studio). This command uses the following format:
+After running this command, if any git diff exists, the Codemod Engine will use the diff as before/after snippets in [Codemod Studio](https://codemod.studio). This command uses the following format:
 
 ```bash
 codemod learn
@@ -103,7 +103,7 @@ If you encounter any issues with the auto-generated codemod, please [leave us so
 
 ## Options
 
-The following options can be used to change the default behavior of the Codemod.com CLI. Option-specific information is provided below.
+The following options can be used to change the default behavior of the Codemod CLI. Option-specific information is provided below.
 
 ### `--include`
 
@@ -147,7 +147,7 @@ codemod [codemod name] --targetPath [path]
 
 ### `--sourcePath`
 
-The `--sourcePath` option can be used to specify the path to a local codemod you want to run using Codemod.com.
+The `--sourcePath` option can be used to specify the path to a local codemod you want to run using the Codemod CLI.
 
 :::tip
 Running local codemods requires specifying the codemod engine your codemod uses. You can do this by using the [`--codemodEngine` option](#--codemodengine).

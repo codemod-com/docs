@@ -17,11 +17,11 @@ description: Get started with using the Codemod Registry.
 # Introduction
 
 [Codemod Registry](https://github.com/codemod.com/codemod-registry) is an open-source, single-stop repository for codemods and code automation recipes that are built on top of tried-and-true engines such as Meta's jscodeshift, ts-morph, and Uber's piranha.
-After adding new codemods to the registry, they will automatically integrate into Codemod.com's platform and all developers who have Codemod.com's CLI or IDE extension can then discover, share, and run those codemods with a single click. This also eliminates the need for installing additional packages for each framework they want to upgrade.
+After adding new codemods to the registry, they will automatically integrate into the Codemod platform and all developers who have the Codemod CLI or IDE extension can then discover, share, and run those codemods with a single click. This also eliminates the need for installing additional packages for each framework they want to upgrade.
 
 ## Codemod Registry vs. the Platform
 
-![Codemod.com Platform Architecture](/img/docs/codemod-registry/intuita-platform-architecture-codemod-registry.png)
+![The Codemod Platform Architecture](/img/docs/codemod-registry/intuita-platform-architecture-codemod-registry.png)
 
 ## Share Feedback 🎁
 
