@@ -150,9 +150,9 @@ If a codemod causes an incorrect change, you can report an issue by clicking `Re
 :::tip
 If you’re interested in writing your own codemods, here are some great resources:
 
-- [What Are Codemods, Deciphered →](https://docs.intuita.io/blog/what-are-codemods)
-- [Writing Codemods Like A Pro →](https://docs.intuita.io/blog/writing-codemods-like-a-pro)
+- [What Are Codemods, Deciphered →](https://docs.codemod.com/blog/what-are-codemods)
+- [Writing Codemods Like A Pro →](https://docs.codemod.com/blog/writing-codemods-like-a-pro)
 
-You can also join and collaborate with our community of codemod experts on [Slack →](https://join.slack.com/t/intuita-inc/shared_invite/zt-1tvxm6ct0-mLZld_78yguDYOSM7DM7Cw)
+You can also join and collaborate with our community of codemod experts on [Slack →](https://codemod.com/community)
 
 :::

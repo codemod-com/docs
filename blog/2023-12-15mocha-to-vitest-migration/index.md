@@ -24,7 +24,7 @@ Over the years, the JavaScript community has introduced many test runners. The [
 
 Read on to learn how we built and used open-source codemods to automate the migration from Mocha to Vitest, saving countless hours of tedious work.
 
-![Screenshot 2023-12-15 at 12 40 42 PM](https://github.com/intuita-inc/intuita-docs/assets/78109534/91b8dc80-e613-4146-8f75-d8caea1458bc)
+![Screenshot 2023-12-15 at 12 40 42 PM](https://github.com/codemod-com/docs/assets/78109534/91b8dc80-e613-4146-8f75-d8caea1458bc)
 
 <!--truncate-->
 
@@ -189,9 +189,9 @@ npx intuita mocha/vitest/recipe
 
 We ran the recipe over 3 of our own repositories:
 
-1. [`intuita/filemod`](https://github.com/intuita-inc/filemod)
-2. [`intuita/codemod-engine-node`](https://github.com/intuita-inc/codemod-engine-node)
-3. [`intuita/codemod-registry`](https://github.com/intuita-inc/codemod-registry)
+1. [`codemod-com/filemod`](https://github.com/codemod-com/filemod)
+2. [`codemod-com/codemod-engine-node`](https://github.com/codemod-com/codemod-engine-node)
+3. [`codemod-com/codemod-registry`](https://github.com/codemod-com/codemod-registry)
 
 The first two had a handful of Mocha.js test suites and we migrated them first to spot problems early in the development. Once the codemod was ready and accurate, we merged them into the Codemod Registry. Once codemods are published to the registry, they automatically become accessible to the community via Codemod.com VSCode Extension or the Codemod.com CLI.
 
@@ -244,4 +244,4 @@ This article has journeyed through the specifics of migrating from Mocha to Vite
 2. **LLM**: Thanks to cutting edge LLMs, any developer can instantly create codemods, saving hours, days and weeks of time in bigger codebases.
 3. **OSS**: With Codemod.com's open-source platform we can automate crucial yet tedious tasks for ourselves, colleagues, and the community.
 
-If you, just like us, are passioante about the future of software development, join our [community](https://go.intuita.io/slack) or [team](https://codemod.notion.site/Join-us-b9c9bf82d38341f8936744b6aac20dba?pvs=4).
+If you, just like us, are passioante about the future of software development, join our [community](https://codemod.com/community) or [team](https://codemod.notion.site/Join-us-b9c9bf82d38341f8936744b6aac20dba?pvs=4).

@@ -18,7 +18,7 @@ And you? We are growing & looking for solid engineers who are energetic, problem
 
 ## 👩‍🔧🌎 Contributing
 
-If you'd like to contribute to our goal to better code and an amazing future to building codemods, check out our [GitHub page](https://github.com/intuita-inc), where we contribute to the open-source community with amazing stuff.
+If you'd like to contribute to our goal to better code and an amazing future to building codemods, check out our [GitHub page](https://github.com/codemod-com), where we contribute to the open-source community with amazing stuff.
 
 We'd love to see your contributions! We are sure you have something amazing to add! ❤️🤟🏼
 
@@ -34,7 +34,7 @@ Devtool investors, be part of our story! We are here to accelerate innovation & 
 
 What is your favorite method of communication?
 - [Email](mailto:hello@codemod.com)
-- [LinkedIn](https://www.linkedin.com/company/codemod-com/)
-- [Twitter](https://twitter.com/Codemod_com)
+- [LinkedIn](https://www.linkedin.com/company/codemod/)
+- [Twitter](https://twitter.com/codemod)
 - [Calendly](https://cal.com/codemod)
 - [Slack](https://codemod.com/community)

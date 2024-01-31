@@ -86,9 +86,9 @@ We’ll continue this tutorial using the codemod registry, as it’s a simpler a
 
 All you need to do is:
 
-1. Clone the [Codemod Registry](https://github.com/intuita-inc/codemod-registry) on your local environment.
+1. Clone the [Codemod Registry](https://github.com/codemod-com/codemod-registry) on your local environment.
     
-    `git clone https://github.com/intuita-inc/codemod-registry`
+    `git clone https://github.com/codemod-com/codemod-registry`
     
 2. Open the codemod registry directory in your code editor of choice.
     

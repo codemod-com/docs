@@ -15,4 +15,4 @@ The codemods for upgrading the following frameworks/libraries have already been 
 
 ## To-be Supported Soon
 
-If you want to upgrade a dependency in the near future & it's available in the currently supported codemods, please [create an issue](https://github.com/intuita-inc/intuita-vscode-extension/issues/new) for us to prioritize.
+If you want to upgrade a dependency in the near future & it's available in the currently supported codemods, please [create an issue](https://github.com/codemod-com/intuita-vscode-extension/issues/new) for us to prioritize.

@@ -20,7 +20,7 @@ The Codemod.com VSCode’s Extension (v0.25.0 and later) uses the VSCode’s off
 
 As Microsoft treates the GPDR and similar laws seriously (as outlined [here](https://code.visualstudio.com/docs/getstarted/telemetry#_gdpr-and-vs-code)), so does Codemod.com. We followed the [extension guide on telemetry](https://code.visualstudio.com/api/extension-guides/telemetry) to ensure that we do not collect Personally-Identifiable Information (PII) and we send only the data we need for the continuous improvement of our product.
 
-The extension tracks the events happening within the extension and they have following properties (this is described in the extension’s [source code](https://github.com/intuita-inc/intuita-vscode-extension/blob/d636de9cf6b665b2775748b93c782b12939e2ed1/src/telemetry/telemetry.ts#L6)).
+The extension tracks the events happening within the extension and they have following properties (this is described in the extension’s [source code](https://github.com/codemod-com/intuita-vscode-extension/blob/d636de9cf6b665b2775748b93c782b12939e2ed1/src/telemetry/telemetry.ts#L6)).
 
 ### Properties:
 

@@ -69,7 +69,7 @@ For more details on OpenAI's data usage and privacy policies, please consult [Op
 
 ## Share Feedback 🎁
 
-- Please share your ideas, questions, and feature requests **[here](https://feedback.intuita.io/)**, or chat with us in [Slack](https://join.slack.com/t/intuita-inc/shared_invite/zt-1tvxm6ct0-mLZld_78yguDYOSM7DM7Cw).
+- Please share your ideas, questions, and feature requests **[here](https://feedback.codemod.com/)**, or chat with us in [Slack](https://codemod.com/community).
 
 
 

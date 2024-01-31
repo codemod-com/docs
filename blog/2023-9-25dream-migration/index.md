@@ -109,7 +109,7 @@ After installing the extension, navigate to your Next.js project folder and opti
 ### 2: Run codemods.
 
 We have simplified the migration process by providing a predefined migration "recipe" that can be executed with a single command.
-Running the recipe will execute a set of codemods sequentially, eliminating the need to find and run the required codemods in the correct order. Learn how to easily run a codemod [using the VS Code extension here](https://docs.intuita.io/docs/vs-code-extension/quickstart#2-run), or [using the CLI here](https://docs.intuita.io/docs/cli/quickstart#run-a-codemod-or-recipe). For a Next.js migration, you can use the following command:
+Running the recipe will execute a set of codemods sequentially, eliminating the need to find and run the required codemods in the correct order. Learn how to easily run a codemod [using the VS Code extension here](https://docs.intuita.io/docs/vs-code-extension/quickstart#2-run), or [using the CLI here](https://docs.codemod.com/docs/cli/quickstart#run-a-codemod-or-recipe). For a Next.js migration, you can use the following command:
 
 ```bash
 intuita next/13/app-router-recipe

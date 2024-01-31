@@ -62,7 +62,7 @@ const config = {
         title: 'Codemod.com',
         logo: {
           alt: 'Codemod.com Logo',
-          src: 'img/intuita-logo.png',
+          src: 'img/brand/codemod-logo-small-lime.png',
           href: 'https://codemod.com',
           target: '_self',
         },

@@ -69,7 +69,7 @@ You can contribute to the registry by adding a completely new framework/library 
 
 ### Opening a PR with your codemod
 
-To contribute your codemod to the registry, you can [open a PR](https://github.com/intuita-inc/codemod-registry/pulls) containing your codemod. Your codemod should meet the following criteria:
+To contribute your codemod to the registry, you can [open a PR](https://github.com/codemod-com/codemod-registry/pulls) containing your codemod. Your codemod should meet the following criteria:
 1. Includes a Readme file that contains:
     - Codemod description.
     - Before and after code examples.
@@ -81,7 +81,7 @@ To contribute your codemod to the registry, you can [open a PR](https://github.c
     - Links for more info (any links to manual/codemod migration steps).
 
       :::tip
-      You can use the codemod Readme template [here →](https://intuita.notion.site/Codemod-Readme-Template-1797c9773653469fa23a9ad21d7e17c9?pvs=4)
+      You can use the codemod Readme template [here →](https://codemod.notion.site/Codemod-Readme-Template-1797c9773653469fa23a9ad21d7e17c9?pvs=4)
       :::
 
 2. Includes a `config.json` metadata file which indicates the following fields:
@@ -98,7 +98,7 @@ To contribute your codemod to the registry, you can [open a PR](https://github.c
     ```
 
     :::tip
-    Example of the [`replace-next-head`](https://github.com/intuita-inc/codemod-registry/tree/main/next/13/replace-next-head-v2) codemod metadata file:
+    Example of the [`replace-next-head`](https://github.com/codemod-com/codemod-registry/tree/main/next/13/replace-next-head-v2) codemod metadata file:
 
     ```
     {
@@ -106,7 +106,7 @@ To contribute your codemod to the registry, you can [open a PR](https://github.c
 	    "name": "next/13/replace-next-head-v2",
 	    "engine": "repomod-engine",
 	    "dependencyVersionLowerThan": ["next", "13.0.0"],
-	    "owner": "intuita"
+	    "owner": "codemod-com"
     }
     ```
     :::
@@ -120,8 +120,8 @@ To contribute your codemod to the registry, you can [open a PR](https://github.c
 :::tip
 If you’re interested in learning how to write codemods, here are some great resources:
 
-- [What Are Codemods, Deciphered →](https://docs.intuita.io/blog/what-are-codemods)
-- [Writing Codemods Like A Pro →](https://docs.intuita.io/blog/writing-codemods-like-a-pro)
+- [What Are Codemods, Deciphered →](https://docs.codemod.com/blog/what-are-codemods)
+- [Writing Codemods Like A Pro →](https://docs.codemod.com/blog/writing-codemods-like-a-pro)
 
-You can also join and collaborate with our community of codemod experts on [Slack →](https://join.slack.com/t/intuita-inc/shared_invite/zt-1tvxm6ct0-mLZld_78yguDYOSM7DM7Cw)
+You can also join and collaborate with our community of codemod experts on [Slack →](https://codemod.com/community)
 :::

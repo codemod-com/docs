@@ -23,7 +23,7 @@ import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
 
 Install [Codemod.com's VS Code extension](https://marketplace.visualstudio.com/items?itemName=Intuita.intuita-vscode-extension) & upgrade your projects with the help of codemods created by experts in the community, one framework at a time.
 
-> 🎁 What frameworks should we support next? [Let us know →](https://feedback.intuita.io/codemod-requests)
+> 🎁 What frameworks should we support next? [Let us know →](https://feedback.codemod.com/codemod-requests)
 
 ## 1. Discover
 
@@ -46,7 +46,7 @@ darkImageSrc="/img/vsce//vsce-run.mp4"/>
 - Leverage the **1-click integration with Codemod Studio** and the feedback loop with the **community of Codemod Champions** to continuously improve Codemods and customize them to your needs.
 
 > 💡 Codemod.com is in Public Beta and we’re continuously working on improving codemods and solving any compatibility issues.
-If you run into an issue while running a codemod, please [let us know →](https://feedback.intuita.io/feature-requests-and-bugs)
+If you run into an issue while running a codemod, please [let us know →](https://feedback.codemod.com/feature-requests-and-bugs)
 
 ## Other Features
 
@@ -62,8 +62,8 @@ If you run into an issue while running a codemod, please [let us know →](https
 - The extension collects telemetry data to help us improve the product for you.
 - **We never send PII, OS information, file, or folder names.**
 - Telemetry can be disabled in the settings.
-- See more details in our [telemetry compliance considerations](https://docs.intuita.io/docs/about-intuita/legal/telemetry-compliance) doc.
+- See more details in our [telemetry compliance considerations](https://docs.codemod.com/docs/about/telemetry-compliance) doc.
 
 ## Share Feedback 🎁
 
-- Please share your ideas, questions, and feature requests **[here](https://feedback.intuita.io/)**, or chat with us in [Slack](https://join.slack.com/t/intuita-inc/shared_invite/zt-1tvxm6ct0-mLZld_78yguDYOSM7DM7Cw).
+- Please share your ideas, questions, and feature requests **[here](https://feedback.codemod.com/)**, or chat with us in [Slack](https://codemod.com/community).
