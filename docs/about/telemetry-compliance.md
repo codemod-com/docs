@@ -33,7 +33,7 @@ Some of these properties are required by the VSCode’s official telemetry exten
 | common.nodeArch | users computer CPU architecture | tracked by default | Yes | "x64" |
 | common.platformversion | the platform version | tracked by default | Yes | "21.6.0" |
 | common.telemetryclientversion | telemetry client version | tracked by default | Yes | "0.7.7" |
-| common.extname | extension name (intuita-vscode-extension) | tracked by default | Yes | "Intuita.intuita-vscode-extension" |
+| common.extname | extension name (codemod-vscode-extension) | tracked by default | Yes | "codemod.codemod-vscode-extension" |
 | common.extversion | extension version | tracked by default | Yes | "0.25.0" |
 | common.vscodemachineid | machine id | tracked by default | Yes | "1a24c4eac3fd66ea27ad523d1f67c7c877279d8bf2a60160965aaee98582e0bc" |
 | common.vscodesessionid | user session id | tracked by default | Yes | "61d1723e-9b15-4848-a80a-20ae2c620bad1685720116803" |
