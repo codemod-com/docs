@@ -13,9 +13,11 @@ import Figure from '../../src/components/figures.jsx'
 
 <head>
   <meta content="Large-scale Next.js Migration at Cal.com: impact, challenges & lessons learned" property="og:title"/>
+  <meta content="This technical blog post discusses a large-scale migration from Next.js Pages to App, performed by us, Codemod engineers, on the Cal.com open-source product." property="og:description"/>
 
   <meta content="@codemod" name="twitter:site"/>
   <meta content="summary_large_image" name="twitter:card"/>
+  
   <meta name='og:image' content='https://codemodcom.mintlify.app/api/og?division=Blog&section=Case%20Study&title=Large-scale%20Next.js%20Migration%20at%20Cal.com&logoLight=https%3A%2F%2Fmintlify.s3-us-west-1.amazonaws.com%2Fcodemodcom%2Flogo%2Fcodemod-logo-light.svg&logoDark=https%3A%2F%2Fmintlify.s3-us-west-1.amazonaws.com%2Fcodemodcom%2Flogo%2Fcodemod-logo-dark.svg&primaryColor=%230B151E&lightColor=%23D6FF62&darkColor=%230B151E'/>
 
   <meta name='twitter:image' content='https://codemodcom.mintlify.app/api/og?division=Blog&section=Case%20Study&title=Large-scale%20Next.js%20Migration%20at%20Cal.com&logoLight=https%3A%2F%2Fmintlify.s3-us-west-1.amazonaws.com%2Fcodemodcom%2Flogo%2Fcodemod-logo-light.svg&logoDark=https%3A%2F%2Fmintlify.s3-us-west-1.amazonaws.com%2Fcodemodcom%2Flogo%2Fcodemod-logo-dark.svg&primaryColor=%230B151E&lightColor=%23D6FF62&darkColor=%230B151E'/>
