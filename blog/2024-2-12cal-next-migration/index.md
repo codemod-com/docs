@@ -12,11 +12,13 @@ import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
 import Figure from '../../src/components/figures.jsx'
 
 <head>
-  <meta content="Large-scale Next.js Migration at Cal.com: impact, challenges & lessons learned" property="og:image"/>
-  <meta content="This technical blog post discusses a large-scale migration from Next.js Pages to App, performed by us, Codemod engineers, on the Cal.com open-source product." property="og:description"/>
+  <meta content="Large-scale Next.js Migration at Cal.com: impact, challenges & lessons learned" property="og:title"/>
 
   <meta content="@codemod" name="twitter:site"/>
   <meta content="summary_large_image" name="twitter:card"/>
+  <meta name='og:image' content='https://codemodcom.mintlify.app/api/og?division=Blog&section=Case%20Study&title=Large-scale%20Next.js%20Migration%20at%20Cal.com&logoLight=https%3A%2F%2Fmintlify.s3-us-west-1.amazonaws.com%2Fcodemodcom%2Flogo%2Fcodemod-logo-light.svg&logoDark=https%3A%2F%2Fmintlify.s3-us-west-1.amazonaws.com%2Fcodemodcom%2Flogo%2Fcodemod-logo-dark.svg&primaryColor=%230B151E&lightColor=%23D6FF62&darkColor=%230B151E'/>
+
+  <meta name='twitter:image' content='https://codemodcom.mintlify.app/api/og?division=Blog&section=Case%20Study&title=Large-scale%20Next.js%20Migration%20at%20Cal.com&logoLight=https%3A%2F%2Fmintlify.s3-us-west-1.amazonaws.com%2Fcodemodcom%2Flogo%2Fcodemod-logo-light.svg&logoDark=https%3A%2F%2Fmintlify.s3-us-west-1.amazonaws.com%2Fcodemodcom%2Flogo%2Fcodemod-logo-dark.svg&primaryColor=%230B151E&lightColor=%23D6FF62&darkColor=%230B151E'/>
 </head>
 
 This technical blog post discusses a large-scale migration from Next.js Pages to App, performed by us, Codemod engineers, on the Cal.com open-source product. We talk about the migration planning, execution, challenges we faced and overcame during such large migrations, the DevX and performance gains from this modernization project, and the lessons we learned that could be applied to future migrations. Hope you find it useful and please share your feedback and reactions with us.
