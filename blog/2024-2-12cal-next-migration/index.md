@@ -1,6 +1,6 @@
 ---
 slug: cal-next-migration
-title: "Large-scale Next.js Migration at Cal.com: impact, challenges & lessons learned "
+title: "Large-scale Next.js Migration at Cal.com: impact, challenges & lessons learned"
 authors: [greg]
 tags: [migration, case study]
 toc_min_heading_level: 2
