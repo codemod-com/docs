@@ -139,6 +139,7 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
         //theme: require('prism-react-renderer/themes/dracula'),
+        additionalLanguages: ['csharp'],
         magicComments: [
           {
             className: 'theme-code-block-highlighted-line',
