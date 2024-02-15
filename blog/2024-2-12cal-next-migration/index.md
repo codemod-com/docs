@@ -12,12 +12,11 @@ import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
 import Figure from '../../src/components/figures.jsx'
 
 <head>
-  <meta content="" property="og:image"/>
-  <meta content="" property="og:description"/>
+  <meta content="Large-scale Next.js Migration at Cal.com: impact, challenges & lessons learned" property="og:image"/>
+  <meta content="This technical blog post discusses a large-scale migration from Next.js Pages to App, performed by us, Codemod engineers, on the Cal.com open-source product." property="og:description"/>
 
   <meta content="@codemod" name="twitter:site"/>
   <meta content="summary_large_image" name="twitter:card"/>
-  <meta name='twitter:image' content=''/>
 </head>
 
 This technical blog post discusses a large-scale migration from Next.js Pages to App, performed by us, Codemod engineers, on the Cal.com open-source product. We talk about the migration planning, execution, challenges we faced and overcame during such large migrations, the DevX and performance gains from this modernization project, and the lessons we learned that could be applied to future migrations. Hope you find it useful and please share your feedback and reactions with us.
