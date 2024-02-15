@@ -21,6 +21,8 @@ Learn how to make your codebase more adaptable and maintainable using codemods. 
 
 <!--truncate-->
 
+---
+
 When you start a greenfield project, AI allows you to ship at the speed of thought. However, as your project grows in size, your code may not evolve as quickly as you would like. It doesn't have to be this way. Andrew and I would love to refer to such code as "elegant," which has a straightforward definition.
 
 ![Andrew Clark's Tweet](/img/blog/crafting-elegant-code/andrew-clark-tweet.jpeg)
