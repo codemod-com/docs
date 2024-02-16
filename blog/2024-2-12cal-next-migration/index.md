@@ -12,6 +12,7 @@ import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
 import Figure from '../../src/components/figures.jsx'
 
 <head>
+  <meta property="og:site_name" content="Codemod.com" />
   <meta content="Large-scale Next.js Migration at Cal.com: impact, challenges & lessons learned" property="og:title"/>
   <meta content="This technical blog post discusses a large-scale migration from Next.js Pages to App, performed by us, Codemod engineers, on the Cal.com open-source product." property="og:description"/>
 
