@@ -43,7 +43,7 @@ While Next.js allows for page-by-page migration, making this move in large apps 
 
 ### Cal.com
 
-[Cal.com](http://Cal.com) is an open-source scheduling platform, with a mission to connect a billion people ny 2031. Cal.com is one of Vercel’s enterprise customers and we got introduced to them via Guillermo Rauch, Vercel’s CEO, as a great example of a progressive company with a large Next.js app which is keen on leveraging the latest features of Next.js including performance and devX gains.
+[Cal.com](http://Cal.com) is an open-source scheduling platform, with a mission to connect a billion people by 2031. Cal.com is one of Vercel’s enterprise customers and we got introduced to them via Guillermo Rauch, Vercel’s CEO, as a great example of a progressive company with a large Next.js app which is keen on leveraging the latest features of Next.js including performance and devX gains.
 
 ### Codemod
 
