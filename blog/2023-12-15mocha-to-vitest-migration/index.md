@@ -50,9 +50,8 @@ This is why we created the Codemod.com platform to build, test, distribute, and 
 * **Manage**: Codemods alone are not sufficient for successful migrations in large codebases and teams. Orchestrating the changes made by codemods across multiple teams requires a platform that can integrate with the existing tools of each software team. These features, which are only needed by large teams, fall under Codemod.com's enterprise offerings.
 
 <figure>
-    <img src="https://github.com/codemod-com/docs/assets/78109534/556cf7b0-be10-4b79-9670-5e7918dbac73" />
+    <img src="https://github.com/codemod-com/docs/assets/78109534/712a7795-17c2-419d-9d69-cd71483204ea" />
 </figure>
-
 
 
 
