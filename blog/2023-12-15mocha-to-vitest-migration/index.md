@@ -1,7 +1,7 @@
 ---
 slug: mocha-to-vitest-migration
 title: "From Mocha to Vitest for 2X Faster Tests"
-authors: [greg]
+authors: [alex]
 tags: [migration, case study]
 toc_min_heading_level: 3
 toc_max_heading_level: 3
@@ -49,7 +49,11 @@ This is why we created the Codemod.com platform to build, test, distribute, and 
 * **Run**: Discover and run codemods with a single click or CLI command, tweak changes as needed, and iteratively improve them by providing feedback to Codemod.com AI or the community.
 * **Manage**: Codemods alone are not sufficient for successful migrations in large codebases and teams. Orchestrating the changes made by codemods across multiple teams requires a platform that can integrate with the existing tools of each software team. These features, which are only needed by large teams, fall under Codemod.com's enterprise offerings.
 
-<Figure caption="The architectural diagram of the Codemod.com Platform, including the planned Web App." src="/img/docs/intuita-platform-architecture.png" />
+<figure>
+    <img src="https://github.com/codemod-com/docs/assets/78109534/712a7795-17c2-419d-9d69-cd71483204ea" />
+</figure>
+
+
 
 With that in mind, let's go over how we leveraged our platform to migrate from Mocha to Vitest.
 
