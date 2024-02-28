@@ -115,4 +115,4 @@ Check out our guide here to ***[learn how to write your first codemod](#)***!
 
 ## Share Your Codemods With The Amazing Community 👩🏽‍💻🌎
 
-Check out our guide here about ***[integrating your codemod into Codemod.com](/docs/codemod-registry/importing-codemods)***!
+Check out our guide here about ***[integrating your codemod into Codemod.com](https://docs.codemod.com/codemod-registry/publishing-codemods)***!
