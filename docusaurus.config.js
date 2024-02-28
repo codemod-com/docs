@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Codemod.com Docs',
   tagline: 'Upgrade dependencies faster with high-quality codemods.',
-  url: 'https://docs.codemod.com',
+  url: 'https://blog.codemod.com',
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -32,16 +32,11 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/codemod-com/docs/tree/main/',
-        },
+        docs: false,
         blog: {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
+          routeBasePath: '/',
           editUrl:
             'https://github.com/codemod-com/docs/tree/main/',
           blogTitle: 'Codemod.com Blog',
@@ -67,15 +62,9 @@ const config = {
           target: '_self',
         },
         items: [
+          {to: '/', label: 'Blog', position: 'left'},
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Docs',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/codemod-com',
+            href: 'https://github.com/codemod-com/codemod',
             label: 'GitHub',
             position: 'right',
           },
@@ -94,11 +83,7 @@ const config = {
               {
                 label: 'Join Slack',
                 href: 'https://codemod.com/community',
-              },
-              {
-                label: 'Feature Requests',
-                href: 'https://feedback.codemod.com/feature-requests',
-              },
+              }
             ],
           },
           {
@@ -106,27 +91,18 @@ const config = {
             items: [
               {
                 label: 'Blog',
-                to: '/blog',
+                to: '/',
+              },
+              {
+                label: 'Docs',
+                to: 'https://docs.codemod.com',
+              },
+              {
+                label: 'Registry',
+                to: 'https://codemod.com/automations',
               },
             ],
-          },
-          {
-            title: 'Company',
-            items: [
-              {
-                label: 'Privacy Policy',
-                to: 'docs/about/privacy-policy',
-              },
-              {
-                label: 'Terms & Conditions',
-                to: 'docs/about/terms-and-conditions',
-              },
-              {
-                label: 'Telemetry Compliance',
-                to: 'docs/about/telemetry-compliance',
-              },
-            ],
-          },
+          }
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Codemod.com`,
       },
