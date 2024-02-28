@@ -45,7 +45,7 @@ const config = {
           editUrl:
             'https://github.com/codemod-com/docs/tree/main/',
           blogTitle: 'Codemod.com Blog',
-          blogDescription: 'Check out the latest blog posts by Codemod.com.',
+          blogDescription: 'Read the latest blog posts by Codemod.',
           postsPerPage: 'ALL',
         },
         theme: {
