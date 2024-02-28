@@ -2,20 +2,14 @@
 slug: codemodable
 title: "“Codemodable”: The elegant code that grows with you"
 authors: [alex]
+description: "Learn how to make your codebase more adaptable and maintainable using codemods. Discover the key factors—like consistency, simplicity, documentation, test coverage, modularity, API stability, and abstraction—that make code easier to update and scale."
+image: 'https://codemodcom.mintlify.app/api/og?division=Blog&title=Crafting%20%E2%80%9Celegant%E2%80%9D%20code%20that%20grows%20with%20you&logoLight=https%3A%2F%2Fmintlify.s3-us-west-1.amazonaws.com%2Fcodemodcom%2Flogo%2Fcodemod-logo-light.svg&logoDark=https%3A%2F%2Fmintlify.s3-us-west-1.amazonaws.com%2Fcodemodcom%2Flogo%2Fcodemod-logo-dark.svg&primaryColor=%230B151E&lightColor=%23D6FF62&darkColor=%230B151E'
 ---
 
 <head>
   <meta property="og:site_name" content="Codemod.com" />
-  <meta content="“Codemodable”: The elegant code that grows with you" property="og:title"/>
-  <meta content="Learn how to make your codebase more adaptable and maintainable using codemods. Discover the key factors—like consistency, simplicity, documentation, test coverage, modularity, API stability, and abstraction—that make code easier to update and scale." property="og:description"/>
-  <meta name='og:image' content='https://codemodcom.mintlify.app/api/og?division=Blog&title=Crafting%20%E2%80%9Celegant%E2%80%9D%20code%20that%20grows%20with%20you&logoLight=https%3A%2F%2Fmintlify.s3-us-west-1.amazonaws.com%2Fcodemodcom%2Flogo%2Fcodemod-logo-light.svg&logoDark=https%3A%2F%2Fmintlify.s3-us-west-1.amazonaws.com%2Fcodemodcom%2Flogo%2Fcodemod-logo-dark.svg&primaryColor=%230B151E&lightColor=%23D6FF62&darkColor=%230B151E'/>
-
   <meta content="@codemod" name="twitter:site"/>
   <meta content="summary_large_image" name="twitter:card"/>
-  <meta content="“Codemodable”: The elegant code that grows with you" name="twitter:title"/>
-  <meta content="Learn how to make your codebase more adaptable and maintainable using codemods. Discover the key factors—like consistency, simplicity, documentation, test coverage, modularity, API stability, and abstraction—that make code easier to update and scale." name="twitter:description"/>
-  
-  <meta name='twitter:image' content='https://codemodcom.mintlify.app/api/og?division=Blog&title=Crafting%20%E2%80%9Celegant%E2%80%9D%20code%20that%20grows%20with%20you&logoLight=https%3A%2F%2Fmintlify.s3-us-west-1.amazonaws.com%2Fcodemodcom%2Flogo%2Fcodemod-logo-light.svg&logoDark=https%3A%2F%2Fmintlify.s3-us-west-1.amazonaws.com%2Fcodemodcom%2Flogo%2Fcodemod-logo-dark.svg&primaryColor=%230B151E&lightColor=%23D6FF62&darkColor=%230B151E'/>
 </head>
 
 Learn how to make your codebase more adaptable and maintainable using codemods. Discover the key factors—like consistency, simplicity, documentation, test coverage, modularity, API stability, and abstraction—that make code easier to update and scale.

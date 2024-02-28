@@ -1,20 +1,19 @@
 ---
 slug: writing-test-cases-for-codemods
 title: Writing Test Cases for Your Codemods
-description: Learn about writing test cases for your codemods.
+description: "In this tutorial, we go over how to write test cases for your codemods."
 authors: [mohab]
 tags: [codemods, tutorial, advanced]
 # Display h2 to h5 headings
 toc_min_heading_level: 2
 toc_max_heading_level: 3
+image: 'https://codemodcom.mintlify.app/api/og?division=Blog&title=Writing%20test%20cases%20for%20your%20codemods&logoLight=https%3A%2F%2Fmintlify.s3-us-west-1.amazonaws.com%2Fcodemodcom%2Flogo%2Fcodemod-logo-light.svg&logoDark=https%3A%2F%2Fmintlify.s3-us-west-1.amazonaws.com%2Fcodemodcom%2Flogo%2Fcodemod-logo-dark.svg&primaryColor=%230B151E&lightColor=%23D6FF62&darkColor=%230B151E'
 ---
 
 <head>
-  <meta content="https://raw.githubusercontent.com/codemod-com/docs/main/static/img/blog/writing-test-cases-for-your-codemods/writing-test-cases-for-your-codemods-og.jpg" property="og:image"/>
-  
+  <meta property="og:site_name" content="Codemod.com" />
   <meta content="@codemod" name="twitter:site"/>
   <meta content="summary_large_image" name="twitter:card"/>
-  <meta name='twitter:image' content='https://raw.githubusercontent.com/codemod-com/docs/main/static/img/blog/writing-test-cases-for-your-codemods/writing-test-cases-for-your-codemods-og.jpg'/>
 </head>
 
 import Tabs from '@theme/Tabs';

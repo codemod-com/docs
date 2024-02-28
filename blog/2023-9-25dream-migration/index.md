@@ -5,19 +5,16 @@ authors: [alex]
 tags: [migration, case study]
 toc_min_heading_level: 3
 toc_max_heading_level: 3
-
+description: "This article showcases codebase migration challenges and how Codemod.com helps developers tackle large-scale migrations through automation and better DevX."
+image: 'https://codemodcom.mintlify.app/api/og?division=Blog&title=Next.js%20App%20Router%20Migration&logoLight=https%3A%2F%2Fmintlify.s3-us-west-1.amazonaws.com%2Fcodemodcom%2Flogo%2Fcodemod-logo-light.svg&logoDark=https%3A%2F%2Fmintlify.s3-us-west-1.amazonaws.com%2Fcodemodcom%2Flogo%2Fcodemod-logo-dark.svg&primaryColor=%230B151E&lightColor=%23D6FF62&darkColor=%230B151E'
 ---
 
 import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
 
 <head>
-  <meta content="https://raw.githubusercontent.com/codemod-com/docs/main/static/img/blog/dream-migration/nextjs-app-router-migration-with-intuita-og.jpg" property="og:image"/>
-  <meta content="This article showcases codebase migration challenges and how Codemod.com helps developers tackle large-scale migrations through automation and better DevX." property="og:description"/>
-
-  
+  <meta property="og:site_name" content="Codemod.com" />
   <meta content="@codemod" name="twitter:site"/>
   <meta content="summary_large_image" name="twitter:card"/>
-  <meta name='twitter:image' content='https://raw.githubusercontent.com/codemod-com/docs/main/static/img/blog/dream-migration/nextjs-app-router-migration-with-intuita-og.jpg'/>
 </head>
 
 In this post, I'll touch on the following topics:

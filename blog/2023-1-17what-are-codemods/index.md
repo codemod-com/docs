@@ -4,14 +4,13 @@ title: What Are Codemods, Deciphered
 description: Learn more about what are codemods, how they work, and what problems they can solve.
 authors: [mohab]
 tags: [codemods, tutorial, beginner]
+image: 'https://codemodcom.mintlify.app/api/og?division=Blog&title=What%20are%20Codemods?&logoLight=https%3A%2F%2Fmintlify.s3-us-west-1.amazonaws.com%2Fcodemodcom%2Flogo%2Fcodemod-logo-light.svg&logoDark=https%3A%2F%2Fmintlify.s3-us-west-1.amazonaws.com%2Fcodemodcom%2Flogo%2Fcodemod-logo-dark.svg&primaryColor=%230B151E&lightColor=%23D6FF62&darkColor=%230B151E'
 ---
 
 <head>
-  <meta content="https://raw.githubusercontent.com/codemod-com/docs/main/static/img/blog/what-are-codemods/what-are-codemods-og.jpg" property="og:image"/>
-  
+  <meta property="og:site_name" content="Codemod.com" />
   <meta content="@codemod" name="twitter:site"/>
   <meta content="summary_large_image" name="twitter:card"/>
-  <meta name='twitter:image' content='https://raw.githubusercontent.com/codemod-com/docs/main/static/img/blog/what-are-codemods/what-are-codemods-og.jpg'/>
 </head>
 
 In this article we go over:

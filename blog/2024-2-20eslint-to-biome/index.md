@@ -2,20 +2,14 @@
 slug: eslint-to-biome
 title: "Eslint & Prettier to Biome migration: Adopting performant JavaScript language toolchain"
 authors: [sasha]
+description: "Replacing ESLint & Prettier with Biome: sane defaults, single configuration and faster linting checks."
+image: 'https://codemodcom.mintlify.app/api/og?division=Blog&title=Eslint%20to%20Biome%20Migration&logoLight=https%3A%2F%2Fmintlify.s3-us-west-1.amazonaws.com%2Fcodemodcom%2Flogo%2Fcodemod-logo-light.svg&logoDark=https%3A%2F%2Fmintlify.s3-us-west-1.amazonaws.com%2Fcodemodcom%2Flogo%2Fcodemod-logo-dark.svg&primaryColor=%230B151E&lightColor=%23D6FF62&darkColor=%230B151E'
 ---
 
 <head>
   <meta property="og:site_name" content="Codemod.com" />
-  <meta content="Eslint & Prettier to Biome migration: Adopting performant JavaScript language toolchain" property="og:title"/>
-  <meta content="" property="og:description"/>
-  <meta name='og:image' content='https://codemodcom.mintlify.app/api/og?division=Blog&title=Eslint%20to%20Biome%20Migration&logoLight=https%3A%2F%2Fmintlify.s3-us-west-1.amazonaws.com%2Fcodemodcom%2Flogo%2Fcodemod-logo-light.svg&logoDark=https%3A%2F%2Fmintlify.s3-us-west-1.amazonaws.com%2Fcodemodcom%2Flogo%2Fcodemod-logo-dark.svg&primaryColor=%230B151E&lightColor=%23D6FF62&darkColor=%230B151E'/>
-
   <meta content="@codemod" name="twitter:site"/>
   <meta content="summary_large_image" name="twitter:card"/>
-  <meta content="Eslint & Prettier to Biome migration: Adopting performant JavaScript language toolchain" name="twitter:title"/>
-  <meta content="" name="twitter:description"/>
-  
-  <meta name='twitter:image' content='https://codemodcom.mintlify.app/api/og?division=Blog&title=Eslint%20to%20Biome%20Migration&logoLight=https%3A%2F%2Fmintlify.s3-us-west-1.amazonaws.com%2Fcodemodcom%2Flogo%2Fcodemod-logo-light.svg&logoDark=https%3A%2F%2Fmintlify.s3-us-west-1.amazonaws.com%2Fcodemodcom%2Flogo%2Fcodemod-logo-dark.svg&primaryColor=%230B151E&lightColor=%23D6FF62&darkColor=%230B151E'/>
 </head>
 
 Replacing ESLint & Prettier with Biome: sane defaults, single configuration and faster linting checks.

@@ -5,19 +5,17 @@ authors: [alex]
 tags: [migration, case study]
 toc_min_heading_level: 3
 toc_max_heading_level: 3
-
+description: "Read about our practical experience in automating the migration from Mocha.js to Vitest using Codemod.com. This article provides a detailed overview of streamlining code updates with modern tools."
+image: 'https://raw.githubusercontent.com/codemod-com/docs/main/static/img/blog/mocha-to-vitest/mocha-to-vitest-og.jpg'
 ---
 
 import VideoSwitcher from '../../src/components/VideoSwitcher.tsx';
 import Figure from '../../src/components/figures.jsx'
 
 <head>
-  <meta content="https://raw.githubusercontent.com/codemod-com/docs/main/static/img/blog/mocha-to-vitest/mocha-to-vitest-og.jpg" property="og:image"/>
-  <meta content="Read about our practical experience in automating the migration from Mocha.js to Vitest using Codemod.com. This article provides a detailed overview of streamlining code updates with modern tools." property="og:description"/>
-
+  <meta property="og:site_name" content="Codemod.com" />
   <meta content="@codemod" name="twitter:site"/>
   <meta content="summary_large_image" name="twitter:card"/>
-  <meta name='twitter:image' content='https://raw.githubusercontent.com/codemod-com/docs/main/static/img/blog/mocha-to-vitest/mocha-to-vitest-og.jpg'/>
 </head>
 
 Over the years, the JavaScript community has introduced many test runners. The [StateOfJS 2022 survey](https://2022.stateofjs.com/en-US/libraries/testing/) provides interesting data points and visuals on the trends of these testing libraries and frameworks, with Vitest sitting at the top in terms of community interest.
