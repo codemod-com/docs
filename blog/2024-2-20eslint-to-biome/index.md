@@ -3,7 +3,7 @@ slug: eslint-to-biome
 title: "Eslint & Prettier to Biome migration: Adopting performant JavaScript language toolchain"
 authors: [sasha]
 description: "Replacing ESLint & Prettier with Biome: sane defaults, single configuration and faster linting checks."
-image: 'https://codemodcom.mintlify.app/api/og?division=Blog&title=Eslint%20to%20Biome%20Migration&logoLight=https%3A%2F%2Fmintlify.s3-us-west-1.amazonaws.com%2Fcodemodcom%2Flogo%2Fcodemod-logo-light.svg&logoDark=https%3A%2F%2Fmintlify.s3-us-west-1.amazonaws.com%2Fcodemodcom%2Flogo%2Fcodemod-logo-dark.svg&primaryColor=%230B151E&lightColor=%23D6FF62&darkColor=%230B151E'
+image: "/img/blog/eslint-to-biome/eslint-to-biome-og.jpg"
 ---
 
 <head>
