@@ -62,6 +62,11 @@ const config = {
           target: '_self',
         },
         items: [
+          {
+            to: 'https://docs.codemod.com',
+            position: 'left',
+            label: 'Docs',
+          },
           {to: '/', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/codemod-com/codemod',
