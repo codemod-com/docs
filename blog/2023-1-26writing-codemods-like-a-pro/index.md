@@ -847,6 +847,6 @@ After taking your first steps with writing your first codemod that solves a real
 In the upcoming tutorial, we will cover:
 
 - Integrating declarative codemod engines, like [Codemod Studio](https://codemod.studio), into your workflow.
-- Writing tests for your codemods [(Read More →)](/blog/writing-test-cases-for-codemods)
-- Adding your codemods to the Codemod Registry [(Read More →)](/blog/writing-codemods-like-a-pro)
+- Writing tests for your codemods [(Read More →)](/writing-test-cases-for-codemods)
+- Adding your codemods to the Codemod Registry [(Read More →)](/writing-codemods-like-a-pro)
 - Get active within the codemod community! [Join Codemod.com Slack](https://codemod.com/community) community gathering leading codemod champions around the world.

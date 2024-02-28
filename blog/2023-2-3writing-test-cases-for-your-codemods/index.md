@@ -33,7 +33,7 @@ Keep reading to add this skill to your arsenal.
 ## Prerequisites
 
 - **Understanding ASTs -** This article requires a good understanding of how to inspect, traverse, and manipulate ASTs.
-- **Advanced Understanding of Codemods -** This article requires an advanced understanding of writing codemods. Before jumping into this tutorial, make sure you've gone through our [tutorial on writing codemods like a pro](/blog/writing-codemods-like-a-pro).
+- **Advanced Understanding of Codemods -** This article requires an advanced understanding of writing codemods. Before jumping into this tutorial, make sure you've gone through our [tutorial on writing codemods like a pro](/writing-codemods-like-a-pro).
 
 ## Why Write Test Cases for Your Codemods?
 
@@ -102,7 +102,7 @@ Now that we have our local environment set up, we can begin by creating our test
 
 1. Navigate to the codemods/jscodeshift directory.
 2. Run `npm install`.
-3. Create a new folder for your codemod. In this example, we’ll call it `no-vars`. If you plan to use the codemod registry for community contribution, please refer to our article about [adding codemods to the codemod registry](/docs/codemod-registry/importing-codemods), where we go over the best practices to add your codemod to the registry.
+3. Create a new folder for your codemod. In this example, we’ll call it `no-vars`. If you plan to use the codemod registry for community contribution, please refer to our article about [adding codemods to the codemod registry](https://codemod.com/codemod-registry/publishing-codemods), where we go over the best practices to add your codemod to the registry.
     
     ![creating a new directory for our codemod](/img/blog/writing-test-cases-for-your-codemods/2.png)
     
