@@ -95,9 +95,9 @@ To automate the migration as much as possible, we used codemods, scripts that ma
 
 Before our cooperation with Cal.com even began, our team had already built several sophisticated codemods to migrate the Next.js v13 projects to v14:
 
-1. a codemod to introduce the boilerplate structure of the `app` directory ([App Directory Boilerplate](https://github.com/codemod-com/codemod-registry/tree/main/codemods/next/13/app-directory-boilerplate)),
-2. a codemod to migrate the router hooks to the navigation hooks ([Replace Next Router](https://github.com/codemod-com/codemod-registry/tree/main/codemods/next/13/replace-next-router)),
-3. a codemod to generate the new metadata structure based on existing meta tags ([Replace Next Head](https://github.com/codemod-com/codemod-registry/tree/main/codemods/next/13/replace-next-head)).
+1. a codemod to introduce the boilerplate structure of the `app` directory ([App Directory Boilerplate](https://go.codemod.com/app-dir-boilerplate)),
+2. a codemod to migrate the router hooks to the navigation hooks ([Replace Next Router](https://go.codemod.com/replace-next-router)),
+3. a codemod to generate the new metadata structure based on existing meta tags ([Replace Next Head](https://go.codemod.com/replace-next-head)).
 
 We duplicated and tweaked these generically applicable codemods to accommodate for Cal.com’s special folder structure. You can find these under the `cal.com` folder in the Registry section of [the Codemod VSCode Extension.](https://marketplace.visualstudio.com/items?itemname=codemod.codemod-vscode-extension)
 
@@ -109,7 +109,7 @@ Below are the 4 main phases of the migration.
 
 #### 1. Migrating the navigation hooks
 
-As the first step, we migrated the navigation hooks from `next/router` to `next/navigation` as it introduced no behavior change. We automated this phase by [the navigation hook codemod](https://github.com/codemod-com/codemod-registry/tree/main/codemods/next/13/replace-next-router) that we mentioned in the previous section. You can check out [the PR](https://github.com/calcom/cal.com/pull/9105/files) that used this codemod.
+As the first step, we migrated the navigation hooks from `next/router` to `next/navigation` as it introduced no behavior change. We automated this phase by [the navigation hook codemod](https://go.codemod.com/replace-next-router) that we mentioned in the previous section. You can check out [the PR](https://github.com/calcom/cal.com/pull/9105/files) that used this codemod.
 
 Virtually every Next.js developer uses params and search params daily. In the Pages Router, you can access the `query` property on the router. It contains both params and search params. Because of such a combination, the code written for the page router does not distinguish between dynamic router params and query params.
 
