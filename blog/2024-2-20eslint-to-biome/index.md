@@ -54,8 +54,6 @@ Running the codemod was fun. It only required us to find a file that `ESLint` pe
 
 ## Migrating Codemod.com’s Own Codebase & Results
 
-- Introduce the Codemod Monorepo codebase as the subject of your case study.
-
 So, we wanted to try this tooling for ourselves. We decided to test the recipe over [our monorepo](https://github.com/codemod-com/codemod). We wrapped our sleeves, found a file that supposedly gets linted by the most amount of rules in our `ESLint` config, and ran:
 
 `npx eslint --print-config apps/vsce/webview/src/main/index.tsx | npx codemod eslint/biome/migrate-rules`
